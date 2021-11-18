@@ -21,6 +21,14 @@ M.yui.loader = {modules: {}};
 </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+        background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
+        background-size: 100% 100%;
+    }
+    </style>
+
 </head>
 <body  id="page-course-view-weeks" class="format-weeks  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-course course-6 context-43 category-2 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
@@ -43,10 +51,10 @@ document.body.className += ' jsenabled';
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
     
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="https://school.moodledemo.net" class="navbar-brand aabtn 
+            <a href="!!!!!!!!!!!ОСНОВАAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -164,12 +172,7 @@ document.body.className += ' jsenabled';
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </div>
-                <a class="see-all-link"
-                    href="https://school.moodledemo.net/message/output/popup/notifications.php">
-                    <div class="popover-region-footer-container">
-                        <div class="popover-region-seeall-text">Посмотреть все</div>
-                    </div>
-                </a>
+
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-61915f940649e61915f940436d7" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
@@ -193,34 +196,34 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
-                        </a>
+                                                </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://school.moodledemo.net/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="https://clck.ru/YqsJi" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/user/profile.php?id=56" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
                                 <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-2">Профиль</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
                                 <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-3">Прогресс</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
                                 <i class="icon fa fa-comment fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-4">Сообщения</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
                                 <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=tTqj898SaK" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=0pP5gtPb8Q" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -239,25 +242,13 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Cinema: Class &amp;amp; Conflict">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://school.moodledemo.net/course/view.php?id=6" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://clck.ru/Yqs8n" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
                                             <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body font-weight-bold">Cinema: Class &amp; Conflict</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/index.php?id=6" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-users fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Participants</span>
+                                    <span class="media-body font-weight-bold">Meet up</span>
                                 </div>
                             </div>
                         </a>
@@ -353,7 +344,7 @@ document.body.className += ' jsenabled';
 
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -365,19 +356,7 @@ document.body.className += ' jsenabled';
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Site home</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -389,7 +368,7 @@ document.body.className += ' jsenabled';
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/LA3NO" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -415,7 +394,7 @@ document.body.className += ' jsenabled';
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
@@ -428,7 +407,7 @@ document.body.className += ' jsenabled';
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
@@ -441,7 +420,7 @@ document.body.className += ' jsenabled';
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
@@ -454,7 +433,7 @@ document.body.className += ' jsenabled';
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
@@ -467,7 +446,7 @@ document.body.className += ' jsenabled';
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
@@ -490,7 +469,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-headings"><h1>Class and Conflict in World Cinema</h1></div></div>
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Meet up</h1></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -501,13 +480,13 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/my/"  >Главная</a>
+                    <a href="https://clck.ru/YqsJi" >Главная</a>
                 </li>
         
                 <li class="breadcrumb-item">Обучение</li>
         
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/course/view.php?id=6" aria-current="page" title="Class and Conflict in World Cinema">Cinema: Class &amp; Conflict</a>
+                    <a href="https://clck.ru/Yqs8n" aria-current="page" title="Class and Conflict in World Cinema">Meet up</a>
                 </li>
         </ol>
 </nav>
@@ -1881,17 +1860,8 @@ document.body.className += ' jsenabled';
         </div>
 
 </div>
-    <div id="goto-top-link">
-        <a class="btn btn-light" role="button" href="#" aria-label="Go to top">
-            <i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"  ></i>
-        </a>
-    </div>
-    <footer id="page-footer" class="py-3 bg-dark text-light">
-        <div class="container">
-            <div id="course-footer"></div>
-    
-    
-            <div class="logininfo">Вы вошли как <a href="https://school.moodledemo.net/user/profile.php?id=56" title="View profile">Ляхнов Макар</a></div>
+
+
 
 <script>
 Y.use('node', function (Y) {
@@ -2144,8 +2114,7 @@ M.util.help_popups.setup(Y);
 //]]>
 </script>
 
-        </div>
-    </footer>
+
 </div>
 
 </body>

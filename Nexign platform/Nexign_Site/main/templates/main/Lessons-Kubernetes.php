@@ -2,7 +2,7 @@
 
 <html  dir="ltr" lang="en" xml:lang="en">
 <head>
-    <title>Практические занятия</title>
+    <title>Курс по Kubernetes</title>
     <link rel="shortcut icon" href="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="moodle, Course: Celebrating Cultures" />
@@ -22,13 +22,12 @@ M.yui.loader = {modules: {}};
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
+   <style>
     body {
         background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
         background-size: 100% 100%;
     }
     </style>
-
 
 </head>
 <body  id="page-course-view-topics" class="format-topics  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-course course-59 context-1033 category-6 drawer-open-left">
@@ -243,141 +242,151 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Celebrating Cultures">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="exercises.php" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="/video.php" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body font-weight-bold"><big>Практические занятия</big></span>
+                                    <span class="media-body font-weight-bold">Видеолекции</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                                        <li>
+                        <a class="list-group-item list-group-item-action  " href="/Lessons-Common-Installer.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Common Installer</span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  "  data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " href="/Lessons-Ansible.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №1</big></span>
+                                    <span class="media-body ">Ansible</span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " href="/Lessons-Atlassian-Bamboo.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №2</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  "  data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №3</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " data-key="458" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №4</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " data-key="459" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №5</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " data-key="459" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Кейс использования продукта Installer №6</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " data-key="459" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Контрольный проект</big></span>
+                                    <span class="media-body ">Atlassian Bamboo</span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
-
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="/Lessons-Kubernetes.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Kubernetes</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="/Lessons-Gitlab-CI.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Gitlab CI</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="Lessons-Jira.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Jira</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-1" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Confluence</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="Lessons-Docker.php" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Docker</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                     </ul>
                     </nav>
                     <nav class="list-group mt-1" aria-label="Site">
                     <ul>
-
-
+                    
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
+                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Главная</big></span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>                
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
-                                        </span>
-                                    <span class="media-body "><big>Календарь</big></span>
+                                    <span class="media-body ">Главная</span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
+                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Обратная связь</big></span>
+                                    <span class="media-body ">Календарь</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/LA3NO" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Обратная связь</span>
                                 </div>
                             </div>
                         </a>
@@ -388,35 +397,35 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body"><big>Обучение</big></span>
+                                    <span class="media-body">Обучение</span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-<li>
+                    <li>
                         <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
+                                    <span class="media-body ">Предоставляемые материалы</span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Видеолекции</big></span>
+                                    <span class="media-body ">Видеолекции</span>
                                 </div>
                             </div>
                         </a>
@@ -427,9 +436,9 @@ document.body.className += ' jsenabled';
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                    <span class="media-body "><big>Практические занятия</big></span>
+                                    <span class="media-body ">Практические занятия</span>
                                 </div>
                             </div>
                         </a>
@@ -447,7 +456,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-headings"><h1>Практические занятия</h1></div></div>
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Курс по Kubernetes</h1></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -458,13 +467,13 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://clck.ru/YqsJi">Главная</a>
+                    <a href="index.html" >Главная</a>
                 </li>
         
                 <li class="breadcrumb-item">Обучение</li>
-
+        
                 <li class="breadcrumb-item">
-                    <a href="https://inlnk.ru/Qwl5V" aria-current="page" title="Celebrating Cultures">Практические занятия</a>
+                    <a href="/Lessons-Kubernetes.php" aria-current="page" title="Celebrating Cultures">Курс по Kubernetes</a>
                 </li>
         </ol>
 </nav>
@@ -474,7 +483,7 @@ document.body.className += ' jsenabled';
     <form method="post" action="https://school.moodledemo.net/course/downloadcontent.php" >
             <input type="hidden" name="contextid" value="1033">
             <input type="hidden" name="sesskey" value="tTqj898SaK">
-
+        
     </form>
 </div>
                     </div>
@@ -491,153 +500,24 @@ document.body.className += ' jsenabled';
             <div id="region-main-box" class="col-12">
                 <section id="region-main" class="has-blocks mb-3" aria-label="Content">
 
-<span class="notifications" id="user-notifications"></span>
+                    <span class="notifications" id="user-notifications"></span>
 
-                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Weekly outline</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-539-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-539-title" class="sectionname"><span><a >Практические занятия</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow">
 
-<p><big>В разделе "Практические занятия" можно ознакомиться с кейсами использования автоинсталляторов. Также предоставляется тестовый продукт для выполнения контрольного проекта.</big></p></div></div>
+                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Topic outline</h2><ul class="topics"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-458-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true"/></div><div class="content"><h3 id="sectionid-458-title" class="text-center"><span><a><big><big>Страница курса Kubernetes</big></big></a></span></h3><div class="section_availability"></div><div class="summary"><div class="text-center"><p><big><big>Ниже представлены лекции, которые вы можете прослушать в течение всего курса</big></big></p></div></div><ul class="section img-text">
 
-<ul class="section img-text"><li class="activity forum modtype_forum  hasinfo" id="module-906"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+                    <li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="/Common-Installer-lessons.php"><img src="static/img/favicon.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Чтение "Основы KubernetesFile" - Лекция №1</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
 
-<div class="activityinstance"><a class="aalink" onclick="" href="https://inlnk.ru/LA3NO"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Вопрос к ментору</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Если у вас есть какие-то технические вопросы, вы всегда можете написать ментору и он ответит на ваш вопрос!</span></p></div></div></div></div></div></div></li></ul></div></li>
+<li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="/Common-Installer-lessons.php"><img src="static/img/favicon.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Чтение "Restrict a Container's Access to Resources with AppArmor" - Лекция №2</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">
+</div></div></div></div></div></div></li>
 
+<li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="/Common-Installer-lessons.php"><img src="static/img/favicon.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Чтение "Configuration Best Practices" - Лекция №3</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">
+</div></div></div></div></div></div></li>
 
+<li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="/Common-Installer-lessons.php"><img src="static/img/favicon.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Чтение "Concepts of Kybernetes" - Лекция №4</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">
+</div></div></div></div></div></div></li>
 
-
-
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №1 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>ᅠᅠЗадача: установить новую версию продукта.</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: надо запустить роль, содержащую в себе все необходимые роли для любого продукта.</big>
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №2 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: нужно развернуть решение у нового клиента</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: заполнить список хостов, групп, вспомогательных переменных, показывающих рабочее окружение и тест зону клиента. Запустить роль</big>
-
-
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №3 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: проверить продукт (один) или другой вместе с продуктом nexign на тестовой зоне.</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: inventory (список хостов, групп, вспомогательных переменных) для тестовой зоны (если она новая)</big>
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №4 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: установить все приложения в ЦОД и запустить их в соседнем ЦОДе.</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: массово запустить заданные "старты" и остановки для разных групп хостов.</big>
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №5 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: установить новую версию продукта, минимизируя окно простоя (в том случае, если продукт не может быть обновлён без простоя).</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: запустить роль - подготовить инсталляцию, проверку; запустить роли в нужное время (запуск, обновление. остановка, проверка)</big>
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №6 </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: обернуть имеющийся продукт клиента или продукт nexign, переданный на поддержку.</big></p></div></div></div></div></div></div></li>
-
-<big>Пояснение: заполнить репозиторий конкретными шагами.</big>
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-
-
-
-<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Контрольный проект </a></span></h3>
-
-<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Description: Для финальной оценки полученных знаний разработчику (из компании Nexign или разработчику со стороны компании) даётся тестовый продукт. Разработчику нужно выполнить все шаги по работе с автоинсталлятором. А именно: подготовить инсталляцию продукта Installer (соответственно инсталлировать продукт, параллельно проверяя процесс установки), запуск и последующее обновление продукта, внесение данных в репозиторий (наполнение инсталлятора конкретными шагами), остановка продукта и проверка результатов, откат до прежнего состояния и подготовка к следующей работе.</big></p></div></div></div></div></div></div></li>
-
-
-<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"></div></div></div></div></div></div></li>
-
-<li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-
-<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Необходимые материалы<span class="accesshide "> File</span></span></a></div>
-
-
-</section>
-
->
+                    
+                    
 
 
 <script>
@@ -726,11 +606,8 @@ var require = {
 //<![CDATA[
 M.util.js_pending("core/first");
 require(['core/first'], function() {
-require(['core/prefetch'])
-;
-require(["media_videojs/loader"], function(loader) {
-    loader.setUp('en');
-});;
+require(['core/prefetch']);
+
 M.util.js_pending('tool_usertours/usertours'); require(['tool_usertours/usertours'], function(amd) {amd.init([{"tourId":"7","startTour":false,"filtervalues":{"cssselector":{"0":"[data-region=activity-information]"}}}], ["cssselector"]); M.util.js_complete('tool_usertours/usertours');});;
 
 require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
@@ -851,6 +728,7 @@ M.util.help_popups.setup(Y);
 })();
 //]]>
 </script>
+
 
 </div>
 

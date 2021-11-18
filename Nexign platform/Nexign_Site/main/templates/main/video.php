@@ -21,6 +21,14 @@ M.yui.loader = {modules: {}};
 </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+    body {
+        background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
+        background-size: 100% 100%;
+    }
+    </style>
+
 </head>
 <body  id="page-course-view-topics" class="format-topics  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-course course-59 context-1033 category-6 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
@@ -43,10 +51,10 @@ document.body.className += ' jsenabled';
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
     
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="https://school.moodledemo.net" class="navbar-brand aabtn 
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -64,7 +72,7 @@ document.body.className += ' jsenabled';
                 <input type="hidden" name="context" value="1033">
             <div class="input-group">
                 <label for="searchinput-619161357d8506191613573b276">
-                    <span class="sr-only">Search</span>
+                    <span class="sr-only">Поиск</span>
                 </label>
                     <input type="text"
                        id="searchinput-619161357d8506191613573b276"
@@ -82,12 +90,12 @@ document.body.className += ' jsenabled';
                         role="button"
                     >
                         <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Close</span>
+                        <span class="sr-only">Закрыть</span>
                     </a>
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-submit" data-action="submit">
                         <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Search</span>
+                        <span class="sr-only">Поиск</span>
                     </button>
                 </div>
             </div>
@@ -164,12 +172,7 @@ document.body.className += ' jsenabled';
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </div>
-                <a class="see-all-link"
-                    href="https://school.moodledemo.net/message/output/popup/notifications.php">
-                    <div class="popover-region-footer-container">
-                        <div class="popover-region-seeall-text">Посмотреть все</div>
-                    </div>
-                </a>
+
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-619161357e6326191613573b278" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
@@ -193,34 +196,34 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
                         </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://school.moodledemo.net/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="https://clck.ru/YqsJi" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/user/profile.php?id=56" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
                                 <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-2">Профиль</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
                                 <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-3">Прогресс</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
                                 <i class="icon fa fa-comment fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-4">Сообщения</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
                                 <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=tTqj898SaK" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -239,85 +242,110 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Celebrating Cultures">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://school.moodledemo.net/course/view.php?id=59" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="video.php" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body font-weight-bold">Celebrating Cultures</span>
+                                    <span class="media-body font-weight-bold"><bin>Видеолекции</bin></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                     <li>
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Common-Installer.php">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
+                                        </span>
+                                    <span class="media-body "><bin>Common Installer</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/index.php?id=59" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Ansible.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-users fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Participants</span>
+                                    <span class="media-body "><bin>Ansible</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/badges/view.php?type=2&amp;id=59" data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Atlassian-Bamboo.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-shield fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Badges</span>
+                                    <span class="media-body "><bin>Atlassian Bamboo</bin></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Kubernetes.php">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
+                                        </span>
+                                    <span class="media-body "><bin>Kubernetes</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/admin/tool/lp/coursecompetencies.php?courseid=59" data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Gitlab-CI.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Competencies</span>
+                                    <span class="media-body "><bin>Gitlab CI</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/grade/report/index.php?id=59" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Jira.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Grades</span>
+                                    <span class="media-body "><bin>Jira</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=59#section-0" data-key="458" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Confluence.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Welcome!  Aloha! Bonvenon!</span>
+                                    <span class="media-body "><bin>Confluence</bin></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=59#section-1" data-key="459" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="59">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6" href="/Lessons-Docker.php">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Activities</span>
+                                    <span class="media-body "><bin>Docker</bin></span>
                                 </div>
                             </div>
                         </a>
@@ -327,51 +355,38 @@ document.body.className += ' jsenabled';
                     <nav class="list-group mt-1" aria-label="Site">
                     <ul>
 
-
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
                                         </span>
-                                    <span class="media-body ">Главная</span>
+                                    <span class="media-body "><big>Главная</big></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>                
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
+                                        </span>
+                                    <span class="media-body "><big>Календарь</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
                                         </span>
-                                    <span class="media-body ">Site home</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Календарь</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Обратная связь</span>
+                                    <span class="media-body "><big>Обратная связь</big></span>
                                 </div>
                             </div>
                         </a>
@@ -382,74 +397,48 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
                                         </span>
-                                    <span class="media-body">Обучение</span>
+                                    <span class="media-body"><big>Обучение</big></span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+<li>
+                        <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Предоставляемые материалы</span>
+                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Видеолекции</span>
+                                    <span class="media-body "><big>Видеолекции</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
                                         </span>
-                                    <span class="media-body ">Практические занятия</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Meet up</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Конференции и хакатоны</span>
+                                    <span class="media-body "><big>Практические занятия</big></span>
                                 </div>
                             </div>
                         </a>
@@ -466,7 +455,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-headings"><h1>Celebrating Cultures</h1></div></div>
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Видеолекции</h1></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -477,13 +466,13 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/my/"  >Dashboard</a>
+                    <a href="index.html" >Главная</a>
                 </li>
-        
-                <li class="breadcrumb-item">My courses</li>
-        
+
+                <li class="breadcrumb-item">Обучение</li>
+
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/course/view.php?id=59" aria-current="page" title="Celebrating Cultures">Celebrating Cultures</a>
+                    <a href="video.php" aria-current="page" title="Celebrating Cultures">Видеолекции</a>
                 </li>
         </ol>
 </nav>
@@ -493,16 +482,12 @@ document.body.className += ' jsenabled';
     <form method="post" action="https://school.moodledemo.net/course/downloadcontent.php" >
             <input type="hidden" name="contextid" value="1033">
             <input type="hidden" name="sesskey" value="tTqj898SaK">
-        <button type="submit" class="btn btn-secondary"
-            id="single_button6191613573b271"
-            title=""
-            
-             data-downloadcourse="1"  data-download-body="You are about to download a zip file of course content (excluding items which cannot be downloaded and any files larger than 50MB)."  data-download-button-text="Download"  data-download-link="https://school.moodledemo.net/course/downloadcontent.php?contextid=1033&amp;download=1"  data-download-title="Download course content"  data-overrides-tree-activation-key-handler="1" >Download course content</button>
+
     </form>
 </div>
                     </div>
                     <div id="course-header">
-                        
+
                     </div>
                 </div>
             </div>
@@ -515,112 +500,50 @@ document.body.className += ' jsenabled';
                 <section id="region-main" class="has-blocks mb-3" aria-label="Content">
 
                     <span class="notifications" id="user-notifications"></span>
-                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Topic outline</h2><ul class="topics"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-458-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-458-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=59#section-0">Welcome!  Aloha! Bonvenon!</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p>We are all from different communities but we are all one community at Mount Orange. This course is for students, teachers and the wider school members to share and learn about our cultural diversity.</p></div></div><ul class="section img-text"><li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p>&nbsp;&nbsp;<div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:720px;"><video  poster="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/handstogether2.png" controls="true" data-setup-lazy="{&quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_6191613585a80_1" class="video-js" title="I%20have%20a%20dream%21.mp4"><source src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/I%20have%20a%20dream%21.mp4" type="video/mp4" /><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/EnglishSubttiles.vtt" kind="subtitles" srclang="en" label="English" default="true"><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/French%20subtitles.vtt" kind="subtitles" srclang="fr" label="Français"><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/GermanSubtitles.vtt" kind="subtitles" srclang="de" label="Deutsch">https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/I%20have%20a%20dream%21.mp4</video></div></div>&nbsp;&nbsp;<br></p></div></div></div></div></div></div></li><li class="activity folder modtype_folder  " id="module-830"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/folder/view.php?id=830"><img src="https://school.moodledemo.net/theme/image.php/boost/folder/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Interesting cities<span class="accesshide " > Folder</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>No need to download these images - view them directly in the browser!</p></div></div></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-labelledby="sectionid-459-title" data-sectionid="1" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-459-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=59#section-1">Activities</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/data/view.php?id=649"><img src="https://school.moodledemo.net/theme/image.php/boost/data/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Database: Food for Moodlers</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Share your favourite meal or recipe with others here.</p>
-<p><img src="https://school.moodledemo.net/pluginfile.php/1037/mod_data/intro/Bayeux%20Tapestry%20scene43%20banquet%20Odo.jpg" width="100" height="108" alt="Bayeuz tapestry banquet" /></p></div></div></div></div></div></div></li><li class="activity glossary modtype_glossary  " id="module-650"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/glossary/view.php?id=650"><img src="https://school.moodledemo.net/theme/image.php/boost/glossary/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Glossary: International Teaching Terms</span></a></div><div data-region="activity-information" data-activityname="Glossary: International Teaching Terms" class="activity-information">
+
+
+                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Topic outline</h2><ul class="topics"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-458-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true"/></div><div class="content"><h3 id="sectionid-458-title" class="text-center"><span><a><h1>Добро пожаловать!</h1></a></span></h3><div class="section_availability"></div><div class="summary"><div class="text-center"><p><big>Ниже представлены различные курсы, которые вы можете найти на нашей платформе</big></p></div></div><ul class="section img-text">
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:720px;"><video poster="http://img.advertology.ru/aimages/2019/04/25/logo.jpg" controls="true" weight=400 data-setup-lazy="{&quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_6191613585a80_1" class="video-js" title="I%20have%20a%20dream%21.mp4" autoplay><source src="static/images/installer.mp4" type="video/mp4"><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/EnglishSubttiles.vtt" kind="subtitles" srclang="en" label="English" default="true"><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/French%20subtitles.vtt" kind="subtitles" srclang="fr" label="Français"><track src="https://school.moodledemo.net/pluginfile.php/1036/mod_label/intro/GermanSubtitles.vtt" kind="subtitles" srclang="de" label="Deutsch">static/images/installer.mp4</video></div></div>&nbsp;&nbsp;<br><p></p></div></div></div></div></div></div></li>
+
+
+
+
+
+<li class="activity data modtype_data  " id="module-649"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="/Lessons-Common-Installer.php"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Common Installer</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Незаменимый инструмент от Nexign, который значительно упрощает подключение различных BSS решений</big></p>
+</div></div></div></div></div></div></li>
+
+<li class="activity glossary modtype_glossary  " id="module-650"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Ansible.php"><img src="https://www.redhat.com/misc/favicon.ico" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Ansible</big></big></span></a></div><div data-region="activity-information" data-activityname="Glossary: International Teaching Terms" class="activity-information">
             <div data-region="completion-info">
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Educators around the world use a variety of phrases and acronyms. Add yours to this glossary.</p>
-<p><img src="https://school.moodledemo.net/pluginfile.php/1038/mod_glossary/intro/Collaborative%20Classroom.jpg" width="150" height="50" alt="Collaborative classroom" /></p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  " id="module-775"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=775"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Assignment: Languages of Love</span></a></div><div data-region="activity-information" data-activityname="Assignment: Languages of Love" class="activity-information">
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Невероятно удобная система управления конфигурациями</big></p>
+</div></div></div></div></div></div></li>
+
+<li class="activity assign modtype_assign  " id="module-775"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Atlassian-Bamboo.php"><img src="https://cdn.icon-icons.com/icons2/2407/PNG/512/atlassian_icon_146225.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Atlassian Bamboo</big></big></span></a></div><div data-region="activity-information" data-activityname="Assignment: Languages of Love" class="activity-information">
             <div data-region="completion-info">
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>We all speak different languages.</p><p>Use the audio or video record buttons in the editor to record a short message of friendship for other participants.</p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  " id="module-807"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=807"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">(Mobile assignment) View from your window</span></a></div><div data-region="activity-information" data-activityname="(Mobile assignment) View from your window" class="activity-information">
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Инструмент непрерывной интеграции и непрерывного развертывания, который объединяет различные автоматизированные сборки</big></p></div></div></div></div></div></div></li>
+
+
+<li class="activity assign modtype_assign  " id="module-807"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Kubernetes.php"><img src="static/img/favicon.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Kubernetes</big></big></span></a></div><div data-region="activity-information" data-activityname="(Mobile assignment) View from your window" class="activity-information">
             <div data-region="completion-info">
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>We all live and work in many different and varied locations.</p><p>Take a photo with your smartphone or tablet device of the view from your window.</p><p>Upload it here from your mobile and add a few words to explain it.</p></div></div></div></div></div></div></li><li class="activity workshop modtype_workshop  " id="module-651"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/workshop/view.php?id=651"><img src="https://school.moodledemo.net/theme/image.php/boost/workshop/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Workshop: My home country</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>In this activity, you're asked to submit some work and later assess 4 submissions from other participants.</p>
-<p>&nbsp;After submitting your work, you need to check back here &nbsp;to peer-assess other participants' work.&nbsp;</p>
-<p><img src="https://school.moodledemo.net/pluginfile.php/1039/mod_workshop/intro/Diversity%20and%20Unity.jpg" width="100" height="75" alt="Diversity and Unity"></p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  " id="module-652"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=652"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Assignment: My dream destination</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Write between 150 to 200 words on the country you'd most like to visit, including a link to a relevant website.Save your work as a .pdf file so I can comment on it directly.</p>
-<p><img src="https://school.moodledemo.net/pluginfile.php/1040/mod_assign/intro/Furuzamami%20beach%20Okinawa%20Zamami.jpg" width="100" height="67" alt="Beach at Okinawa" /></p></div></div></div></div></div></div></li><li class="activity data modtype_data  " id="module-764"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/data/view.php?id=764"><img src="https://school.moodledemo.net/theme/image.php/boost/data/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Database:Identity Pages (donated by Elton LaClare)</span></a></div><div data-region="activity-information" data-activityname="Database:Identity Pages (donated by Elton LaClare)" class="activity-information">
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Портативная расширяемая платформа с открытым исходным кодом для управления контейнеризованными рабочими нагрузками и сервисами, которая облегчает как декларативную настройку, так и автоматизацию.</big></p></div></div></div></div></div></div></li>
+
+
+<li class="activity workshop modtype_workshop  " id="module-651"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Gitlab-CI.php"><img src="https://www.meme-arsenal.com/memes/1f8237684875aaf6193b583a0ed5bb34.jpg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>GitLub CI</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Веб-инструмент жизненного цикла DevOps с открытым исходным кодом, представляющий систему управления репозиториями кода для Git с собственной вики, системой отслеживания ошибок, CI/CD пайплайном и другими функциями.</big></p>
+</div></div></div></div></div></div></li><li class="activity assign modtype_assign  " id="module-652"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Jira.php"><img src="https://cdn.icon-icons.com/icons2/2407/PNG/512/atlassian_icon_146225.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Jira</big></big></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Коммерческая система отслеживания ошибок, предназначена для организации взаимодействия с пользователями, хотя в некоторых случаях используется и для управления проектами.</big></p>
+</div></div></div></div></div></div></li><li class="activity data modtype_data  " id="module-764"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Confluence.php"><img src="https://cdn.icon-icons.com/icons2/2407/PNG/512/atlassian_icon_146225.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Confluence</big></big></span></a></div><div data-region="activity-information" data-activityname="Database:Identity Pages (donated by Elton LaClare)" class="activity-information"><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Тиражируемая вики-система для внутреннего использования организациями с целью создания единой базы знаний. Написана на Java.</big></p></div></div></div>
             <div data-region="completion-info">
             </div>
-</div></div></div></div></li><li class="activity data modtype_data  " id="module-726"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/data/view.php?id=726"><img src="https://school.moodledemo.net/theme/image.php/boost/data/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Database: Beautiful Places</span></a></div><div data-region="activity-information" data-activityname="Database: Beautiful Places" class="activity-information">
-            <div data-region="completion-info">
-            </div>
-</div></div></div></div></li><li class="activity quiz modtype_quiz  " id="module-761"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/quiz/view.php?id=761"><img src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Quiz: Know your Geography!</span></a></div><div data-region="activity-information" data-activityname="Quiz: Know your Geography!" class="activity-information">
-            <div data-region="completion-info">
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Here is your chance to show how well you know London, the United Kingdom, Australia and different types of Geography in a quiz which demonstrates the four new question types available since Moodle 3.0.</p></div></div></div></div></div></div></li><li class="activity resource modtype_resource  " id="module-762"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/resource/view.php?id=762"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Presentation: Remarkable Locations<span class="accesshide " > File</span></span></a> <span class="resourcelinkdetails">Uploaded 16/11/15, 15:12</span></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><i>(This will be updated regularly. Check its date.)</i></p></div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix hidden" role="region" aria-labelledby="sectionid-484-title" data-sectionid="2" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-484-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=59#section-2">Topic 2</a></span></h3><div class="section_availability"><div class="availabilityinfo ishidden">
-    <span class="badge badge-info">Not available</span>
+</div></div></div></div>
+
+
+
+
+
+<li class="activity resource modtype_resource  " id="module-762"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="Lessons-Docker.php"><img src="https://icon2.cleanpng.com/20180527/aye/kisspng-docker-github-node-js-mongodb-computer-software-5b0a34af260146.0636816215273955031557.jpg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename"><big><big>Docker</big></big><span class="accesshide " > File</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p><big>Программное обеспечение для автоматизации развёртывания и управления приложениями в средах с поддержкой контейнеризации, контейнеризатор приложений.</big></i></p></div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix hidden" role="region" aria-labelledby="sectionid-484-title" data-sectionid="2" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><div class="section_availability"><div class="availabilityinfo ishidden">
 </div></div><div class="summary"></div></div></li></ul></div></div>
-                    
-                    
-
-                </section>
-                <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
-                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Activity results</a>
-
-<section id="inst322"
-     class=" block_activity_results block  card mb-3"
-     role="complementary"
-     data-block="activity_results"
-          aria-labelledby="instance-322-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-322-header" class="card-title d-inline">Activity results</h5>
-
-
-        <div class="card-text content mt-3">
-            <h5><a href="https://school.moodledemo.net/mod/workshop/view.php?id=651">Workshop: My home country (submission)</a></h5><table class="grades"><caption class="pb-0"><h6>The 3 highest grades:</h6></caption><colgroup class="number" /><colgroup class="name" /><colgroup class="grade" /><tbody><tr><td>1.</td><td><a href="https://school.moodledemo.net/user/view.php?id=7&amp;course=59">David Ray</a></td><td>100.00%</td></tr><tr><td>2.</td><td><a href="https://school.moodledemo.net/user/view.php?id=8&amp;course=59">Heather Reyes</a></td><td>100.00%</td></tr><tr><td>3.</td><td><a href="https://school.moodledemo.net/user/view.php?id=24&amp;course=59">Eric Richards</a></td><td>100.00%</td></tr></tbody></table><table class="grades"><caption class="pb-0"><h6>The 2 lowest grades:</h6></caption><colgroup class="number" /><colgroup class="name" /><colgroup class="grade" /><tbody><tr><td>1.</td><td><a href="https://school.moodledemo.net/user/view.php?id=57&amp;course=59">Paul Castillo</a></td><td>24.75%</td></tr><tr><td>2.</td><td><a href="https://school.moodledemo.net/user/view.php?id=59&amp;course=59">Thomas Day</a></td><td>0.00%</td></tr></tbody></table>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span><a href="#sb-2" class="sr-only sr-only-focusable">Skip International Teaching Terms</a>
-
-<section id="inst241"
-     class=" block_glossary_random block  card mb-3"
-     role="complementary"
-     data-block="glossary_random"
-          aria-labelledby="instance-241-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-241-header" class="card-title d-inline">International Teaching Terms</h5>
-
-
-        <div class="card-text content mt-3">
-            <h3>Acrostic</h3><div class="no-overflow"><p>A mneumonic device in the form of a sentence in which the first letter of each of the words is the first letter of each word. For example, My very earger mother just served us nachos:  M-Mercury, V-venus, E-Earth, M-Mars, J-Jupiter, S-Saturn, N-Neptune</p></div>
-            <div class="footer"><a href="https://school.moodledemo.net/mod/glossary/edit.php?cmid=650">Add a new entry</a><br/><a href="https://school.moodledemo.net/mod/glossary/view.php?id=650">View all entries</a></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-2"></span><a href="#sb-3" class="sr-only sr-only-focusable">Skip Recent activity</a>
-
-<section id="inst242"
-     class=" block_recent_activity block  card mb-3"
-     role="complementary"
-     data-block="recent_activity"
-          aria-labelledby="instance-242-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-242-header" class="card-title d-inline">Recent activity</h5>
-
-
-        <div class="card-text content mt-3">
-            <div class="activityhead">Activity since Friday, 12 November 2021, 8:20 PM</div><div class="activityhead mb-3"><a href="https://school.moodledemo.net/course/recent.php?id=59">Full report of recent activity...</a></div><p class="message">No recent activity</p>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-3"></span></aside>
-                </section>
-            </div>
         </div>
     </div>
     <div
@@ -1839,17 +1762,6 @@ document.body.className += ' jsenabled';
         </div>
 
 </div>
-    <div id="goto-top-link">
-        <a class="btn btn-light" role="button" href="#" aria-label="Go to top">
-            <i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"  ></i>
-        </a>
-    </div>
-    <footer id="page-footer" class="py-3 bg-dark text-light">
-        <div class="container">
-            <div id="course-footer"></div>
-    
-    
-            <div class="logininfo">Вы вошли как <a href="https://school.moodledemo.net/user/profile.php?id=56" title="View profile">Ляхнов Макар</a></div>
 
 <script>
 Y.use('node', function (Y) {
@@ -1937,11 +1849,8 @@ var require = {
 //<![CDATA[
 M.util.js_pending("core/first");
 require(['core/first'], function() {
-require(['core/prefetch'])
-;
-require(["media_videojs/loader"], function(loader) {
-    loader.setUp('en');
-});;
+require(['core/prefetch']);
+
 M.util.js_pending('tool_usertours/usertours'); require(['tool_usertours/usertours'], function(amd) {amd.init([{"tourId":"7","startTour":false,"filtervalues":{"cssselector":{"0":"[data-region=activity-information]"}}}], ["cssselector"]); M.util.js_complete('tool_usertours/usertours');});;
 
 require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
@@ -2063,8 +1972,7 @@ M.util.help_popups.setup(Y);
 //]]>
 </script>
 
-        </div>
-    </footer>
+
 </div>
 
 </body>

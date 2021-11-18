@@ -21,6 +21,14 @@ M.yui.loader = {modules: {}};
 </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+        background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
+        background-size: 100% 100%;
+    }
+    </style>
+
 </head>
 <body  id="page-course-view-weeks" class="format-weeks  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-course course-6 context-43 category-2 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
@@ -43,10 +51,10 @@ document.body.className += ' jsenabled';
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
     
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="https://school.moodledemo.net" class="navbar-brand aabtn 
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -64,7 +72,7 @@ document.body.className += ' jsenabled';
                 <input type="hidden" name="context" value="43">
             <div class="input-group">
                 <label for="searchinput-61915f940595561915f940436d5">
-                    <span class="sr-only">Search</span>
+                    <span class="sr-only">Поиск</span>
                 </label>
                     <input type="text"
                        id="searchinput-61915f940595561915f940436d5"
@@ -82,12 +90,12 @@ document.body.className += ' jsenabled';
                         role="button"
                     >
                         <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Close</span>
+                        <span class="sr-only">Закрыть</span>
                     </a>
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-submit" data-action="submit">
                         <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Search</span>
+                        <span class="sr-only">Поиск</span>
                     </button>
                 </div>
             </div>
@@ -164,12 +172,7 @@ document.body.className += ' jsenabled';
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </div>
-                <a class="see-all-link"
-                    href="https://school.moodledemo.net/message/output/popup/notifications.php">
-                    <div class="popover-region-footer-container">
-                        <div class="popover-region-seeall-text">Посмотреть все</div>
-                    </div>
-                </a>
+
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-61915f940649e61915f940436d7" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
@@ -193,37 +196,41 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
-                        </a>
+
+
+                      </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://school.moodledemo.net/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="https://clck.ru/YqsJi" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/user/profile.php?id=56" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
                                 <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-2">Профиль</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
                                 <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-3">Прогресс</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
                                 <i class="icon fa fa-comment fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-4">Сообщения</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
                                 <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=tTqj898SaK" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
+
+
                             </div>
                     </div>
                 </div>
@@ -239,113 +246,115 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Cinema: Class &amp;amp; Conflict">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://school.moodledemo.net/course/view.php?id=6" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://inlnk.ru/5708n" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body font-weight-bold">Cinema: Class &amp; Conflict</span>
+                                    <span class="media-body font-weight-bold"><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/index.php?id=6" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  "  data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-users fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Participants</span>
+                                    <span class="media-body "><big>Common Installer</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/badges/view.php?type=2&amp;id=6" data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  "  data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-shield fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Badges</span>
+                                    <span class="media-body "><big>Ansible</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/admin/tool/lp/coursecompetencies.php?courseid=6" data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Competencies</span>
+                                    <span class="media-body "><big>Atlassian Bamboo</big></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
+                                        </span>
+                                    <span class="media-body "><big>Kubernetes</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/grade/report/index.php?id=6" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  "  data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Grades</span>
+                                    <span class="media-body "><big>Gitlab CI</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-0" data-key="539" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  "  data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">General</span>
+                                    <span class="media-body "><big>Jira</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-1" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">City of God </span>
+                                    <span class="media-body "><big>Confluence</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-2" data-key="541" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  " data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">La Haine</span>
+                                    <span class="media-body "><big>Docker</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-3" data-key="542" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Assignment topics</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+
                     </ul>
                     </nav>
                     <nav class="list-group mt-1" aria-label="Site">
@@ -353,49 +362,37 @@ document.body.className += ' jsenabled';
 
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
                                         </span>
-                                    <span class="media-body ">Главная</span>
+                                    <span class="media-body "><big>Главная</big></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>                
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
+                                        </span>
+                                    <span class="media-body "><big>Календарь</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
                                         </span>
-                                    <span class="media-body ">Site home</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Календарь</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Обратная связь</span>
+                                    <span class="media-body "><big>Обратная связь</big></span>
                                 </div>
                             </div>
                         </a>
@@ -406,74 +403,48 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
                                         </span>
-                                    <span class="media-body">Обучение</span>
+                                    <span class="media-body"><big>Обучение</big></span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+<li>
+                        <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Предоставляемые материалы</span>
+                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Видеолекции</span>
+                                    <span class="media-body "><big>Видеолекции</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
                                         </span>
-                                    <span class="media-body ">Практические занятия</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Meet up</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Конференции и хакатоны</span>
+                                    <span class="media-body "><big>Практические занятия</big></span>
                                 </div>
                             </div>
                         </a>
@@ -490,7 +461,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-headings"><h1>Class and Conflict in World Cinema</h1></div></div>
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Предоставляемые материалы</h1></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -501,13 +472,13 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/my/"  >Главная</a>
+                    <a href="https://clck.ru/YqsJi"  >Главная</a>
                 </li>
         
                 <li class="breadcrumb-item">Обучение</li>
         
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/course/view.php?id=6" aria-current="page" title="Class and Conflict in World Cinema">Cinema: Class &amp; Conflict</a>
+                    <a href="зprovided_material.php" aria-current="page" title="Class and Conflict in World Cinema">Предоставляемые материалы</a>
                 </li>
         </ol>
 </nav>
@@ -529,138 +500,412 @@ document.body.className += ' jsenabled';
                 <section id="region-main" class="has-blocks mb-3" aria-label="Content">
 
                     <span class="notifications" id="user-notifications"></span>
-                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Weekly outline</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-539-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-539-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-0">General</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><img src="http://upload.wikimedia.org/wikipedia/en/3/30/Haine.jpg" width="119" height="176" style="float: left; margin-left: 5px; margin-right: 5px;" /><img src="http://upload.wikimedia.org/wikipedia/en/1/10/CidadedeDeus.jpg" width="119" height="176" style="float: left; margin-left: 4px; margin-right: 4px;" /></p>
-<p>In this module we will analyse two very significant films -<span class="nolink"> City of God</span> and <span class="nolink">La Haine</span>, both of which depict violent lives in poor conditions, the former in the favelas of Brazil and the latter in a Parisian banlieue. We will look at how conflict and class are portrayed, focusing particularly on the use of mise en scène.</p></div></div><ul class="section img-text"><li class="activity glossary modtype_glossary  hasinfo" id="module-905"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/glossary/view.php?id=905"><img src="https://school.moodledemo.net/theme/image.php/boost/glossary/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Glossary of Characters</span></a></div><div data-region="activity-information" data-activityname="Glossary of Characters" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="905" data-activityname="Glossary of Characters" data-withavailability="0" title="Glossary of Characters is marked as done. Press to undo." aria-label="Glossary of Characters is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+
+                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Weekly outline</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-539-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-539-title" class="sectionname"><span><a >Предоставляемые материалы</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow">
+
+<p><big>В разделе "Предоставляемая информация" можно ознакомиться с презентацией "МИ правила для автоинсталлятора продукта", с описанием продукта "Common Installer", с презентацией по развёртыванию продукта в тестовой зоне с руководством по настройке программного продукта "Common Installer" и его руководством по экслуатации. Также предоставляется тестовый продукт для контрольного тестирования.</big></p></div></div>
+
+<ul class="section img-text"><li class="activity forum modtype_forum  hasinfo" id="module-906"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance"><a class="aalink" onclick="" href="https://nexign.com/ru/contact-us"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Nexign support</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Если у вас есть какие-либо общие, не технические вопросы, пожалуйста, напишите ваше сообщение нам и мы постараемся решить вашу проблему!</span></p></div></div></div></div></div></div></li></ul></div></li>
+
+
+<li id="section-1" class="section main clearfix" role="region" aria-labelledby="sectionid-540-title" data-sectionid="1" data-sectionreturnid="0"><div class="left side"></div>
+
+
+
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Common Installer </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Common Installer - набор стандартизированных шагов по доставке продуктов на стенд клиента, состоящий из опциональных настраиваемых компонентов под разные стеки, который позволяет доставлять решение и его части стандартизированным способом.</big></p></div></div></div></div></div></div></li>
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign(1).pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Описание продукта Common Installer<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div></div></div></div></li><li class="activity forum modtype_forum  hasinfo" id="module-906"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/forum/view.php?id=906"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">World Cinema Forum</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>A general discussion forum for topics arising from our study of <span class="nolink">La Haine</span> and <span class="nolink">City of God. Ask anything -and be prepared to answer anything too!</span></p></div></div></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-labelledby="sectionid-540-title" data-sectionid="1" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">City of God </a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;http://www.youtube.com/v/yJdW1TevoyA&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61915f940b9e7_1" class="video-js" preload="auto" controls="true" title="City of God - Official Trailer"><a class="mediafallbacklink" href="http://www.youtube.com/v/yJdW1TevoyA">City of God - Official Trailer</a></video></div></div></p></div></div><ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Resources:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=908"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Studying City of God by Stephanie Muir<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="908" data-activityname="Studying City of God by Stephanie Muir" data-withavailability="0" title="Studying City of God by Stephanie Muir is marked as done. Press to undo." aria-label="Studying City of God by Stephanie Muir is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Полное описание продукта "Common Installer"</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign(2).pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Руководство по настройке<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Sample pages from a study of <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a> by Stephanie Muir of Richmond upon Thames College. <a href="http://www.auteur.co.uk/index.php?main_section=28&amp;textentryid=25" target="_blank">Full book here</a></p></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=909"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Education Study Guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Education Study Guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="909" data-activityname="Film Education Study Guide" data-withavailability="0" title="Film Education Study Guide is marked as done. Press to undo." aria-label="Film Education Study Guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется документация по настройке программного продукта</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="static/images/Easter_egg_awaits_you_Nexign(3).pdf" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Руководство по эксплуатации<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-910"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=910"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Brazilian Social Cinema as action: City of God<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Brazilian Social Cinema as action: City of God" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="910" data-activityname="Brazilian Social Cinema as action: City of God" data-withavailability="0" title="Brazilian Social Cinema as action: City of God is marked as done. Press to undo." aria-label="Brazilian Social Cinema as action: City of God is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется документация по эксплуатации программного продукта</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://nexign.com/docs/Nexign_annul_report_rus_2020.pdf" id="yui_3_17_2_1_1637171014750_31"><img src="static/img/archive.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Тестовый продукт<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>A study edited by Elsa R.P. Viera published by CCCP. <a href="http://new-ventures.net/HTM/City%20of%20God.htm" target="_blank">Full book here</a></p></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-911"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=911"><img src="https://school.moodledemo.net/theme/image.php/boost/url/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Review: <span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Review: " class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-secondary" data-action="toggle-manual-completion" data-toggletype="manual:mark-done" data-cmid="911" data-activityname="Film Review: " data-withavailability="0" title="Mark Film Review:  as done" aria-label="Mark Film Review:  as done" >
-                                    Mark as done
-                                </button>
-                        
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Для финальной оценки полученных знаний разработчику даётся тестовый продукт</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Ansible </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Ansible - система управления конфигурациями, написанная на языке программирования Python, с использованием декларативного языка разметки для описания конфигураций. Используется для автоматизации настройки и развертывания программного обеспечения. Главная особенность Ansible - использование существующей инфраструктуры SSH, без установки специальных PKI-окружений.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.ansible.com/ansible-tower/latest/html/quickinstall/index.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Ansible Automation Platform Quick Installation Guide<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">" Sinning  & Surviving in Meirellle's <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a>"</div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-labelledby="sectionid-541-title" data-sectionid="2" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-541-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-2">La Haine</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;https://youtu.be/FKwcXt3JIaU&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61915f940ca67_2" class="video-js" preload="auto" controls="true" title="FKwcXt3JIaU"><a class="mediafallbacklink" href="https://youtu.be/FKwcXt3JIaU">FKwcXt3JIaU</a></video></div></div><br></p></div></div><ul class="section img-text"><li class="activity page modtype_page  hasinfo" id="module-915"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/page/view.php?id=915"><img src="https://school.moodledemo.net/theme/image.php/boost/page/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Watch La Haine<span class="accesshide " > Page</span></span></a></div><div data-region="activity-information" data-activityname="Watch La Haine" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-secondary" data-action="toggle-manual-completion" data-toggletype="manual:mark-done" data-cmid="915" data-activityname="Watch La Haine" data-withavailability="0" title="Mark Watch La Haine as done" aria-label="Mark Watch La Haine as done" >
-                                    Mark as done
-                                </button>
-                        
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Руководство по быстрой установке Ansible Automation Platform</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.ansible.com/ansible-tower/latest/html/quickstart/index.html#" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Ansible Tower Quick Setup Guide<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>You are expected to  purchase a copy of<em> <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a></em> for your studies. If your copy has not yet arrived you can see the film on youtube here.</p></div></div></div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-916"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Resources:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-917"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=917"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Education Study guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Education Study guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="917" data-activityname="Film Education Study guide" data-withavailability="0" title="Film Education Study guide is marked as done. Press to undo." aria-label="Film Education Study guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по быстрой установке Ansible Tower</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.ansible.com/ansible-tower/latest/html/administration/index.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Ansible Administration Guide<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-918"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=918"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">La Haine Fresh film festival Study guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="La Haine Fresh film festival Study guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="918" data-activityname="La Haine Fresh film festival Study guide" data-withavailability="0" title="La Haine Fresh film festival Study guide is marked as done. Press to undo." aria-label="La Haine Fresh film festival Study guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство администратора Ansible</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href=" https://docs.ansible.com/ansible-tower/latest/html/userguide/index.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Ansible User Guide<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-919"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Reflection:</h2></div></div></div></div></div></div></li><li class="activity workshop modtype_workshop  hasinfo" id="module-920"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/workshop/view.php?id=920"><img src="https://school.moodledemo.net/theme/image.php/boost/workshop/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Simulation -  Remake the film!<span class="accesshide " > Workshop</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>(With acknowledgement to the <a href="http://www.bfi.org.uk/education/teaching/witm/recommended/lahaine.html" target="_blank">BFI</a>) You are a screenwriter and have been asked to adapt the setting of <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a></em> for your own country. Your peers will assess you on how suitable your adaptation is. There is a sample answer for you to try assessing first.</p></div></div></div></div></div></div></li><li class="activity wiki modtype_wiki  hasinfo" id="module-921"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/wiki/view.php?id=921"><img src="https://school.moodledemo.net/theme/image.php/boost/wiki/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Q &amp; A Wiki</span></a></div><div data-region="activity-information" data-activityname="Q &amp; A Wiki" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Q &amp; A Wiki">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">View</span>
-                                </span>
-                    </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство пользователя Ansible</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Atlassian Bamboo </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Atlassian Bamboo - инструмент непрерывной интеграции и непрерывного развертывания, который объединяет автоматизированные сборки, тесты и релизы в единый жизненный цикл. Проекты развертывания автоматизируют монотонный процесс релизов в каждую из сред, позволяя при этом контролировать происходящее с помощью различных прав доступа для каждой среды.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://confluence.atlassian.com/bamboo/getting-started-with-bamboo-289277283.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Getting started with Bamboo<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Contribute to this wiki by asking questions on <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a> and giving answers to those issues raised by others.</p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  hasinfo" id="module-927"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=927"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Focusing on Camera style<span class="accesshide " > Assignment</span></span></a></div><div data-region="activity-information" data-activityname="Focusing on Camera style" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Focusing on Camera style">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">Make a submission</span>
-                                </span>
-                    </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Руководство по быстрой установке и старту в Bamboo</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://confluence.atlassian.com/bamboo/using-bamboo-289276852.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Using Bamboo<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div></div></div></div></li></ul></div></li><li id="section-3" class="section main clearfix" role="region" aria-labelledby="sectionid-542-title" data-sectionid="3" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-542-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-3">Assignment topics</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity assign modtype_assign  hasinfo" id="module-928"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=928"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Mise en Scène<span class="accesshide " > Assignment</span></span></a></div><div data-region="activity-information" data-activityname="Mise en Scène" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Mise en Scène">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">Make a submission</span>
-                                </span>
-                    </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по использованию  Atlassian Bamboo</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://confluence.atlassian.com/bamboo/bamboo-best-practice-388401018.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Bamboo Best Practice<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
             </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Discuss the importance of  mise en scène in creating meaning and generating response in <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a></em> and <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a>. </em>One of our students has kindly offered <a href="https://school.moodledemo.net/pluginfile.php/1543/mod_assign/intro/EXAMPLEMise%20en%20sc%C3%A8ne%20in%20City%20of%20God%20and%20La%20Haine.pdf">her answer here</a> as an example of a high "B" grade.</p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  hasinfo" id="module-929"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=929"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Style and form<span class="accesshide " > Assignment</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>In what way are style and form used to give the film power and impact?</p></div></div></div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-925"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Course feedback</h2>
-<p>At the end of this module, please let us know how you found it so we can improve it for future students. Thankyou.</p></div></div></div></div></div></div></li><li class="activity feedback modtype_feedback  hasinfo" id="module-926"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/feedback/view.php?id=926"><img src="https://school.moodledemo.net/theme/image.php/boost/feedback/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Complete the course evaluation here<span class="accesshide " > Feedback</span></span></a></div></div></div></div></li></ul></div></li></ul></div></div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство пользователя, в котором содержится информация о том, как максимально эффективно использовать Bamboo</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href=" https://confluence.atlassian.com/bamboo/administering-bamboo-289277113.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Administering Bamboo<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство администратора, в котором  содержится информация об управлении самим сервером Bamboo</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Kubernetes </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Kubernetes - портативная расширяемая платформа с открытым исходным кодом для управления контейнеризованными рабочими нагрузками и сервисами, которая облегчает как декларативную настройку, так и автоматизацию. У платформы есть большая, быстро растущая экосистема. Сервисы, поддержка и инструменты Kubernetes широко доступны.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://kubernetes.io/ru/docs/tutorials/kubernetes-basics/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Основы Kubernetes<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по основам системы оркестрации кластеров Kubernetes</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://kubernetes.io/docs/tutorials/clusters/apparmor/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Restrict a Container's Access to Resources with AppArmor<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по ограничению доступа контейнера к ресурсам системы</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://kubernetes.io/docs/concepts/configuration/overview/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Configuration Best Practices<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется документ, который выделяет и объединяет передовые методы настройки конфигураций.</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href=" https://kubernetes.io/docs/concepts/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Concepts of Kybernetes<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство, которое поможет узнать о частях системы Kubernetes и абстракциях, которые используются для предоставления кластеров.</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Gitlab CI </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Gitlab CI - система, которая способна работать не только с кодом, размещённым в репозиториях GitLab. Например, код можно хранить в GitHub-репозитории, а CI/CD-конвейер можно организовать на базе GitLab с использованием GitLab CI/CD.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.gitlab.com/ee/ci/quick_start/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Get started with GitLab CI/CD<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Руководство начинающих по работе с GitLab CI/CD</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.gitlab.com/runner/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">GitLab Runner<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется документация по приложениею (GitLab Runner), которое помогает выполнять задания в конвейере</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.gitlab.com/ee/ci/ssh_keys/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Using SSH keys with GitLab CI/CD<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по управлению ключами SSH в среде сборки - GitLab Runner. </a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.gitlab.com/ee/ci/examples/" id="yui_3_17_2_1_1637171014750_31"><img src="static/img/archive.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Примеры GitLab CI<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляются примеры, которые помогут понять, как реализовать GitLab CI для конкретной задачи.</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Jira </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Jira — это набор agile-решений для управления работой, который обеспечивает совместную работу между всеми командами, начиная с разработки идеи продукта и заканчивая его поставкой клиенту, а также позволяет вам вместе добиваться наилучших результатов. Jira предлагает ряд продуктов и вариантов развертывания, специально разработанных для команд разработчиков ПО, ИТ-команд, бизнес-команд, операционных команд и т. д. </big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://www.atlassian.com/ru/software/jira/guides/getting-started/overview" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Краткий обзор Jira<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется краткая обзорная документация для ознакомления с работой Jira </a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://www.atlassian.com/ru/software/jira/guides/use-cases" id="yui_3_17_2_1_1637171014750_31"><img src="static/img/archive.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Способы использования Jira<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется примеры использования Jira Software</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.ansible.com/ansible-tower/latest/html/administration/index.html" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Jira Software для разработчиков<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство/гайд по быстрому вхождению в работу с Jira Software</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Confluence </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Confluence - портативная расширяемая платформа с открытым исходным кодом для управления контейнеризованными рабочими нагрузками и сервисами, которая облегчает как декларативную настройку, так и автоматизацию. У платформы есть большая, быстро растущая экосистема.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://www.atlassian.com/ru/software/confluence/guides/get-started/confluence-overview" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Основы работы в Confluence<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется краткое руководство по работе с Confluence.</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://support.atlassian.com/confluence-cloud/docs/navigate-around-confluence/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Confluence navigation<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство по навигации в Confluence (знакомство с инструментами системы)</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://www.atlassian.com/ru/software/confluence/guides/expand-confluence/confluence-and-jira" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Использование Confluence вместе с Jira Software<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется руководство, которое даст возможность расширить функциональность Confluence </a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
+
+
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Docker </a></span></h3>
+
+<li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в средах с поддержкой контейнеризации, контейнеризатор приложений.</big></p></div></div></div></div></div></div></li>
+
+
+<ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Ресурсы:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.docker.com/get-started/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Getting started with Docker<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Руководство по быстрой установке и старту в Docker</a></p></div></div></div></div></div></div></li>
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.docker.com/ci-cd/best-practices/" id="yui_3_17_2_1_1637171014750_31"><img src="static/img/archive.png" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Best practices for using Docker Hub for CI/CD<span class="accesshide "> File</span></span></a></div>
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется примеры использования Docker</a></p></div></div></div></div></div></div></li>
+
+<li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
+
+<div class="activityinstance" id="yui_3_17_2_1_1637171014750_32"><a class="aalink" onclick="" href="https://docs.docker.com/cloud/aci-integration/" id="yui_3_17_2_1_1637171014750_31"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename" id="yui_3_17_2_1_1637171014750_30">Deploying Docker containers on Azure<span class="accesshide "> File</span></span></a></div>
+
+
+<div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
+            <div data-region="completion-info">       
+            </div>
+</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Разработчику предоставляется документация, с помощью которого можно будет развернуть контейнер Docker в Azure</a></p></div></div></div></div></div></div></li>
+
+
+
+
+
+
                     
                     
 
                 </section>
+
                 <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
                     <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Glossary of Characters</a>
 
-<section id="inst454"
-     class=" block_glossary_random block  card mb-3"
-     role="complementary"
-     data-block="glossary_random"
-          aria-labelledby="instance-454-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-454-header" class="card-title d-inline">Glossary of Characters</h5>
 
 
-        <div class="card-text content mt-3">
-            <h3>Marcos Junqueira</h3><div class="no-overflow"><p>Child Leader of the Runts gang</p></div>
-            <div class="footer"><a href="https://school.moodledemo.net/mod/glossary/edit.php?cmid=905">Add  more here</a><br/><a href="https://school.moodledemo.net/mod/glossary/view.php?id=905">More characters</a></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span><section id="inst455"
-     class=" block_html block  card mb-3"
-     role="complementary"
-     data-block="html"
-        aria-label="HTML"
->
-
-    <div class="card-body p-3">
-
-
-
-        <div class="card-text content mt-3">
-            <div class="no-overflow"><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="float: left; border-width: 0pt; margin: 2px;" alt="Creative Commons License" /></a><span style="font-weight: bold; font-size: small;">Attribution, Share Alike. Resources created by Mary Cooch from contributions by Chris Cooch.</span></p></div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section></aside>
+  <span id="sb-1"></span></aside>
                 </section>
             </div>
         </div>
@@ -1881,17 +2126,9 @@ document.body.className += ' jsenabled';
         </div>
 
 </div>
-    <div id="goto-top-link">
-        <a class="btn btn-light" role="button" href="#" aria-label="Go to top">
-            <i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"  ></i>
-        </a>
-    </div>
-    <footer id="page-footer" class="py-3 bg-dark text-light">
-        <div class="container">
-            <div id="course-footer"></div>
-    
-    
-            <div class="logininfo">Вы вошли как <a href="https://school.moodledemo.net/user/profile.php?id=56" title="View profile">Ляхнов Макар</a></div>
+
+
+
 
 <script>
 Y.use('node', function (Y) {
@@ -2144,8 +2381,6 @@ M.util.help_popups.setup(Y);
 //]]>
 </script>
 
-        </div>
-    </footer>
 </div>
 
 </body>

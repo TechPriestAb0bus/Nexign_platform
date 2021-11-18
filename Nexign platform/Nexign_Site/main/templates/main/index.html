@@ -21,6 +21,14 @@ M.yui.loader = {modules: {}};
 </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+        background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
+        background-size: 100% 100%;
+    }
+    </style>
+
 </head>
 <body  id="page-my-index" class="format-site  path-my chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-mydashboard course-1 context-411 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
@@ -43,10 +51,10 @@ document.body.className += ' jsenabled';
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
     
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="https://school.moodledemo.net" class="navbar-brand aabtn 
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -64,7 +72,7 @@ document.body.className += ' jsenabled';
                 <input type="hidden" name="context" value="411">
             <div class="input-group">
                 <label for="searchinput-6190d26c51c406190d26c481ec9">
-                    <span class="sr-only">Search</span>
+                    <span class="sr-only">Поиск</span>
                 </label>
                     <input type="text"
                        id="searchinput-6190d26c51c406190d26c481ec9"
@@ -82,12 +90,12 @@ document.body.className += ' jsenabled';
                         role="button"
                     >
                         <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Close</span>
+                        <span class="sr-only">Закрыть</span>
                     </a>
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-submit" data-action="submit">
                         <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Search</span>
+                        <span class="sr-only">Поиск</span>
                     </button>
                 </div>
             </div>
@@ -164,12 +172,7 @@ document.body.className += ' jsenabled';
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </div>
-                <a class="see-all-link"
-                    href="https://school.moodledemo.net/message/output/popup/notifications.php">
-                    <div class="popover-region-footer-container">
-                        <div class="popover-region-seeall-text">Посмотреть все</div>
-                    </div>
-                </a>
+
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-6190d26c526ba6190d26c481ec11" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
@@ -192,37 +195,35 @@ document.body.className += ' jsenabled';
                 <div class="action-menu-trigger">
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
-                            {% if not request.user.is_authenticated %}
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
-                            {% else %}
-                            <span class="userbutton"><span class="usertext mr-1">{{request.user}}</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
-                            {% endif%}
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                                
                             <b class="caret"></b>
                         </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://school.moodledemo.net/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/user/profile.php?id=56" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
                                 <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-2">Профиль</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
                                 <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-3">Прогресс</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
                                 <i class="icon fa fa-comment fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-4">Сообщения</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
                                 <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=0pP5gtPb8Q" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -237,53 +238,43 @@ document.body.className += ' jsenabled';
             </ul>
             <!-- search_box -->
     </nav>
+
+
     <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
         <nav class="list-group" aria-label="Site">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
                                         </span>
-                                    <span class="media-body ">Главная</span>
+                                    <span class="media-body "><big>Главная</big></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>                
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
+                                        </span>
+                                    <span class="media-body "><big>Календарь</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
                                         </span>
-                                    <span class="media-body ">Site home</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Календарь</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Обратная связь</span>
+                                    <span class="media-body "><big>Обратная связь</big></span>
                                 </div>
                             </div>
                         </a>
@@ -294,78 +285,54 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
                                         </span>
-                                    <span class="media-body">Обучение</span>
+                                    <span class="media-body"><big>Обучение</big></span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+<li>
+                        <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Предоставляемые материалы</span>
+                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Видеолекции</span>
+                                    <span class="media-body "><big>Видеолекции</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
                                         </span>
-                                    <span class="media-body ">Практические занятия</span>
+                                    <span class="media-body "><big>Практические занятия</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Meet up</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Конференции и хакатоны</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
             </ul>
         </nav>
     </div>
@@ -388,14 +355,10 @@ document.body.className += ' jsenabled';
                 <div class="d-flex flex-wrap">
                     <div class="ml-auto d-flex">
                         <div class="singlebutton">
-    <form method="post" action="https://school.moodledemo.net/my/index.php" >
+    <form method="post" >
             <input type="hidden" name="edit" value="1">
             <input type="hidden" name="sesskey" value="0pP5gtPb8Q">
-        <button type="submit" class="btn btn-secondary"
-            id="single_button6190d26c481ec1"
-            title=""
-            
-            >Customise this page</button>
+
     </form>
 </div>
                     </div>
@@ -415,6 +378,10 @@ document.body.className += ' jsenabled';
                     <span class="notifications" id="user-notifications"></span>
                     <div role="main"><span id="maincontent"></span><aside id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1"><a href="#sb-2" class="sr-only sr-only-focusable">Skip Try Moodle as a student</a>
 
+
+</section>
+
+
 <section id="inst279"
      class=" block_html block  card mb-3"
      role="complementary"
@@ -424,16 +391,68 @@ document.body.className += ' jsenabled';
 
     <div class="card-body p-3">
 
-            <h5 id="instance-279-header" class="card-title d-inline">Try Moodle as a student</h5>
+            <h1 id="instance-279-header" class="text-center">Anonymous представляет</h1>
 
 
         <div class="card-text content mt-3">
-            <div class="no-overflow">You are currently using the demo student account of Barbara Gardner. You are on the dashboard, a customisable page with links to courses. <a href="/mod/page/view.php?id=46">See some examples of what you can do with this account</a> or just dive in below!</div>
+            <div class="text-center">Данный электронный ресурс представляет собой демонстрационную версию обучающей платформы Nexign. Вы можете ознакомиться с её возможностями и фичами/багами 🧑‍💻</div>
             <div class="footer"></div>
             
         </div>
 
     </div>
+
+
+
+</section>
+
+  <span id="sb-2"></span><a href="#sb-3" class="sr-only sr-only-focusable">Skip Learning plans</a>
+
+
+</section>
+
+
+
+
+
+<section id="inst386"
+     class=" block_lp block  card mb-3"
+     role="complementary"
+     data-block="lp"
+          aria-labelledby="instance-386-header"
+     >
+
+
+    <div class="card-body p-3">
+
+            <h1 class="text-center">🐱‍💻 Our developers 🐱‍💻</h1>
+            <h1 class=> ᅠᅠЛяхнов МакарᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠЗапорожец Арсений</h1>
+
+
+        <div class="card-text content mt-3">
+            <div>
+        <div class="sub-content">
+                <ul>
+                    <p><img src="static/img/Team_Member_DM.jpg" class="userpicture" width="350" height="350" align="left"</p>
+                    <p><img src="static/img/Team_Member_BH.jpg" class="userpicture" width="350" height="350" align="right"</p>
+                </ul>
+        </div>
+
+</div>
+            <div class="footer"></div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
 
 </section>
 
@@ -446,19 +465,22 @@ document.body.className += ' jsenabled';
           aria-labelledby="instance-386-header"
      >
 
+
     <div class="card-body p-3">
 
-            <h5 id="instance-386-header" class="card-title d-inline">Learning plans</h5>
+            <h1 class="text-center">QR-code</h1>
+            <h1 class=> ᅠᅠᅠᅠMainᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠRoadmap</h1>
 
 
         <div class="card-text content mt-3">
             <div>
-        <h3>My plans</h3>
         <div class="sub-content">
                 <ul>
-                        <li><a href="https://school.moodledemo.net/admin/tool/lp/plan.php?id=3">Digital Literacies Basics</a></li>
+                    <p><img src="static/img/main.gif" width="350" height="350" align="left"</p>
+                    <p><img src="static/img/roadmap.gif" width="350" height="350" align="right"</p>
                 </ul>
         </div>
+        
 </div>
             <div class="footer"></div>
             
@@ -467,811 +489,16 @@ document.body.className += ' jsenabled';
     </div>
 
 </section>
-
-  <span id="sb-3"></span><a href="#sb-4" class="sr-only sr-only-focusable">Skip Course overview</a>
-
-<section id="inst267"
-     class=" block_myoverview block  card mb-3"
-     role="complementary"
-     data-block="myoverview"
-          aria-labelledby="instance-267-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-267-header" class="card-title d-inline">Course overview</h5>
-
-
-        <div class="card-text content mt-3">
-            <div id="block-myoverview-6190d26c4fad86190d26c481ec3" class="block-myoverview block-cards" data-region="myoverview" role="navigation">
-
-            <div data-region="filter" class="d-flex align-items-center flex-wrap" aria-label="Course overview controls">
-                <div class="dropdown mb-1 mr-auto">
-                    <button id="groupingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Grouping drop-down menu">
-                        <i class="icon fa fa-filter fa-fw " aria-hidden="true"  ></i>
-                        <span class="d-sm-inline-block" data-active-item-text>
-                            
-                            
-                            
-                            
-                            Past
-                            
-                            
-                            
-                        </span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" data-active-item-text aria-labelledby="groupingdropdown">
-                        <li class="dropdown-divider" role="presentation">
-                            <span class="filler">&nbsp;</span>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="all" data-pref="all" aria-label="Show all courses except courses removed from view" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                All (except removed from view)
-                            </a>
-                        </li>
-                        <li class="dropdown-divider" role="presentation">
-                            <span class="filler">&nbsp;</span>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="inprogress" data-pref="inprogress" aria-label="Show courses in progress" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                In progress
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="future" data-pref="future" aria-label="Show future courses" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                Future
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="past" data-pref="past" aria-label="Show past courses" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" aria-current="true">
-                                Past
-                            </a>
-                        </li>
-                        <li class="dropdown-divider" role="presentation">
-                            <span class="filler">&nbsp;</span>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="favourites"  data-pref="favourites" aria-label="Show starred courses" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                Starred
-                            </a>
-                        <li class="dropdown-divider" role="presentation">
-                            <span class="filler">&nbsp;</span>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" data-filter="grouping" data-value="hidden"  data-pref="hidden" aria-label="Show courses removed from view" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                Removed from view
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                
-                <div class="mb-1 mr-1 d-flex align-items-center">
-                    <div class="dropdown">
-                        <button id="sortingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-label="Sorting drop-down menu">
-                            <i class="icon fa fa-sort-amount-asc fa-fw " aria-hidden="true"  ></i>
-                            <span class="d-sm-inline-block" data-active-item-text>
-                                Course name
-                                
-                                
-                            </span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" aria-labelledby="sortingdropdown">
-                            <li>
-                                <a class="dropdown-item" href="#" data-filter="sort" data-pref="title" data-value="fullname" aria-label="Sort courses by course name" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" aria-current="true">
-                                    Course name
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#" data-filter="sort" data-pref="lastaccessed" data-value="ul.timeaccess desc" aria-label="Sort courses by last accessed date" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                    Last accessed
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                    <div class="dropdown mb-1">
-                        <button id="displaydropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        aria-label="Display drop-down menu">
-                            <i class="icon fa fa-th fa-fw " aria-hidden="true"  ></i>
-                            <span class="d-sm-inline-block" data-active-item-text>
-                                Card
-                                
-                                
-                            </span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" aria-labelledby="displaydropdown">
-                                <li>
-                                    <a class="dropdown-item" href="#" data-display-option="display" data-value="card" data-pref="card" aria-label="Switch to card view" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" aria-current="true">
-                                        Card
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#" data-display-option="display" data-value="list" data-pref="list" aria-label="Switch to list view" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                        List
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#" data-display-option="display" data-value="summary" data-pref="summary" aria-label="Switch to summary view" aria-controls="courses-view-6190d26c4fad86190d26c481ec3" role="menuitem" >
-                                        Summary
-                                    </a>
-                                </li>
-                        </ul>
-                    </div>
-            </div>
-
-    <div class="container-fluid p-0">
-        <div id="courses-view-6190d26c4fad86190d26c481ec3"
-            data-region="courses-view"
-            data-display="card"
-            data-grouping="past"
-            data-customfieldname=""
-            data-customfieldvalue=""
-            data-sort="fullname"
-            data-prev-display="card"
-            data-paging="12"
-            data-nocoursesimg="https://school.moodledemo.net/theme/image.php/boost/block_myoverview/1636876882/courses"
-            data-totalcoursecount="16"
-            data-displaycategories="on">
-            <div data-region="course-view-content">
-                <div data-region="loading-placeholder-content" aria-hidden="true">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-4"></span><a href="#sb-5" class="sr-only sr-only-focusable">Skip Recently accessed courses</a>
-
-<section id="inst412"
-     class=" block_recentlyaccessedcourses block  card mb-3"
-     role="complementary"
-     data-block="recentlyaccessedcourses"
-          aria-labelledby="instance-412-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-412-header" class="card-title d-inline">Recently accessed courses</h5>
-
-
-        <div class="card-text content mt-3">
-            <div id="block-recentlyaccessedcourses-6190d26c502a86190d26c481ec4" class="block-recentlyaccessedcourses block-cards" data-region="recentlyaccessedcourses"
-        data-userid="56" data-displaycoursecategory="1">
-    <div class="container-fluid p-0">
-        <div id="recentlyaccessedcourses-view-6190d26c502a86190d26c481ec4" data-region="recentlyaccessedcourses-view">
-            <div data-region="loading-placeholder">
-                <div class="card-deck dashboard-card-deck one-row overflow-hidden" style="height: 13.05rem">
-                    <div class="card dashboard-card border-0">
-                        <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
-                        </div>
-                        <div class="card-body pr-1 course-info-container">
-                            <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
-                        </div>
-                    </div>
-                    <div class="card dashboard-card border-0">
-                        <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
-                        </div>
-                        <div class="card-body pr-1 course-info-container">
-                            <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
-                        </div>
-                    </div>
-                    <div class="card dashboard-card border-0">
-                        <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
-                        </div>
-                        <div class="card-body pr-1 course-info-container">
-                            <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
-                        </div>
-                    </div>
-                    <div class="card dashboard-card border-0">
-                        <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
-                        </div>
-                        <div class="card-body pr-1 course-info-container">
-                            <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hidden" data-region="view-content">
-                    <div class="d-flex paging-bar-container mb-3" data-region="paging-bar-container">
-                        <div
-                            data-region="paging-control-container"
-                            class="d-flex"
-                        >
-                        
-                            <nav
-                                id="paging-bar-6190d26c502a86190d26c481ec4"
-                                class=""
-                                data-region="paging-bar"
-                                data-ignore-control-while-loading=""
-                                data-hide-control-on-single-page=""
-                                    data-active-page-number="1"
-                                    aria-label="Pagination navigation"
-                                    data-aria-label-components-pagination-item="pagedcontentnavigationitem, core"
-                                    data-aria-label-components-pagination-active-item="pagedcontentnavigationactiveitem, core"
-                            >
-                        
-                                <ul class="pagination mb-0">
-                                                                <li class="page-item  "
-                            data-region="page-item"
-                            data-control="previous">
-                        
-                            <a href="#"
-                               class="page-link"
-                               data-region="page-link" aria-label="Previous page">
-                        <span class="icon-no-margin dir-rtl-hide" aria-hidden="true"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"  ></i></span>
-                        <span class="icon-no-margin dir-ltr-hide" aria-hidden="true"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"  ></i></span>
-                            </a>
-                        </li>
-                                        <li class="page-item  "
-                            data-region="page-item"
-                            data-control="next">
-                        
-                            <a href="#"
-                               class="page-link"
-                               data-region="page-link" aria-label="Next page">
-                        <span class="icon-no-margin dir-rtl-hide" aria-hidden="true"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"  ></i></span>
-                        <span class="icon-no-margin dir-ltr-hide" aria-hidden="true"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"  ></i></span>
-                            </a>
-                        </li>
-        </ul>
-                            </nav>
-                        </div>
-                    </div>
-                        
-        <div class="card-deck dashboard-card-deck one-row fixed-width-cards justify-content-center overflow-hidden" data-region="card-deck" role="list">
-        </div>
-    </div>
-            <div class="hidden text-xs-center text-center mt-3" data-region="empty-message">
-                <img class="empty-placeholder-image-lg mt-1"
-                    src="https://school.moodledemo.net/theme/image.php/boost/block_recentlyaccessedcourses/1636876882/courses"
-                    alt="">
-                <p class="text-muted mt-3">No recent courses</p>
-            </div>
-        </div>
-    </div>
-</div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-5"></span></aside></div>
                     
-                    
-
                 </section>
-                <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
-                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Timeline</a>
 
-<section id="inst417"
-     class=" block_timeline block  card mb-3"
-     role="complementary"
-     data-block="timeline"
-          aria-labelledby="instance-417-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-417-header" class="card-title d-inline">Timeline</h5>
-
-
-        <div class="card-text content mt-3">
-            <div id="block-timeline-6190d26c4a7176190d26c481ec2" class="block-timeline" data-region="timeline">
-    <div class="container p-0 pb-3 border-bottom">
-        <div class="row no-gutters">
-            <div class="col-sm d-flex justify-content-start">
-                <div data-region="day-filter" class="dropdown">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle icon-no-margin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            aria-label="Filter timeline items" aria-controls="menudayfilter">
-                        <i class="icon fa fa-clock-o fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only" data-active-item-text>
-                            
-                            
-                             Next 7 days 
-                            
-                            
-                            
-                        </span>
-                    </button>
-                    <div id="menudayfilter" role="menu" class="dropdown-menu" data-show-active-item data-skip-active-class="true">
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="-14"
-                            data-filtername="all"
-                            
-                            aria-label="All filter option"
-                            role="menuitem"
-                        >
-                            All
-                        </a>
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="-14"
-                            data-to="0"
-                            data-filtername="overdue"
-                            
-                            aria-label="Overdue filter option"
-                            role="menuitem"
-                        >
-                            Overdue
-                        </a>
-                        <div class="dropdown-divider" role="separator"></div>
-                        <h6 class="dropdown-header">Due date</h6>
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="0"
-                            data-to="7"
-                            data-filtername="next7days"
-                            aria-current="true"
-                            aria-label="Next 7 days filter option"
-                            role="menuitem"
-                        >
-                            Next 7 days
-                        </a>
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="0"
-                            data-to="30"
-                            data-filtername="next30days"
-                            
-                            aria-label="Next 30 days filter option"
-                            role="menuitem"
-                        >
-                            Next 30 days
-                        </a>
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="0"
-                            data-to="90"
-                            data-filtername="next3months"
-                            
-                            aria-label="Next 3 months filter option"
-                            role="menuitem"
-                        >
-                            Next 3 months
-                        </a>
-                        <a
-                            class="dropdown-item"
-                            href="#"
-                            data-from="0"
-                            data-to="180"
-                            data-filtername="next6months"
-                            
-                            aria-label="Next 6 months filter option"
-                            role="menuitem"
-                        >
-                            Next 6 months
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm d-flex justify-content-end">
-                <div data-region="view-selector" class="btn-group">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle icon-no-margin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            aria-label="Sort timeline items" aria-controls="menusortby">
-                        <i class="icon fa fa-sort-amount-asc fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only" data-active-item-text>
-                            
-                            Sort by dates
-                        </span>
-                    </button>
-                    <div id="menusortby" role="menu" class="dropdown-menu dropdown-menu-right list-group hidden" data-show-active-item data-skip-active-class="true">
-                        <a
-                            class="dropdown-item"
-                            href="#view_dates_6190d26c4a7176190d26c481ec2"
-                            data-toggle="tab"
-                            data-filtername="sortbydates"
-                            aria-current="true"
-                            aria-label="Sort by dates sort option"
-                            role="menuitem"
-                        >
-                            Sort by dates
-                        </a>
-                        <a
-                            class="dropdown-item"
-                            href="#view_courses_6190d26c4a7176190d26c481ec2"
-                            data-toggle="tab"
-                            data-filtername="sortbycourses"
-                            
-                            aria-label="Sort by courses sort option"
-                            role="menuitem"
-                        >
-                            Sort by courses
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container p-0">
-        <div data-region="timeline-view">
-            <div class="tab-content">
-                <div class="tab-pane active show fade" data-limit="5" data-region="view-dates" id="view_dates_6190d26c4a7176190d26c481ec2">
-                    <div data-region="timeline-view-dates">
-                        <div data-region="event-list-container"
-                             data-days-offset="0"
-                             data-days-limit="7"
-                             data-course-id=""
-                             data-midnight="1636844400"
-                        >
-                            <div data-region="event-list-loading-placeholder">
-                                <ul class="pl-0 list-group list-group-flush">
-                                    <li class="list-group-item pl-0 pr-0">
-                                        <div class="row">
-                                            <div class="col-8 pr-0">
-                                                <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                    <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                    <div style="flex: 1" class="pl-2">
-                                                        <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                        <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 pr-3">
-                                                <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                    <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item pl-0 pr-0">
-                                        <div class="row">
-                                            <div class="col-8 pr-0">
-                                                <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                    <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                    <div style="flex: 1" class="pl-2">
-                                                        <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                        <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 pr-3">
-                                                <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                    <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item pl-0 pr-0">
-                                        <div class="row">
-                                            <div class="col-8 pr-0">
-                                                <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                    <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                    <div style="flex: 1" class="pl-2">
-                                                        <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                        <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 pr-3">
-                                                <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                    <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item pl-0 pr-0">
-                                        <div class="row">
-                                            <div class="col-8 pr-0">
-                                                <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                    <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                    <div style="flex: 1" class="pl-2">
-                                                        <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                        <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 pr-3">
-                                                <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                    <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item pl-0 pr-0">
-                                        <div class="row">
-                                            <div class="col-8 pr-0">
-                                                <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                    <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                    <div style="flex: 1" class="pl-2">
-                                                        <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                        <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 pr-3">
-                                                <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                    <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="pt-3 d-flex justify-content-between">
-                                    <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                    <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                </div>
-                            </div>
-                            <div data-region="event-list-content"></div>
-                            <div class="hidden text-xs-center text-center mt-3" data-region="empty-message">
-                                <img
-                                    src="https://school.moodledemo.net/theme/image.php/boost/block_timeline/1636876882/activities"
-                                    alt=""
-                                    style="height: 70px; width: 70px"
-                                >
-                                <p class="text-muted mt-1">No upcoming activities due</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="tab-pane  fade"
-                    data-region="view-courses"
-                    data-midnight="1636844400"
-                    data-limit="2"
-                    data-offset="0"
-                    data-days-limit="7"
-                    data-days-offset="0"
-                    data-no-events-url="https://school.moodledemo.net/theme/image.php/boost/block_timeline/1636876882/activities"
-                    id="view_courses_6190d26c4a7176190d26c481ec2"
-                >
-                    <div data-region="course-items-loading-placeholder">
-                        <ul class="list-group unstyled">
-                            <li class="list-group-item mt-3 p-0 border-0">
-                                <div class="w-50 bg-pulse-grey mb-2" style="height: 20px"></div>
-                                <div>
-                                    <ul class="pl-0 list-group list-group-flush">
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="pt-3 d-flex justify-content-between">
-                                        <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                        <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item mt-3 p-0 border-0">
-                                <div class="w-50 bg-pulse-grey mb-2" style="height: 20px"></div>
-                                <div>
-                                    <ul class="pl-0 list-group list-group-flush">
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item pl-0 pr-0">
-                                            <div class="row">
-                                                <div class="col-8 pr-0">
-                                                    <div class="d-flex flex-row align-items-center" style="height: 32px">
-                                                        <div class="bg-pulse-grey rounded-circle" style="height: 32px; width: 32px;"></div>
-                                                        <div style="flex: 1" class="pl-2">
-                                                            <div class="bg-pulse-grey w-100" style="height: 15px;"></div>
-                                                            <div class="bg-pulse-grey w-75 mt-1" style="height: 10px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 pr-3">
-                                                    <div class="d-flex flex-row justify-content-end" style="height: 32px; padding-top: 2px">
-                                                        <div class="bg-pulse-grey w-75" style="height: 15px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="pt-3 d-flex justify-content-between">
-                                        <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                        <div class="w-25 bg-pulse-grey" style="height: 35px"></div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="bg-pulse-grey mt-1" style="width: 100px; height: 30px; margin-left: auto; margin-right: auto"></div>
-                    </div>
-                    <ul class="list-group unstyled" data-region="courses-list"></ul>
-                    <div class="hidden text-xs-center text-center pt-3" data-region="more-courses-button-container">
-                        <button type="button" class="btn btn-secondary" data-action="more-courses">
-                            More courses
-                            <span class="hidden" data-region="loading-icon-container">
-                                <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="hidden text-xs-center text-center mt-3" data-region="no-courses-empty-message">
-                        <img
-                            src="https://school.moodledemo.net/theme/image.php/boost/block_timeline/1636876882/activities"
-                            alt=""
-                            style="height: 70px; width: 70px"
-                        >
-                        <p class="text-muted mt-1">No in-progress courses</p>
-                    </div>
-                </div>
-            </div>
-        </div>    </div>
-</div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span></aside>
-                </section>
-            </div>
-        </div>
-    </div>
+    
+    
+    
+    
+    
+    
+    
     <div
     id="drawer-6190d26c53ba96190d26c481ec20"
     class=" drawer bg-white hidden"
@@ -1303,7 +530,7 @@ document.body.className += ' jsenabled';
                                 </div>                            </a>
                         </div>
                         <div>
-                            Contacts
+                            Контакты
                         </div>
                         <div class="ml-auto">
                             <a href="#" data-route="view-search" role="button" aria-label="Search">
@@ -1451,7 +678,7 @@ document.body.className += ' jsenabled';
                                 </div>                            </a>
                         </div>
                         <div>
-                            Settings
+                            Настройки
                         </div>
                     </div>
                 </div>
@@ -1479,7 +706,7 @@ document.body.className += ' jsenabled';
                                         aria-controls="contacts-tab-panel-6190d26c53ba96190d26c481ec20"
                                         aria-selected="true"
                                     >
-                                        Contacts
+                                        Контакты
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -1493,7 +720,7 @@ document.body.className += ' jsenabled';
                                         aria-controls="requests-tab-panel-6190d26c53ba96190d26c481ec20"
                                         aria-selected="false"
                                     >
-                                        Requests
+                                        Запросы
                                         <span class="badge badge-primary bg-primary ml-2 hidden"
                                         data-region="contact-request-count"
                                         aria-label="There are 0 pending contact requests">
@@ -2123,7 +1350,7 @@ document.body.className += ' jsenabled';
                         <div class="d-flex flex-column">
                             <div class="mb-3 bg-white" data-region="all-contacts-container">
                                 <div data-region="contacts-container"  class="pt-2">
-                                    <h4 class="h6 px-2">Contacts</h4>
+                                    <h4 class="h6 px-2">Контакты</h4>
                                     <div class="list-group" data-region="list"></div>
                                 </div>
                                 <div data-region="non-contacts-container" class="pt-2 border-top">
@@ -2488,22 +1715,11 @@ document.body.className += ' jsenabled';
         </div>
 
 </div>
-    <div id="goto-top-link">
-        <a class="btn btn-light" role="button" href="#" aria-label="Go to top">
-            <i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"  ></i>
-        </a>
-    </div>
-    <footer id="page-footer" class="py-3 bg-dark text-light">
-        <div class="container">
-            <div id="course-footer"></div>
-    
-    
-            <div class="logininfo">Вы вошли как <a href="https://school.moodledemo.net/user/profile.php?id=56" title="View profile">Ляхнов Макар</a></div>
+
             
 <script>
 Y.use('node', function (Y) {
 
-    // The number of seconds after the whole hour we want to count down to.
     var countdown = 3600;
 
     var updateTimer = function () {
@@ -2753,8 +1969,6 @@ M.util.help_popups.setup(Y);
 //]]>
 </script>
 
-        </div>
-    </footer>
 </div>
 
 </body>

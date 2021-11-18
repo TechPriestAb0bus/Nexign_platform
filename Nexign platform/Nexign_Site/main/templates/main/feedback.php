@@ -2,19 +2,20 @@
 
 <html  dir="ltr" lang="en" xml:lang="en">
 <head>
-    <title>Конференции и хакатоны</title>
+    <title>Обратная связь</title>
     <link rel="shortcut icon" href="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="moodle, Course: Class and Conflict in World Cinema" />
-<link rel="stylesheet" type="text/css" href="https://school.moodledemo.net/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://school.moodledemo.net/theme/styles.php/boost/1636912874_1636668184/all" />
+<meta name="keywords" content="moodle, Private files" />
+<link rel="stylesheet" type="text/css" href="static/styles/feedback.css" /><script id="firstthemesheet" type="text/css">
+problems in IE with YUI **/</script><link rel="stylesheet" type="text/css"/>
 <script>
 //<![CDATA[
 var M = {}; M.yui = {};
 M.pageloadstarttime = new Date();
-M.cfg = {"wwwroot":"https:\/\/school.moodledemo.net","sesskey":"tTqj898SaK","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1636912874","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1636912874","admin":"admin","svgicons":true,"usertimezone":"UTC+1","contextid":43,"langrev":1636912874,"templaterev":"1636912874"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+M.cfg = {"wwwroot":"https:\/\/school.moodledemo.net","sesskey":"yXgzmm5nme","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1636988471","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1636988471","admin":"admin","svgicons":true,"usertimezone":"UTC+1","contextid":411,"langrev":1636988471,"templaterev":"1636988471"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
 var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
 if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
-YUI_config = {"debug":false,"base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?m\/1636912874\/","combine":true,"comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","ext":false,"root":"m\/1636912874\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1636912874\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636912874\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636912874\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
+YUI_config = {"debug":false,"base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?m\/1636988471\/","combine":true,"comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","ext":false,"root":"m\/1636988471\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/school.moodledemo.net\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/school.moodledemo.net\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1636988471\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636988471\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636988471\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
 M.yui.loader = {modules: {}};
 
 //]]>
@@ -29,17 +30,18 @@ M.yui.loader = {modules: {}};
     }
     </style>
 
+
 </head>
-<body  id="page-course-view-weeks" class="format-weeks  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-course course-6 context-43 category-2 drawer-open-left">
+<body  id="page-user-files" class="format-site  path-user chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-standard course-1 context-411 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
 
 <div id="page-wrapper" class="d-print-block">
 
     <div>
     <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
-</div><script src="https://school.moodledemo.net/lib/javascript.php/1636912874/lib/babel-polyfill/polyfill.min.js"></script>
-<script src="https://school.moodledemo.net/lib/javascript.php/1636912874/lib/polyfills/polyfill.js"></script>
-<script src="https://school.moodledemo.net/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://school.moodledemo.net/lib/javascript.php/1636912874/lib/javascript-static.js"></script>
+</div><script src="https://school.moodledemo.net/lib/javascript.php/1636988471/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://school.moodledemo.net/lib/javascript.php/1636988471/lib/polyfills/polyfill.js"></script>
+<script src="https://school.moodledemo.net/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://school.moodledemo.net/lib/javascript.php/1636988471/lib/javascript-static.js"></script>
 <script>
 //<![CDATA[
 document.body.className += ' jsenabled';
@@ -54,7 +56,7 @@ document.body.className += ' jsenabled';
                 <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="!!!!!!!!!!!ОСНОВАAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!" class="navbar-brand aabtn 
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -66,16 +68,16 @@ document.body.className += ' jsenabled';
                 
             </ul>
             <div class="ml-auto">
-                <div id="searchinput-navbar-61915f940595561915f940436d5" class="simplesearchform">
+                <div id="searchinput-navbar-61928cd91cb1461928cd91b2885" class="simplesearchform">
     <div class="collapse" id="searchform-navbar">
         <form autocomplete="off" action="https://school.moodledemo.net/search/index.php" method="get" accept-charset="utf-8" class="mform form-inline searchform-navbar">
-                <input type="hidden" name="context" value="43">
+                <input type="hidden" name="context" value="411">
             <div class="input-group">
-                <label for="searchinput-61915f940595561915f940436d5">
+                <label for="searchinput-61928cd91cb1461928cd91b2885">
                     <span class="sr-only">Поиск</span>
                 </label>
                     <input type="text"
-                       id="searchinput-61915f940595561915f940436d5"
+                       id="searchinput-61928cd91cb1461928cd91b2885"
                        class="form-control withclear"
                        placeholder="Search"
                        aria-label="Search"
@@ -95,7 +97,7 @@ document.body.className += ' jsenabled';
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-submit" data-action="submit">
                         <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">SПоиск</span>
+                        <span class="sr-only">Поиск</span>
                     </button>
                 </div>
             </div>
@@ -124,7 +126,7 @@ document.body.className += ' jsenabled';
     <div class="popover-region-toggle nav-link icon-no-margin"
         data-region="popover-region-toggle"
         role="button"
-        aria-controls="popover-region-container-61915f9405f2a61915f940436d6"
+        aria-controls="popover-region-container-61928cd91d19e61928cd91b2886"
         aria-haspopup="true"
         aria-label="Show notification window with no new notifications"
         tabindex="0">
@@ -134,7 +136,7 @@ document.body.className += ' jsenabled';
 
     </div>
     <div 
-        id="popover-region-container-61915f9405f2a61915f940436d6"
+        id="popover-region-container-61928cd91d19e61928cd91b2886"
         class="popover-region-container"
         data-region="popover-region-container"
         aria-expanded="false"
@@ -175,11 +177,11 @@ document.body.className += ' jsenabled';
 
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
-    <a id="message-drawer-toggle-61915f940649e61915f940436d7" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
+    <a id="message-drawer-toggle-61928cd91d75361928cd91b2887" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
             role="button">
         <i class="icon fa fa-comment fa-fw "  title="Toggle messaging drawer" aria-label="Toggle messaging drawer"></i>
-        <div class="count-container " data-region="count-container"
-        aria-label="There are 1 unread conversations">1</div>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread conversations">0</div>
     </a>
     <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
                 </li>
@@ -223,7 +225,7 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=0pP5gtPb8Q" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -239,142 +241,40 @@ document.body.className += ' jsenabled';
             <!-- search_box -->
     </nav>
     <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
-        <nav class="list-group" aria-label="Cinema: Class &amp;amp; Conflict">
+        <nav class="list-group" aria-label="Site">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://clck.ru/YqsG4" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
                                         </span>
-                                    <span class="media-body font-weight-bold">Конференции и хакатоны</span>
+                                    <span class="media-body "><big>Главная</big></span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>                
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
+                                        </span>
+                                    <span class="media-body "><big>Календарь</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/badges/view.php?type=2&amp;id=6" data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
+                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-shield fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
                                         </span>
-                                    <span class="media-body ">Badges</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/admin/tool/lp/coursecompetencies.php?courseid=6" data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Competencies</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/grade/report/index.php?id=6" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Grades</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-0" data-key="539" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">General</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-1" data-key="540" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">City of God </span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-2" data-key="541" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">La Haine</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/course/view.php?id=6#section-3" data-key="542" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="6">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Assignment topics</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    </ul>
-                    </nav>
-                    <nav class="list-group mt-1" aria-label="Site">
-                    <ul>
-
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Главная</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Календарь</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/LA3NO" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Обратная связь</span>
+                                    <span class="media-body "><big>Обратная связь</big></span>
                                 </div>
                             </div>
                         </a>
@@ -385,22 +285,22 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
                                         </span>
-                                    <span class="media-body">Обучение</span>
+                                    <span class="media-body"><big>Обучение</big></span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-                    <li>
+<li>
                         <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Предоставляемые материалы</span>
+                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
@@ -411,9 +311,9 @@ document.body.className += ' jsenabled';
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Видеолекции</span>
+                                    <span class="media-body "><big>Видеолекции</big></span>
                                 </div>
                             </div>
                         </a>
@@ -424,39 +324,14 @@ document.body.className += ' jsenabled';
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
                                         </span>
-                                    <span class="media-body ">Практические занятия</span>
+                                    <span class="media-body "><big>Практические занятия</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Meet up</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Конференции и хакатоны</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
 
             </ul>
         </nav>
@@ -469,7 +344,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-headings"><h1>Конференции и хакатоны</h1></div></div>
+                        <div class="page-context-header"><div class="page-header-image"><a class="d-inline-block aabtn"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="100" height="100" alt="B Gardner" title="B Gardner" /></a></div><div class="page-header-headings"><h1>Ляхнов Макар</h1></div><div class="btn-group header-button-group"><a id="message-user-button" role="button" data-conversationid="0" data-userid="56" class="btn"></a></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -480,13 +355,10 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://clck.ru/YqsJi" >Главная</a>
+                    <a href="https://clck.ru/YqsJi">Главная</a>
                 </li>
-        
-                <li class="breadcrumb-item">Обучение</li>
-        
                 <li class="breadcrumb-item">
-                    <a href="https://clck.ru/YqsG4" aria-current="page" title="Class and Conflict in World Cinema">Конференции и хакатоны</a>
+                    <a aria-current="page" >Обратная связь</a>
                 </li>
         </ol>
 </nav>
@@ -505,147 +377,154 @@ document.body.className += ' jsenabled';
 
         <div id="page-content" class="row pb-3 d-print-block">
             <div id="region-main-box" class="col-12">
-                <section id="region-main" class="has-blocks mb-3" aria-label="Content">
+                <section id="region-main"  aria-label="Content">
 
                     <span class="notifications" id="user-notifications"></span>
-                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Weekly outline</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-539-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-539-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-0">General</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><img src="http://upload.wikimedia.org/wikipedia/en/3/30/Haine.jpg" width="119" height="176" style="float: left; margin-left: 5px; margin-right: 5px;" /><img src="http://upload.wikimedia.org/wikipedia/en/1/10/CidadedeDeus.jpg" width="119" height="176" style="float: left; margin-left: 4px; margin-right: 4px;" /></p>
-<p>In this module we will analyse two very significant films -<span class="nolink"> City of God</span> and <span class="nolink">La Haine</span>, both of which depict violent lives in poor conditions, the former in the favelas of Brazil and the latter in a Parisian banlieue. We will look at how conflict and class are portrayed, focusing particularly on the use of mise en scène.</p></div></div><ul class="section img-text"><li class="activity glossary modtype_glossary  hasinfo" id="module-905"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/glossary/view.php?id=905"><img src="https://school.moodledemo.net/theme/image.php/boost/glossary/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Glossary of Characters</span></a></div><div data-region="activity-information" data-activityname="Glossary of Characters" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="905" data-activityname="Glossary of Characters" data-withavailability="0" title="Glossary of Characters is marked as done. Press to undo." aria-label="Glossary of Characters is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
+                    <div role="main"><span id="maincontent"></span><div class="box py-3 generalbox"><div id="userfilesform">
+<form data-random-ids="1" autocomplete="off" action="https://school.moodledemo.net/user/files.php" method="post" accept-charset="utf-8" id="mform1_8qDQESe9NyPMPHB" class="mform">
+	<div style="display: none;"><input name="sesskey" type="hidden" value="yXgzmm5nme" id="id_sesskey_jj0vJqinYqUMtrW" />
+<input name="_qf__core_user_form_private_files" type="hidden" value="1" id="id___core_user_form_private_files_J7sDx4F5svxuOkH" />
+</div>
+
+<div id="fitem_id_areabytes_qZMlYCUe6rt0BT4" class="form-group row  fitem femptylabel  " >
+    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+        
+        <div class="form-label-addon d-flex align-items-center align-self-start">
+            
+        </div>
+    </div>
+    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="static">
+        <div class="form-control-static">
+        <div class="alert alert-info alert-block fade in "  role="alert" data-aria-autofocus="true">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Вы в настоящее время использовали 0KB из ваших 1GB лимита.
+</div>
+        </div>
+        <div class="form-control-feedback invalid-feedback" id="id_error_areabytes_qZMlYCUe6rt0BT4" >
+            
+        </div>
+    </div>
+</div><div id="fitem_id_files_filemanager_OTChtjl0lLWsIIZ" class="form-group row  fitem   " >
+    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+                    <p id="id_files_filemanager_OTChtjl0lLWsIIZ_label" class="mb-0 d-inline" aria-hidden="true">
+            </p>
+
+        <div class="form-label-addon d-flex align-items-center align-self-start">
+            
+        </div>
+    </div>
+    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="filemanager">
+        <fieldset class="w-100 m-0 p-0 border-0" id="id_files_filemanager_OTChtjl0lLWsIIZ_fieldset">
+            <legend class="sr-only">Files</legend>
+            <div id="filemanager-61928cd923f50" class="filemanager w-100 fm-loading">
+    <div class="fp-restrictions">
+        <span class="dnduploadnotsupported-message"> - drag and drop not supported<a class="btn btn-link p-0" role="button"
+    data-container="body" data-toggle="popover"
+    data-placement="right" data-content="&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;If there are multiple files in the folder, the main file is the one that appears on the view page. Other files such as images or videos may be embedded in it. In filemanager the main file is indicated with a title in bold.&lt;/p&gt;
+&lt;/div&gt; "
+    data-html="true" tabindex="0" data-trigger="focus">
+  <i class="icon fa fa-question-circle text-info fa-fw "  title="Help with Set main file" aria-label="Help with Set main file"></i>
+</a></span>
+    </div>
+
+
+
+    <div class="fp-navbar bg-faded card mb-0">
+        <div class="filemanager-toolbar icon-no-spacing">
+            <div class="fp-toolbar">
+                <div class="fp-btn-add">
+                    <a role="button" title="Add..." class="btn btn-secondary btn-sm" href="#">
+                        <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
+                    </a>
+                </div>
+                <div class="fp-btn-mkdir">
+                    <a role="button" title="Create folder" class="btn btn-secondary btn-sm" href="#">
+                        <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                    </a>
+                </div>
+                <div class="fp-btn-download">
+                    <a role="button" title="Download" class="btn btn-secondary btn-sm" href="#">
+                        <i class="icon fa fa-download fa-fw " aria-hidden="true"  ></i>
+                    </a>
+                    
+                </div>
+                <div class="fp-btn-delete">
+                </div>
+                <span class="fp-img-downloading">
+                    <span class="sr-only">Loading...</span>
+                    <i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true"  ></i>
+                </span>
+            </div>
+
+            <div class="fp-viewbar btn-group float-sm-right">
+                <a title="Display folder with file icons" class="fp-vb-icons btn btn-secondary btn-sm" href="#">
+                    <i class="icon fa fa-th fa-fw " aria-hidden="true"  ></i>
+                </a>
+                <a title="Display folder with file details" class="fp-vb-details btn btn-secondary btn-sm" href="#">
+                    <i class="icon fa fa-list fa-fw " aria-hidden="true"  ></i>
+                </a>
+                <a title="Display folder as file tree" class="fp-vb-tree btn btn-secondary btn-sm" href="#">
+                    <i class="icon fa fa-folder fa-fw " aria-hidden="true"  ></i>
+                </a>
+            </div>
+        </div>
+        <div class="fp-pathbar">
+            <span class="fp-path-folder"><a class="fp-path-folder-name aalink" href="#"></a></span>
+        </div>
+    </div>
+    <div class="filemanager-loading mdl-align"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true"  ></i><span class="sr-only">Loading...</span></div>
+    <div class="filemanager-container card" >
+        <div class="fm-content-wrapper">
+            <div class="fp-content"></div>
+            <div class="fm-empty-container">
+                <div class="dndupload-message">You can drag and drop files here to add them.<br/><div class="dndupload-arrow"></div></div>
+            </div>
+            <div class="dndupload-target">Drop files here to upload<br/><div class="dndupload-arrow"></div></div>
+            <div class="dndupload-progressbars"></div>
+            <div class="dndupload-uploadinprogress"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true"  ></i><span class="sr-only">Loading...</span></div>
+        </div>
+        <div class="filemanager-updating"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true"  ></i><span class="sr-only">Loading...</span></div>
+    </div>
+</div><noscript><div><object type='text/html' data='https://school.moodledemo.net/repository/draftfiles_manager.php?env=filemanager&amp;action=browse&amp;itemid=86649711&amp;subdirs=1&amp;maxbytes=104857600&amp;areamaxbytes=104857600&amp;maxfiles=-1&amp;ctx_id=411&amp;course=1&amp;sesskey=yXgzmm5nme' height='160' width='600' style='border:1px solid #000'></object></div></noscript><input value="86649711" name="files_filemanager" type="hidden" id="id_files_filemanager_OTChtjl0lLWsIIZ" />
+        </fieldset>
+        <div class="form-control-feedback invalid-feedback" id="id_error_files_filemanager_OTChtjl0lLWsIIZ" >
+            
+        </div>
+    </div>
+</div><div id="fitem_id_submitbutton_BGppKKv861DEKn0" class="form-group row  fitem femptylabel  " >
+    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+        
+        <div class="form-label-addon d-flex align-items-center align-self-start">
+            
+        </div>
+    </div>
+    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="submit">
+            <input type="submit"
+                class="btn
+                        btn-primary
                         
-            </div>
-</div></div></div></div></li><li class="activity forum modtype_forum  hasinfo" id="module-906"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/forum/view.php?id=906"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">World Cinema Forum</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>A general discussion forum for topics arising from our study of <span class="nolink">La Haine</span> and <span class="nolink">City of God. Ask anything -and be prepared to answer anything too!</span></p></div></div></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-labelledby="sectionid-540-title" data-sectionid="1" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">City of God </a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;http://www.youtube.com/v/yJdW1TevoyA&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61915f940b9e7_1" class="video-js" preload="auto" controls="true" title="City of God - Official Trailer"><a class="mediafallbacklink" href="http://www.youtube.com/v/yJdW1TevoyA">City of God - Official Trailer</a></video></div></div></p></div></div><ul class="section img-text"><li class="activity label modtype_label  hasinfo" id="module-907"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Resources:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-908"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=908"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Studying City of God by Stephanie Muir<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Studying City of God by Stephanie Muir" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="908" data-activityname="Studying City of God by Stephanie Muir" data-withavailability="0" title="Studying City of God by Stephanie Muir is marked as done. Press to undo." aria-label="Studying City of God by Stephanie Muir is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Sample pages from a study of <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a> by Stephanie Muir of Richmond upon Thames College. <a href="http://www.auteur.co.uk/index.php?main_section=28&amp;textentryid=25" target="_blank">Full book here</a></p></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=909"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Education Study Guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Education Study Guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="909" data-activityname="Film Education Study Guide" data-withavailability="0" title="Film Education Study Guide is marked as done. Press to undo." aria-label="Film Education Study Guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
-            </div>
-</div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-910"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=910"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Brazilian Social Cinema as action: City of God<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Brazilian Social Cinema as action: City of God" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="910" data-activityname="Brazilian Social Cinema as action: City of God" data-withavailability="0" title="Brazilian Social Cinema as action: City of God is marked as done. Press to undo." aria-label="Brazilian Social Cinema as action: City of God is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>A study edited by Elsa R.P. Viera published by CCCP. <a href="http://new-ventures.net/HTM/City%20of%20God.htm" target="_blank">Full book here</a></p></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-911"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=911"><img src="https://school.moodledemo.net/theme/image.php/boost/url/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Review: <span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Review: " class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-secondary" data-action="toggle-manual-completion" data-toggletype="manual:mark-done" data-cmid="911" data-activityname="Film Review: " data-withavailability="0" title="Mark Film Review:  as done" aria-label="Mark Film Review:  as done" >
-                                    Mark as done
-                                </button>
-                        
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">" Sinning  & Surviving in Meirellle's <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a>"</div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-labelledby="sectionid-541-title" data-sectionid="2" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-541-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-2">La Haine</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;https://youtu.be/FKwcXt3JIaU&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61915f940ca67_2" class="video-js" preload="auto" controls="true" title="FKwcXt3JIaU"><a class="mediafallbacklink" href="https://youtu.be/FKwcXt3JIaU">FKwcXt3JIaU</a></video></div></div><br></p></div></div><ul class="section img-text"><li class="activity page modtype_page  hasinfo" id="module-915"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/page/view.php?id=915"><img src="https://school.moodledemo.net/theme/image.php/boost/page/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Watch La Haine<span class="accesshide " > Page</span></span></a></div><div data-region="activity-information" data-activityname="Watch La Haine" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-secondary" data-action="toggle-manual-completion" data-toggletype="manual:mark-done" data-cmid="915" data-activityname="Watch La Haine" data-withavailability="0" title="Mark Watch La Haine as done" aria-label="Mark Watch La Haine as done" >
-                                    Mark as done
-                                </button>
-                        
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>You are expected to  purchase a copy of<em> <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a></em> for your studies. If your copy has not yet arrived you can see the film on youtube here.</p></div></div></div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-916"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Resources:</h2></div></div></div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-917"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=917"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Film Education Study guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="Film Education Study guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="917" data-activityname="Film Education Study guide" data-withavailability="0" title="Film Education Study guide is marked as done. Press to undo." aria-label="Film Education Study guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
-            </div>
-</div></div></div></div></li><li class="activity url modtype_url  hasinfo" id="module-918"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/url/view.php?id=918"><img src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">La Haine Fresh film festival Study guide<span class="accesshide " > URL</span></span></a></div><div data-region="activity-information" data-activityname="La Haine Fresh film festival Study guide" class="activity-information">
-            <div data-region="completion-info">
-                                <button class="btn btn-outline-success" data-action="toggle-manual-completion" data-toggletype="manual:undo" data-cmid="918" data-activityname="La Haine Fresh film festival Study guide" data-withavailability="0" title="La Haine Fresh film festival Study guide is marked as done. Press to undo." aria-label="La Haine Fresh film festival Study guide is marked as done. Press to undo." >
-                                    <i class="fa fa-check" aria-hidden="true"></i> Done
-                                </button>
-                        
-            </div>
-</div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-919"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Reflection:</h2></div></div></div></div></div></div></li><li class="activity workshop modtype_workshop  hasinfo" id="module-920"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/workshop/view.php?id=920"><img src="https://school.moodledemo.net/theme/image.php/boost/workshop/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Simulation -  Remake the film!<span class="accesshide " > Workshop</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>(With acknowledgement to the <a href="http://www.bfi.org.uk/education/teaching/witm/recommended/lahaine.html" target="_blank">BFI</a>) You are a screenwriter and have been asked to adapt the setting of <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a></em> for your own country. Your peers will assess you on how suitable your adaptation is. There is a sample answer for you to try assessing first.</p></div></div></div></div></div></div></li><li class="activity wiki modtype_wiki  hasinfo" id="module-921"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/wiki/view.php?id=921"><img src="https://school.moodledemo.net/theme/image.php/boost/wiki/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Q &amp; A Wiki</span></a></div><div data-region="activity-information" data-activityname="Q &amp; A Wiki" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Q &amp; A Wiki">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">View</span>
-                                </span>
-                    </div>
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Contribute to this wiki by asking questions on <a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a> and giving answers to those issues raised by others.</p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  hasinfo" id="module-927"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=927"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Focusing on Camera style<span class="accesshide " > Assignment</span></span></a></div><div data-region="activity-information" data-activityname="Focusing on Camera style" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Focusing on Camera style">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">Make a submission</span>
-                                </span>
-                    </div>
-            </div>
-</div></div></div></div></li></ul></div></li><li id="section-3" class="section main clearfix" role="region" aria-labelledby="sectionid-542-title" data-sectionid="3" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-542-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-3">Assignment topics</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity assign modtype_assign  hasinfo" id="module-928"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=928"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Mise en Scène<span class="accesshide " > Assignment</span></span></a></div><div data-region="activity-information" data-activityname="Mise en Scène" class="activity-information">
-            <div data-region="completion-info">
-                    <div class="automatic-completion-conditions" data-region ="completionrequirements" role="list" aria-label="Completion requirements for Mise en Scène">
-                                <span class="badge badge-secondary rounded mb-1" role="listitem" >
-                                    <strong>To do:</strong> <span class="font-weight-normal">Make a submission</span>
-                                </span>
-                    </div>
-            </div>
-</div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Discuss the importance of  mise en scène in creating meaning and generating response in <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35654&amp;displayformat=dictionary" title="Glossary of Characters: City of God" class="glossary autolink concept glossaryid91">City of God</a></em> and <em><a href="https://school.moodledemo.net/mod/glossary/showentry.php?eid=35633&amp;displayformat=dictionary" title="Glossary of Characters: La Haine" class="glossary autolink concept glossaryid91">La Haine</a>. </em>One of our students has kindly offered <a href="https://school.moodledemo.net/pluginfile.php/1543/mod_assign/intro/EXAMPLEMise%20en%20sc%C3%A8ne%20in%20City%20of%20God%20and%20La%20Haine.pdf">her answer here</a> as an example of a high "B" grade.</p></div></div></div></div></div></div></li><li class="activity assign modtype_assign  hasinfo" id="module-929"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/assign/view.php?id=929"><img src="https://school.moodledemo.net/theme/image.php/boost/assign/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Style and form<span class="accesshide " > Assignment</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>In what way are style and form used to give the film power and impact?</p></div></div></div></div></div></div></li><li class="activity label modtype_label  hasinfo" id="module-925"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><h2>Course feedback</h2>
-<p>At the end of this module, please let us know how you found it so we can improve it for future students. Thankyou.</p></div></div></div></div></div></div></li><li class="activity feedback modtype_feedback  hasinfo" id="module-926"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://school.moodledemo.net/mod/feedback/view.php?id=926"><img src="https://school.moodledemo.net/theme/image.php/boost/feedback/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Complete the course evaluation here<span class="accesshide " > Feedback</span></span></a></div></div></div></div></li></ul></div></li></ul></div></div>
+                    
+                    
+                    "
+                name="submitbutton"
+                id="id_submitbutton_BGppKKv861DEKn0"
+                value="Save changes"
+                 >
+        <div class="form-control-feedback invalid-feedback" id="id_error_submitbutton_BGppKKv861DEKn0" >
+            
+        </div>
+    </div>
+</div>
+</form></div></div></div>
                     
                     
 
-                </section>
-                <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
-                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Glossary of Characters</a>
-
-<section id="inst454"
-     class=" block_glossary_random block  card mb-3"
-     role="complementary"
-     data-block="glossary_random"
-          aria-labelledby="instance-454-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-454-header" class="card-title d-inline">Glossary of Characters</h5>
-
-
-        <div class="card-text content mt-3">
-            <h3>Marcos Junqueira</h3><div class="no-overflow"><p>Child Leader of the Runts gang</p></div>
-            <div class="footer"><a href="https://school.moodledemo.net/mod/glossary/edit.php?cmid=905">Add  more here</a><br/><a href="https://school.moodledemo.net/mod/glossary/view.php?id=905">More characters</a></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span><section id="inst455"
-     class=" block_html block  card mb-3"
-     role="complementary"
-     data-block="html"
-        aria-label="HTML"
->
-
-    <div class="card-body p-3">
-
-
-
-        <div class="card-text content mt-3">
-            <div class="no-overflow"><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="float: left; border-width: 0pt; margin: 2px;" alt="Creative Commons License" /></a><span style="font-weight: bold; font-size: small;">Attribution, Share Alike. Resources created by Mary Cooch from contributions by Chris Cooch.</span></p></div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section></aside>
                 </section>
             </div>
         </div>
     </div>
     <div
-    id="drawer-61915f94079d361915f940436d16"
+    id="drawer-61928cd91ec9361928cd91b28816"
     class=" drawer bg-white hidden"
     aria-expanded="false"
     aria-hidden="true"
@@ -653,7 +532,7 @@ document.body.className += ' jsenabled';
     role="region"
     tabindex="0"
 >
-            <div id="message-drawer-61915f94079d361915f940436d16" class="message-app" data-region="message-drawer" role="region">
+            <div id="message-drawer-61928cd91ec9361928cd91b28816" class="message-app" data-region="message-drawer" role="region">
             <div class="closewidget text-right pr-2">
                 <a class="text-dark btn-link" data-action="closedrawer" href="#"
                    title="Close" aria-label="Close"
@@ -675,7 +554,7 @@ document.body.className += ' jsenabled';
                                 </div>                            </a>
                         </div>
                         <div>
-                            Contacts
+                            Контакты
                         </div>
                         <div class="ml-auto">
                             <a href="#" data-route="view-search" role="button" aria-label="Search">
@@ -842,13 +721,13 @@ document.body.className += ' jsenabled';
                             <ul class="nav nav-pills nav-fill" role="tablist">
                                 <li class="nav-item">
                                     <a
-                                        id="contacts-tab-61915f94079d361915f940436d16"
+                                        id="contacts-tab-61928cd91ec9361928cd91b28816"
                                         class="nav-link active"
-                                        href="#contacts-tab-panel-61915f94079d361915f940436d16"
+                                        href="#contacts-tab-panel-61928cd91ec9361928cd91b28816"
                                         data-toggle="tab"
                                         data-action="show-contacts-section"
                                         role="tab"
-                                        aria-controls="contacts-tab-panel-61915f94079d361915f940436d16"
+                                        aria-controls="contacts-tab-panel-61928cd91ec9361928cd91b28816"
                                         aria-selected="true"
                                     >
                                         Контакты
@@ -856,16 +735,16 @@ document.body.className += ' jsenabled';
                                 </li>
                                 <li class="nav-item">
                                     <a
-                                        id="requests-tab-61915f94079d361915f940436d16"
+                                        id="requests-tab-61928cd91ec9361928cd91b28816"
                                         class="nav-link"
-                                        href="#requests-tab-panel-61915f94079d361915f940436d16"
+                                        href="#requests-tab-panel-61928cd91ec9361928cd91b28816"
                                         data-toggle="tab"
                                         data-action="show-requests-section"
                                         role="tab"
-                                        aria-controls="requests-tab-panel-61915f94079d361915f940436d16"
+                                        aria-controls="requests-tab-panel-61928cd91ec9361928cd91b28816"
                                         aria-selected="false"
                                     >
-                                        Входящие
+                                        Запросы
                                         <span class="badge badge-primary bg-primary ml-2 hidden"
                                         data-region="contact-request-count"
                                         aria-label="There are 0 pending contact requests">
@@ -881,10 +760,10 @@ document.body.className += ' jsenabled';
                     aria-live="polite"
                     data-region="lazy-load-list"
                     data-user-id="56"
-                                        id="contacts-tab-panel-61915f94079d361915f940436d16"
+                                        id="contacts-tab-panel-61928cd91ec9361928cd91b28816"
                     data-section="contacts"
                     role="tabpanel"
-                    aria-labelledby="contacts-tab-61915f94079d361915f940436d16"
+                    aria-labelledby="contacts-tab-61928cd91ec9361928cd91b28816"
 
                 >
                     
@@ -929,10 +808,10 @@ document.body.className += ' jsenabled';
                     aria-live="polite"
                     data-region="lazy-load-list"
                     data-user-id="56"
-                                        id="requests-tab-panel-61915f94079d361915f940436d16"
+                                        id="requests-tab-panel-61928cd91ec9361928cd91b28816"
                     data-section="requests"
                     role="tabpanel"
-                    aria-labelledby="requests-tab-61915f94079d361915f940436d16"
+                    aria-labelledby="requests-tab-61928cd91ec9361928cd91b28816"
 
                 >
                     
@@ -957,7 +836,7 @@ document.body.className += ' jsenabled';
                     aria-hidden="true"
                     data-region="view-conversation"
                     data-user-id="56"
-                    data-midnight="1636844400"
+                    data-midnight="1636930800"
                     data-message-poll-min="10"
                     data-message-poll-max="120"
                     data-message-poll-after-max="300"
@@ -1287,7 +1166,7 @@ document.body.className += ' jsenabled';
                         style="overflow-y: auto"
                     ></div>
                 </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview"  data-user-id="56">
-                    <div id="message-drawer-view-overview-container-61915f94079d361915f940436d16" class="d-flex flex-column h-100" style="overflow-y: auto">
+                    <div id="message-drawer-view-overview-container-61928cd91ec9361928cd91b28816" class="d-flex flex-column h-100" style="overflow-y: auto">
                             
                             
                             <div
@@ -1298,9 +1177,9 @@ document.body.className += ' jsenabled';
                                     <button
                                         class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
                                         data-toggle="collapse"
-                                        data-target="#view-overview-favourites-target-61915f94079d361915f940436d16"
+                                        data-target="#view-overview-favourites-target-61928cd91ec9361928cd91b28816"
                                         aria-expanded="false"
-                                        aria-controls="view-overview-favourites-target-61915f94079d361915f940436d16"
+                                        aria-controls="view-overview-favourites-target-61928cd91ec9361928cd91b28816"
                                     >
                                         <span class="collapsed-icon-container">
                                             <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
@@ -1328,9 +1207,9 @@ document.body.className += ' jsenabled';
                                 aria-live="polite"
                                 data-region="lazy-load-list"
                                 data-user-id="56"
-                                            id="view-overview-favourites-target-61915f94079d361915f940436d16"
+                                            id="view-overview-favourites-target-61928cd91ec9361928cd91b28816"
             aria-labelledby="view-overview-favourites-toggle"
-            data-parent="#message-drawer-view-overview-container-61915f94079d361915f940436d16"
+            data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
                                 
@@ -1361,9 +1240,9 @@ document.body.className += ' jsenabled';
                                     <button
                                         class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
                                         data-toggle="collapse"
-                                        data-target="#view-overview-group-messages-target-61915f94079d361915f940436d16"
+                                        data-target="#view-overview-group-messages-target-61928cd91ec9361928cd91b28816"
                                         aria-expanded="false"
-                                        aria-controls="view-overview-group-messages-target-61915f94079d361915f940436d16"
+                                        aria-controls="view-overview-group-messages-target-61928cd91ec9361928cd91b28816"
                                     >
                                         <span class="collapsed-icon-container">
                                             <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
@@ -1391,9 +1270,9 @@ document.body.className += ' jsenabled';
                                 aria-live="polite"
                                 data-region="lazy-load-list"
                                 data-user-id="56"
-                                            id="view-overview-group-messages-target-61915f94079d361915f940436d16"
+                                            id="view-overview-group-messages-target-61928cd91ec9361928cd91b28816"
             aria-labelledby="view-overview-group-messages-toggle"
-            data-parent="#message-drawer-view-overview-container-61915f94079d361915f940436d16"
+            data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
                                 
@@ -1424,9 +1303,9 @@ document.body.className += ' jsenabled';
                                     <button
                                         class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
                                         data-toggle="collapse"
-                                        data-target="#view-overview-messages-target-61915f94079d361915f940436d16"
+                                        data-target="#view-overview-messages-target-61928cd91ec9361928cd91b28816"
                                         aria-expanded="false"
-                                        aria-controls="view-overview-messages-target-61915f94079d361915f940436d16"
+                                        aria-controls="view-overview-messages-target-61928cd91ec9361928cd91b28816"
                                     >
                                         <span class="collapsed-icon-container">
                                             <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
@@ -1434,7 +1313,7 @@ document.body.className += ' jsenabled';
                                         <span class="expanded-icon-container">
                                             <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                        <span class="font-weight-bold">Личное</span>
+                                        <span class="font-weight-bold">Личные</span>
                                         <small class="hidden ml-1" data-region="section-total-count-container"
                                         aria-label=" total conversations">
                                             (<span data-region="section-total-count"></span>)
@@ -1454,9 +1333,9 @@ document.body.className += ' jsenabled';
                                 aria-live="polite"
                                 data-region="lazy-load-list"
                                 data-user-id="56"
-                                            id="view-overview-messages-target-61915f94079d361915f940436d16"
+                                            id="view-overview-messages-target-61928cd91ec9361928cd91b28816"
             aria-labelledby="view-overview-messages-toggle"
-            data-parent="#message-drawer-view-overview-container-61915f94079d361915f940436d16"
+            data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
                                 
@@ -1495,7 +1374,7 @@ document.body.className += ' jsenabled';
                         <div class="d-flex flex-column">
                             <div class="mb-3 bg-white" data-region="all-contacts-container">
                                 <div data-region="contacts-container"  class="pt-2">
-                                    <h4 class="h6 px-2">Контакты</h4>
+                                    <h4 class="h6 px-2">Contacts</h4>
                                     <div class="list-group" data-region="list"></div>
                                 </div>
                                 <div data-region="non-contacts-container" class="pt-2 border-top">
@@ -1545,10 +1424,10 @@ document.body.className += ' jsenabled';
                                                 type="radio"
                                                 name="message_blocknoncontacts"
                                                 class="custom-control-input"
-                                                id="block-noncontacts-61915f94079d361915f940436d16-1"
+                                                id="block-noncontacts-61928cd91ec9361928cd91b28816-1"
                                                 value="1"
                                             >
-                                            <label class="custom-control-label ml-2" for="block-noncontacts-61915f94079d361915f940436d16-1">
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-61928cd91ec9361928cd91b28816-1">
                                                 My contacts only
                                             </label>
                                         </div>
@@ -1557,10 +1436,10 @@ document.body.className += ' jsenabled';
                                                 type="radio"
                                                 name="message_blocknoncontacts"
                                                 class="custom-control-input"
-                                                id="block-noncontacts-61915f94079d361915f940436d16-0"
+                                                id="block-noncontacts-61928cd91ec9361928cd91b28816-0"
                                                 value="0"
                                             >
-                                            <label class="custom-control-label ml-2" for="block-noncontacts-61915f94079d361915f940436d16-0">
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-61928cd91ec9361928cd91b28816-0">
                                                 My contacts and anyone in my courses
                                             </label>
                                         </div>
@@ -1574,8 +1453,8 @@ document.body.className += ' jsenabled';
                             <h3 class="mb-2 mt-4 h6 font-weight-bold">General</h3>
                             <div data-preference="entertosend">
                                 <div class="custom-control custom-switch">
-                                    <input type="checkbox" class="custom-control-input" id="enter-to-send-61915f94079d361915f940436d16" >
-                                    <label class="custom-control-label" for="enter-to-send-61915f94079d361915f940436d16">
+                                    <input type="checkbox" class="custom-control-input" id="enter-to-send-61928cd91ec9361928cd91b28816" >
+                                    <label class="custom-control-label" for="enter-to-send-61928cd91ec9361928cd91b28816">
                                         Use enter to send
                                     </label>
                                 </div>
@@ -1862,6 +1741,9 @@ document.body.className += ' jsenabled';
 </div>
 
 
+    
+    
+            
 <script>
 Y.use('node', function (Y) {
 
@@ -1914,16 +1796,16 @@ Y.use('node', function (Y) {
 </script><script>
 //<![CDATA[
 var require = {
-    baseUrl : 'https://school.moodledemo.net/lib/requirejs.php/1636912874/',
+    baseUrl : 'https://school.moodledemo.net/lib/requirejs.php/1636988471/',
     // We only support AMD modules with an explicit define() statement.
     enforceDefine: true,
     skipDataMain: true,
     waitSeconds : 0,
 
     paths: {
-        jquery: 'https://school.moodledemo.net/lib/javascript.php/1636912874/lib/jquery/jquery-3.5.1.min',
-        jqueryui: 'https://school.moodledemo.net/lib/javascript.php/1636912874/lib/jquery/ui-1.12.1/jquery-ui.min',
-        jqueryprivate: 'https://school.moodledemo.net/lib/javascript.php/1636912874/lib/requirejs/jquery-private'
+        jquery: 'https://school.moodledemo.net/lib/javascript.php/1636988471/lib/jquery/jquery-3.5.1.min',
+        jqueryui: 'https://school.moodledemo.net/lib/javascript.php/1636988471/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://school.moodledemo.net/lib/javascript.php/1636988471/lib/requirejs/jquery-private'
     },
 
     // Custom jquery config map.
@@ -1943,7 +1825,7 @@ var require = {
 
 //]]>
 </script>
-<script src="https://school.moodledemo.net/lib/javascript.php/1636912874/lib/requirejs/require.min.js"></script>
+<script src="https://school.moodledemo.net/lib/javascript.php/1636988471/lib/requirejs/require.min.js"></script>
 <script>
 //<![CDATA[
 M.util.js_pending("core/first");
@@ -1953,14 +1835,13 @@ require(['core/prefetch'])
 require(["media_videojs/loader"], function(loader) {
     loader.setUp('en');
 });;
-M.util.js_pending('tool_usertours/usertours'); require(['tool_usertours/usertours'], function(amd) {amd.init([{"tourId":"7","startTour":false,"filtervalues":{"cssselector":{"0":"[data-region=activity-information]"}}}], ["cssselector"]); M.util.js_complete('tool_usertours/usertours');});;
 
 require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
-    CustomEvents.define('#single_select61915f940436d3', [CustomEvents.events.accessibleChange]);
-    $('#single_select61915f940436d3').on(CustomEvents.events.accessibleChange, function() {
+    CustomEvents.define('#single_select61928cd91b2883', [CustomEvents.events.accessibleChange]);
+    $('#single_select61928cd91b2883').on(CustomEvents.events.accessibleChange, function() {
         var ignore = $(this).find(':selected').attr('data-ignore');
         if (typeof ignore === typeof undefined) {
-            $('#single_select_f61915f940436d2').submit();
+            $('#single_select_f61928cd91b2882').submit();
         }
     });
 });
@@ -1973,7 +1854,7 @@ require(
 function(
     $
 ) {
-    var uniqid = "61915f940595561915f940436d5";
+    var uniqid = "61928cd91cb1461928cd91b2885";
     var container = $('#searchinput-navbar-' + uniqid);
     var opensearch = container.find('[data-action="opensearch"]');
     var input = container.find('[data-region="input"]');
@@ -2014,23 +1895,24 @@ function(
     $,
     Popover
 ) {
-    var toggle = $('#message-drawer-toggle-61915f940649e61915f940436d7');
+    var toggle = $('#message-drawer-toggle-61928cd91d75361928cd91b2887');
     Popover.init(toggle);
 });
 ;
+M.util.js_pending('core_message/message_user_button'); require(['core_message/message_user_button'], function(amd) {amd.send("#message-user-button"); M.util.js_complete('core_message/message_user_button');});;
 
 require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
-    var root = $('#message-drawer-61915f94079d361915f940436d16');
-    MessageDrawer.init(root, '61915f94079d361915f940436d16', false);
+    var root = $('#message-drawer-61928cd91ec9361928cd91b28816');
+    MessageDrawer.init(root, '61928cd91ec9361928cd91b28816', false);
 });
 ;
 
 require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
-    CustomEvents.define('#single_select61915f940436d18', [CustomEvents.events.accessibleChange]);
-    $('#single_select61915f940436d18').on(CustomEvents.events.accessibleChange, function() {
+    CustomEvents.define('#single_select61928cd91b28818', [CustomEvents.events.accessibleChange]);
+    $('#single_select61928cd91b28818').on(CustomEvents.events.accessibleChange, function() {
         var ignore = $(this).find(':selected').attr('data-ignore');
         if (typeof ignore === typeof undefined) {
-            $('#single_select_f61915f940436d17').submit();
+            $('#single_select_f61928cd91b28817').submit();
         }
     });
 });
@@ -2048,57 +1930,54 @@ require(['theme_boost/drawer'], function(drawer) {
 });
 ;
 
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
+require(['theme_boost/form-display-errors'], function(module) {
+    module.enhance("id_areabytes_qZMlYCUe6rt0BT4");
+});
+;
+M.util.js_pending('core/checkbox-toggleall'); require(['core/checkbox-toggleall'], function(amd) {amd.init(); M.util.js_complete('core/checkbox-toggleall');});;
+
+require(['theme_boost/form-display-errors'], function(module) {
+    module.enhance("id_files_filemanager_OTChtjl0lLWsIIZ");
 });
 ;
 
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
+(function() {
+    var label = document.getElementById('id_files_filemanager_OTChtjl0lLWsIIZ_label');
+    if (label) {
+        label.style.cursor = 'default';
+        label.addEventListener('click', function() {
+            document.querySelectorAll('#id_files_filemanager_OTChtjl0lLWsIIZ_fieldset div.fp-toolbar a')[0].focus();
+        });
+    }
+})();
+;
+
+require(['theme_boost/form-display-errors'], function(module) {
+    module.enhance("id_submitbutton_BGppKKv861DEKn0");
 });
 ;
 
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
+        require(['core_form/submit'], function(Submit) {
+            Submit.init("id_submitbutton_BGppKKv861DEKn0");
+        });
 ;
-
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
-;
-
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
-;
-
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
-;
-
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
-;
-
-require(['core_course/manual_completion_toggle'], toggle => {
-    toggle.init()
-});
-;
-M.util.js_pending('core_course/view'); require(['core_course/view'], function(amd) {amd.init(); M.util.js_complete('core_course/view');});;
-M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(43, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core_user/private_files'); require(['core_user/private_files'], function(amd) {amd.initDynamicForm("#userfilesform", "core_user\\form\\private_files"); M.util.js_complete('core_user/private_files');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(411, []); M.util.js_complete('core/notification');});;
 M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
 M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});
     M.util.js_complete("core/first");
 });
 //]]>
 </script>
-<script src="https://school.moodledemo.net/lib/javascript.php/1636912874/course/format/weeks/format.js"></script>
 <script>
 //<![CDATA[
-M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+M.yui.add_module({"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636988471\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_dndupload":{"name":"core_dndupload","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636988471\/lib\/form\/dndupload.js","requires":["node","event","json","core_filepicker"]},"form_filemanager":{"name":"form_filemanager","fullpath":"https:\/\/school.moodledemo.net\/lib\/javascript.php\/1636988471\/lib\/form\/filemanager.js","requires":["moodle-core-notification-dialogue","core_filepicker","base","io-base","node","json","core_dndupload","panel","resize-plugin","dd-plugin"]}});
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","changesmadereallygoaway":"You have made changes. Are you sure you want to navigate away and lose your changes?","edit":"Edit","selectall":"Select all","deselectall":"Deselect all","uploadformlimit":"Uploaded file {$a} exceeded the maximum size limit set by the form","droptoupload":"Drop files here to upload","maxfilesreached":"You are allowed to attach a maximum of {$a} file(s) to this item","dndenabled_inbox":"You can drag and drop files here to add them.","fileexists":"There is already a file called {$a}","sizegb":"GB","sizemb":"MB","sizekb":"KB","sizeb":"bytes","maxareabytesreached":"The file (or the total size of several files) is larger than the space remaining in this area.","complete":"Complete","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select","confirmdeletefile":"Are you sure you want to delete this file?","draftareanofiles":"Cannot be downloaded because there is no files attached","entername":"Please enter folder name","enternewname":"Please enter the new file name","popupblockeddownload":"The downloading window is blocked, please allow the popup window, and try again.","unknownoriginal":"Unknown","confirmdeletefolder":"Are you sure you want to delete this folder? All files and subfolders will be deleted.","confirmdeletefilewithhref":"Are you sure you want to delete this file? There are {$a} links to this file. If you proceed then locations which currently link to the file will be automatically updated to use a copy of the file instead.","confirmrenamefolder":"Are you sure you want to move\/rename this folder? Any locations which currently link to files in this folder will be automatically updated to use copies of the file instead.","confirmrenamefile":"Are you sure you want to rename\/move this file?","newfolder":"New folder","originalextensionchange":"The original file extension has been modified as a part of the file name change. Changing the extension from \".{$a->originalextension}\" to \".{$a->newextension}\" may result in a file which cannot be opened.","originalextensionremove":"The original file extension has been removed as a part of the file name change. Removing the extension \".{$a}\" is likely to result in a file which cannot be opened.","aliaseschange":"There are {$a} links to this file. If you proceed then locations which currently link to the file will be automatically updated to use a copy of the file instead.","nofilesselected":"No files selected","confirmdeleteselectedfile":"Are you sure you want to delete the selected {$a} file(s)?"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"form":{"selectallornone":"Select all\/none"},"error":{"maxbytesfile":"The file {$a->file} is too large. The maximum size you can upload is {$a->size}.","serverconnection":"Error connecting to the server"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
 //]]>
 </script>
 <script>
@@ -2108,10 +1987,16 @@ M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error",
 Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
 });
 M.util.help_popups.setup(Y);
- M.util.js_pending('random61915f940436d19'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random61915f940436d19'); });
+Y.use("moodle-core-formchangechecker",function() {M.core_formchangechecker.init({"formid":"mform1_8qDQESe9NyPMPHB","initialdirtystate":false});
+});
+ M.util.js_pending('random61928cd91b28821'); Y.on('domready', function() {  M.util.js_pending('random61928cd91b28821'); Y.use('core_filepicker', function(Y) { M.core_filepicker.set_templates(Y, {"generallayout":"<div class=\"container\">\n    <div tabindex=\"0\" class=\"file-picker fp-generallayout row\" role=\"dialog\" aria-live=\"assertive\">\n        <div class=\"fp-repo-area col-md-3 pr-2 nav nav-pills flex-column\" role=\"tablist\">\n                <div class=\"fp-repo nav-item\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">\n                    <a href=\"#\" class=\"nav-link\" tabindex=\"-1\"><img class=\"fp-repo-icon\" alt=\" \" width=\"16\" height=\"16\" \/>&nbsp;<span class=\"fp-repo-name\"><\/span><\/a>\n                <\/div>\n\n        <\/div>\n        <div class=\"col-md-9 p-0\">\n            <div class=\"fp-repo-items\" tabindex=\"0\">\n                <div class=\"fp-navbar bg-faded card mb-0 clearfix icon-no-spacing\">\n                    <div>\n                        <div class=\"fp-toolbar\">\n                            <div class=\"fp-tb-back\">\n                                <a href=\"#\" class=\"btn btn-secondary btn-sm\">Back<\/a>\n                            <\/div>\n                            <div class=\"fp-tb-search\">\n                                <form><\/form>\n                            <\/div>\n                            <div class=\"fp-tb-refresh\">\n                                <a title=\"Refresh\" class=\"btn btn-secondary btn-sm\" href=\"#\">\n                                    <i class=\"icon fa fa-refresh fa-fw \" aria-hidden=\"true\"  ><\/i>\n                                <\/a>\n                            <\/div>\n                            <div class=\"fp-tb-logout\">\n                                <a title=\"Logout\" class=\"btn btn-secondary btn-sm\" href=\"#\">\n                                    <i class=\"icon fa fa-sign-out fa-fw \" aria-hidden=\"true\"  ><\/i>\n                                <\/a>\n                            <\/div>\n                            <div class=\"fp-tb-manage\">\n                                <a title=\"Manage\" class=\"btn btn-secondary btn-sm\" href=\"#\">\n                                    <i class=\"icon fa fa-cog fa-fw \" aria-hidden=\"true\"  ><\/i>\n                                <\/a>\n                            <\/div>\n                            <div class=\"fp-tb-help\">\n                                <a title=\"Help\" class=\"btn btn-secondary btn-sm\" href=\"#\">\n                                    <i class=\"icon fa fa-question-circle text-info fa-fw \" aria-hidden=\"true\"  ><\/i>\n                                <\/a>\n                            <\/div>\n                            <div class=\"fp-tb-message\"><\/div>\n                        <\/div>\n                        <div class=\"fp-viewbar btn-group float-sm-right\">\n                            <a role=\"button\" title=\"Display folder with file icons\" class=\"fp-vb-icons btn btn-secondary btn-sm\" href=\"#\">\n                                <i class=\"icon fa fa-th fa-fw \" aria-hidden=\"true\"  ><\/i>\n                            <\/a>\n                            <a role=\"button\" title=\"Display folder with file details\" class=\"fp-vb-details btn btn-secondary btn-sm\" href=\"#\">\n                                <i class=\"icon fa fa-list fa-fw \" aria-hidden=\"true\"  ><\/i>\n                            <\/a>\n                            <a role=\"button\" title=\"Display folder as file tree\" class=\"fp-vb-tree btn btn-secondary btn-sm\" href=\"#\">\n                                <i class=\"icon fa fa-folder fa-fw \" aria-hidden=\"true\"  ><\/i>\n                            <\/a>\n                        <\/div>\n                        <div class=\"fp-clear-left\"><\/div>\n                    <\/div>\n                    <div class=\"fp-pathbar\">\n                        <span class=\"fp-path-folder\"><a class=\"fp-path-folder-name aalink\" href=\"#\"><\/a><\/span>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-content card\"><\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>","iconfilename":"\n<a class=\"fp-file\" href=\"#\" >\n    <div style=\"position:relative;\">\n        <div class=\"fp-thumbnail\"><\/div>\n        <div class=\"fp-reficons1\"><\/div>\n        <div class=\"fp-reficons2\"><\/div>\n    <\/div>\n    <div class=\"fp-filename-field\">\n        <p class=\"fp-filename text-truncate\"><\/p>\n    <\/div>\n<\/a>","listfilename":"\n<span class=\"fp-filename-icon\">\n    <a href=\"#\">\n        <span class=\"fp-icon\"><\/span>\n        <span class=\"fp-filename\"><\/span>\n    <\/a>\n<\/span>","nextpage":"\n<div class=\"fp-nextpage\">\n    <div class=\"fp-nextpage-link\"><a href=\"#\">more<\/a><\/div>\n    <div class=\"fp-nextpage-loading\">\n        <i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i>\n    <\/div>\n<\/div>","selectlayout":"<div class=\"file-picker fp-select\">\n    <div class=\"fp-select-loading\">\n        <span class=\"sr-only\">Loading...<\/span>\n        <i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i>\n    <\/div>\n    <div class=\"container\">\n        <form>\n            <fieldset class=\"form-group row flex-column\">\n                <div class=\"form-check fp-linktype-2\">\n                    <label class=\"form-check-label\">\n                        <input class=\"form-check-input\" type=\"radio\">\n                        Make a copy of the file\n                    <\/label>\n                <\/div>\n                <div class=\"form-check fp-linktype-1\">\n                    <label class=\"form-check-label\">\n                        <input class=\"form-check-input\" type=\"radio\">\n                        Link to the external file\n                    <\/label>\n                <\/div>\n                <div class=\"form-check fp-linktype-4\">\n                    <label class=\"form-check-label\">\n                        <input class=\"form-check-input\" type=\"radio\">\n                        Link to the file\n                    <\/label>\n                <\/div>\n                <div class=\"form-check fp-linktype-8\">\n                    <label class=\"form-check-label\">\n                        <input class=\"form-check-input\" type=\"radio\">\n                        Create an access controlled link to the file\n                    <\/label>\n                <\/div>\n            <\/fieldset>\n            <div class=\"fp-saveas form-group row\">\n                <label class=\"col-form-label\">Save as<\/label>\n                <input class=\"form-control\" type=\"text\">\n            <\/div>\n            <div class=\"fp-setauthor form-group row\">\n                <label class=\"col-form-label\">Author<\/label>\n                <input class=\"form-control\" type=\"text\">\n            <\/div>\n            <div class=\"fp-setlicense form-group row\">\n                <div class=\"col-form-label form-control-label px-0 \">\n                    <label for=\"choose-license-61928cd925d7361928cd91b28819\">\n                        Choose licence\n                    <\/label>\n                    <a class=\"btn btn-link p-0\" role=\"button\"\n    data-container=\"body\" data-toggle=\"popover\"\n    data-placement=\"left\" data-content=\"&lt;p class=&quot;mb-1&quot;&gt;\n    Follow these links for further information on the available licence options:\n&lt;\/p&gt;\n&lt;ul&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/All_rights_reserved&quot; target=&quot;_blank&quot;&gt;All rights reserved&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/Public_domain&quot; target=&quot;_blank&quot;&gt;Public domain&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n&lt;\/ul&gt; \"\n    data-html=\"true\" tabindex=\"0\" data-trigger=\"focus\">\n  <i class=\"icon fa fa-question-circle text-info fa-fw \"  title=\"Help with Choose licence\" aria-label=\"Help with Choose licence\"><\/i>\n<\/a>\n\n                <\/div>\n                <div >\n                    <select id=\"choose-license-61928cd925d7361928cd91b28819\" class=\"form-control\"><\/select>\n                <\/div>\n            <\/div>\n            <div class=\"form-group row\">\n                <div class=\"fp-select-buttons\">\n                    <button class=\"fp-select-confirm btn-primary btn\">Select this file<\/button>\n                    <button class=\"fp-select-cancel btn-secondary btn\">Cancel<\/button>\n                <\/div>\n            <\/div>\n        <\/form>\n    <\/div>\n    <div class=\"fp-info clearfix\">\n        <hr>\n        <p class=\"fp-thumbnail\"><\/p>\n        <div class=\"fp-fileinfo\">\n            <div class=\"fp-datemodified\">Last modified<span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-datecreated\">Created<span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-size\">Size<span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-license\">Licence<span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-author\">Author<span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-dimensions\">Dimensions<span class=\"fp-value\" dir=\"ltr\"><\/span><\/div>\n        <\/div>\n    <\/div>\n<\/div>","uploadform":"<div class=\"fp-upload-form\">\n    <div class=\"fp-content-center\">\n        <form enctype=\"multipart\/form-data\" method=\"POST\" class=\"form\">\n            <div class=\"fp-formset\">\n                <div class=\"fp-file form-group\">\n                    <label>Attachment<\/label>\n                    <div class=\"px-3\">\n                        <input  type=\"file\"\/>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-saveas form-group\">\n                    <label>Save as<\/label>\n                    <input type=\"text\" class=\"form-control\"\/>\n                <\/div>\n                <div class=\"fp-setauthor form-group\">\n                    <label>Author<\/label>\n                    <input type=\"text\" class=\"form-control\"\/>\n                <\/div>\n                <div class=\"fp-setlicense form-group\">\n                    <div class=\"col-form-label form-control-label px-0 \">\n                        <label for=\"choose-license-61928cd92603c61928cd91b28820\">\n                            Choose licence\n                        <\/label>\n                        <a class=\"btn btn-link p-0\" role=\"button\"\n    data-container=\"body\" data-toggle=\"popover\"\n    data-placement=\"left\" data-content=\"&lt;p class=&quot;mb-1&quot;&gt;\n    Follow these links for further information on the available licence options:\n&lt;\/p&gt;\n&lt;ul&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/All_rights_reserved&quot; target=&quot;_blank&quot;&gt;All rights reserved&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/Public_domain&quot; target=&quot;_blank&quot;&gt;Public domain&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n&lt;\/ul&gt; \"\n    data-html=\"true\" tabindex=\"0\" data-trigger=\"focus\">\n  <i class=\"icon fa fa-question-circle text-info fa-fw \"  title=\"Help with Choose licence\" aria-label=\"Help with Choose licence\"><\/i>\n<\/a>\n\n                    <\/div>\n                    <div >\n                        <select id=\"choose-license-61928cd92603c61928cd91b28820\" class=\"form-control\"><\/select>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/form>\n        <div class=\"mdl-align\">\n            <button class=\"fp-upload-btn btn-primary btn\">Upload this file<\/button>\n        <\/div>\n    <\/div>\n<\/div>","loading":"\n<div class=\"fp-content-loading\">\n    <div class=\"fp-content-center\">\n        <i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i>\n    <\/div>\n<\/div>","error":"\n<div class=\"fp-content-error\" ><div class=\"fp-error\"><\/div><\/div>","message":"\n<div class=\"file-picker fp-msg\" role=\"alertdialog\" aria-live=\"assertive\" aria-labelledby=\"fp-msg-labelledby\">\n    <p class=\"fp-msg-text\" id=\"fp-msg-labelledby\"><\/p>\n    <button class=\"fp-msg-butok btn-primary btn\">OK<\/button>\n<\/div>","processexistingfile":"<div class=\"file-picker fp-dlg\">\n    <p class=\"fp-dlg-text\"><\/p>\n    <div class=\"fp-dlg-buttons\">\n        <button class=\"fp-dlg-butoverwrite btn btn-primary mb-1\">Overwrite<\/button>\n        <button class=\"fp-dlg-butrename btn btn-primary mb-1\"><\/button>\n        <button class=\"fp-dlg-butcancel btn btn-secondary mb-1\">Cancel<\/button>\n    <\/div>\n<\/div>","processexistingfilemultiple":"<div class=\"file-picker fp-dlg\">\n    <p class=\"fp-dlg-text\"><\/p>\n    <a class=\"fp-dlg-butoverwrite btn btn-primary\" href=\"#\">Overwrite<\/a>\n    <a class=\"fp-dlg-butrename btn btn-primary\" href=\"#\"><\/a>\n    <a class=\"fp-dlg-butcancel btn btn-secondary\" href=\"#\">Cancel<\/a>\n    <br\/>\n    <a class=\"fp-dlg-butoverwriteall btn btn-primary\" href=\"#\">Overwrite all<\/a>\n    <a class=\"fp-dlg-butrenameall btn btn-primary\" href=\"#\">Rename all<\/a>\n<\/div>","loginform":"<div class=\"fp-login-form\">\n    <div class=\"fp-content-center\">\n        <form class=\"form\">\n            <div class=\"fp-formset\">\n                <div class=\"fp-login-popup form-group\">\n                    <div class=\"fp-popup\">\n                        <p class=\"mdl-align\">\n                            <button class=\"fp-login-popup-but btn-primary btn\">Log in to your account<\/button>\n                        <\/p>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-login-textarea form-group\">\n                    <textarea class=\"form-control\"><\/textarea>\n                <\/div>\n                <div class=\"fp-login-select form-group\">\n                    <label class=\"form-control-label\"><\/label>\n                    <select class=\"custom-select\"><\/select>\n                <\/div>\n                <div class=\"fp-login-input form-group\">\n                    <label class=\"form-control-label\"><\/label>\n                    <input class=\"form-control\"\/>\n                <\/div>\n                <div class=\"fp-login-radiogroup form-group\">\n                    <label class=\"form-control-label\"><\/label>\n                    <div class=\"fp-login-radio\"><input class=\"form-control\" \/> <label><\/label><\/div>\n                <\/div>\n                <div class=\"fp-login-checkbox form-group form-inline\">\n                    <label class=\"form-control-label\"><\/label>\n                    <input class=\"form-control\"\/>\n                <\/div>\n            <\/div>\n            <p class=\"mdl-align\"><button class=\"fp-login-submit btn-primary btn\">Submit<\/button><\/p>\n        <\/form>\n    <\/div>\n<\/div>"});  M.util.js_complete('random61928cd91b28821'); });  M.util.js_complete('random61928cd91b28821'); });
+ M.util.js_pending('random61928cd91b28823'); Y.on('domready', function() {  M.util.js_pending('random61928cd91b28823'); Y.use('form_filemanager', function(Y) { M.form_filemanager.set_templates(Y, {"iconfilename":"\n<div class=\"fp-file\">\n    <a href=\"#\" class=\"d-block aabtn\">\n    <div style=\"position:relative;\">\n        <div class=\"fp-thumbnail\"><\/div>\n        <div class=\"fp-reficons1\"><\/div>\n        <div class=\"fp-reficons2\"><\/div>\n    <\/div>\n    <div class=\"fp-filename-field\">\n        <div class=\"fp-filename text-truncate\"><\/div>\n    <\/div>\n    <\/a>\n    <a class=\"fp-contextmenu btn btn-icon btn-light border icon-no-margin icon-size-3\" href=\"#\">\n        <span><i class=\"icon fa fa-ellipsis-v fa-fw \"  title=\"\u25b6\" aria-label=\"\u25b6\"><\/i><\/span><\/a>\n<\/div>","listfilename":"\n<span class=\"fp-filename-icon\">\n    <a href=\"#\">\n    <span class=\"fp-icon\"><\/span>\n    <span class=\"fp-reficons1\"><\/span>\n    <span class=\"fp-reficons2\"><\/span>\n    <span class=\"fp-filename\"><\/span>\n    <\/a>\n    <a class=\"fp-contextmenu\" href=\"#\" onclick=\"return false;\"><i class=\"icon fa fa-ellipsis-v fa-fw \"  title=\"\u25b6\" aria-label=\"\u25b6\"><\/i><\/a>\n<\/span>","mkdir":"\n<div class=\"filemanager fp-mkdir-dlg\" role=\"dialog\" aria-live=\"assertive\" aria-labelledby=\"fp-mkdir-dlg-title\">\n    <div class=\"fp-mkdir-dlg-text\">\n        <label id=\"fp-mkdir-dlg-title\">New folder name<\/label><br\/>\n        <input type=\"text\" class=\"form-control\"\/>\n    <\/div>\n    <button class=\"fp-dlg-butcreate btn-primary btn\">Create folder<\/button>\n    <button class=\"fp-dlg-butcancel btn-cancel btn\">Cancel<\/button>\n<\/div>","message":"\n<div class=\"file-picker fp-msg\" role=\"alertdialog\" aria-live=\"assertive\" aria-labelledby=\"fp-msg-labelledby\">\n    <p class=\"fp-msg-text\" id=\"fp-msg-labelledby\"><\/p>\n    <button class=\"fp-msg-butok btn-primary btn\">OK<\/button>\n<\/div>","fileselectlayout":"<div class=\"filemanager fp-select\">\n    <div class=\"fp-select-loading\">\n        <i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i>\n    <\/div>\n    <form class=\"mform clearfix\">\n        <div class=\"form-group mx-0\">\n            <button class=\"fp-file-download btn btn-secondary\">Download<\/button>\n            <button class=\"fp-file-delete btn btn-secondary\">Delete<\/button>\n            <button class=\"fp-file-setmain btn btn-secondary\">Set main file<\/button>\n            <span class=\"fp-file-setmain-help\"><a class=\"btn btn-link p-0\" role=\"button\"\n    data-container=\"body\" data-toggle=\"popover\"\n    data-placement=\"right\" data-content=\"&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;If there are multiple files in the folder, the main file is the one that appears on the view page. Other files such as images or videos may be embedded in it. In filemanager the main file is indicated with a title in bold.&lt;\/p&gt;\n&lt;\/div&gt; \"\n    data-html=\"true\" tabindex=\"0\" data-trigger=\"focus\">\n  <i class=\"icon fa fa-question-circle text-info fa-fw \"  title=\"Help with Set main file\" aria-label=\"Help with Set main file\"><\/i>\n<\/a><\/span>\n            <button class=\"fp-file-zip btn btn-secondary\">Zip<\/button>\n            <button class=\"fp-file-unzip btn btn-secondary\">Unzip<\/button>\n        <\/div>\n\n                <div class=\"fp-saveas form-group row mx-0\">\n                    <label class=\"form-control-label col-4 px-0\">Name<\/label>\n                    <div class=\"col-8 form-inline\"><input class=\"form-control\" type=\"text\"\/><\/div>\n                <\/div>\n                <div class=\"fp-author form-group row mx-0\">\n                    <label class=\"form-control-label col-4 px-0\">Author<\/label>\n                    <div class=\"col-8 form-inline\"><input class=\"form-control\" type=\"text\"\/><\/div>\n\n                <\/div>\n                <div class=\"fp-license form-group row mx-0\">\n                    <div class=\"col-form-label form-control-label px-0 col-4\">\n                        <label for=\"choose-license-61928cd926e6861928cd91b28822\">\n                            Choose licence\n                        <\/label>\n                        <a class=\"btn btn-link p-0\" role=\"button\"\n    data-container=\"body\" data-toggle=\"popover\"\n    data-placement=\"left\" data-content=\"&lt;p class=&quot;mb-1&quot;&gt;\n    Follow these links for further information on the available licence options:\n&lt;\/p&gt;\n&lt;ul&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/All_rights_reserved&quot; target=&quot;_blank&quot;&gt;All rights reserved&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/en.wikipedia.org\/wiki\/Public_domain&quot; target=&quot;_blank&quot;&gt;Public domain&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-nd\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial NoDerivs&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - No Commercial ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n    &lt;li&gt;\n        &lt;a href=&quot;https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/&quot; target=&quot;_blank&quot;&gt;Creative Commons - ShareAlike&lt;\/a&gt;\n    &lt;\/li&gt;\n&lt;\/ul&gt; \"\n    data-html=\"true\" tabindex=\"0\" data-trigger=\"focus\">\n  <i class=\"icon fa fa-question-circle text-info fa-fw \"  title=\"Help with Choose licence\" aria-label=\"Help with Choose licence\"><\/i>\n<\/a>\n\n                    <\/div>\n                    <div class=\"col-8\">\n                        <select id=\"choose-license-61928cd926e6861928cd91b28822\" class=\"form-control\"><\/select>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-path form-group row mx-0\">\n                    <label class=\"form-control-label col-4 px-0\">Path<\/label>\n                    <div class=\"col-8 form-inline pr-0\">\n                        <select class=\"custom-select form-control\"><\/select>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-original form-group row mx-0\">\n                    <div class=\"form-control-label col-4 px-0\">Original<\/div>\n                    <div class=\"col-8 form-inline\">\n                        <span class=\"fp-originloading\"><i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i> Loading...<\/span><span class=\"fp-value\"><\/span>\n                    <\/div>\n                <\/div>\n                <div class=\"fp-reflist form-group row mx-0\">\n                    <div class=\"form-control-label col-4 px-0\">Links<\/div>\n                    <div class=\"col-8 form-inline\">\n                        <p class=\"fp-refcount\"><\/p>\n                        <span class=\"fp-reflistloading\"><i class=\"icon fa fa-circle-o-notch fa-spin fa-fw \" aria-hidden=\"true\"  ><\/i> Loading...<\/span>\n                        <ul class=\"fp-value\"><\/ul>\n                    <\/div>\n                <\/div>\n        <div class=\"fp-select-buttons form-group\">\n            <button class=\"fp-file-update btn-primary btn\">Update<\/button>\n            <button class=\"fp-file-cancel btn-secondary btn\">Cancel<\/button>\n        <\/div>\n    <\/form>\n    <div class=\"fp-info clearfix\">\n        <hr>\n        <p class=\"fp-thumbnail\"><\/p>\n        <div class=\"fp-fileinfo\">\n            <div class=\"fp-datemodified\">Last modified <span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-datecreated\">Created <span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-size\">Size <span class=\"fp-value\"><\/span><\/div>\n            <div class=\"fp-dimensions\">Dimensions <span class=\"fp-value\"><\/span><\/div>\n        <\/div>\n    <\/div>\n<\/div>","confirmdialog":"<div class=\"filemanager fp-dlg\">\n    <p class=\"fp-dlg-text\"><\/p>\n    <button class=\"fp-dlg-butconfirm btn-primary btn\">OK<\/button>\n    <button class=\"fp-dlg-butcancel btn-secondary btn\">Cancel<\/button>\n<\/div>"});  M.util.js_complete('random61928cd91b28823'); });  M.util.js_complete('random61928cd91b28823'); });
+ M.util.js_pending('random61928cd91b28824'); Y.on('domready', function() {  M.util.js_pending('random61928cd91b28824'); Y.use('form_filemanager', function(Y) { M.form_filemanager.init(Y, {"path":[{"name":"Files","path":"\/"}],"itemid":86649711,"list":[{"filename":".","filepath":"\/MyPictures\/","fullname":"MyPictures","size":null,"filesize":0,"sortorder":"0","author":null,"license":null,"datemodified":"1410957192","datecreated":"1410957181","isref":false,"refcount":0,"icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/core\/1636988471\/f\/folder-24","type":"folder","thumbnail":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/core\/1636988471\/f\/folder-64"},{"filename":"My essay notes.odt","filepath":"\/","fullname":"My essay notes.odt","size":"9951","filesize":"9.7KB","sortorder":"0","author":"Barbara Gardner","license":"cc","datemodified":"1410957345","datecreated":"1410957329","isref":false,"refcount":0,"mimetype":"OpenDocument Text document","type":"file","url":"https:\/\/school.moodledemo.net\/draftfile.php\/411\/user\/draft\/86649711\/My%20essay%20notes.odt","icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/core\/1636988471\/f\/writer-24","thumbnail":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/core\/1636988471\/f\/writer-80","status":0}],"filecount":2,"mainfile":"","maxbytes":"104857600","maxfiles":-1,"client_id":"61928cd923f50","subdirs":1,"target":"id_files_filemanager_OTChtjl0lLWsIIZ","accepted_types":"*","return_types":14,"context":{"id":411,"contextlevel":30,"instanceid":"56","path":"\/1\/411","depth":"2","locked":false},"areamaxbytes":"104857600","author":"Barbara Gardner","licenses":{"unknown":{"id":"1","shortname":"unknown","fullname":"Licence not specified","source":"","enabled":"1","version":"2010033100","custom":"0","sortorder":"1"},"allrightsreserved":{"id":"2","shortname":"allrightsreserved","fullname":"All rights reserved","source":"https:\/\/en.wikipedia.org\/wiki\/All_rights_reserved","enabled":"1","version":"2010033100","custom":"0","sortorder":"2"},"public":{"id":"3","shortname":"public","fullname":"Public domain","source":"https:\/\/en.wikipedia.org\/wiki\/Public_domain","enabled":"1","version":"2010033100","custom":"0","sortorder":"3"},"cc":{"id":"4","shortname":"cc","fullname":"Creative Commons","source":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"4"},"cc-nd":{"id":"5","shortname":"cc-nd","fullname":"Creative Commons - NoDerivs","source":"https:\/\/creativecommons.org\/licenses\/by-nd\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"5"},"cc-nc-nd":{"id":"6","shortname":"cc-nc-nd","fullname":"Creative Commons - No Commercial NoDerivs","source":"https:\/\/creativecommons.org\/licenses\/by-nc-nd\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"6"},"cc-nc":{"id":"7","shortname":"cc-nc","fullname":"Creative Commons - No Commercial","source":"https:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"7"},"cc-nc-sa":{"id":"8","shortname":"cc-nc-sa","fullname":"Creative Commons - No Commercial ShareAlike","source":"https:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"8"},"cc-sa":{"id":"9","shortname":"cc-sa","fullname":"Creative Commons - ShareAlike","source":"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"9"}},"defaultlicense":"allrightsreserved","userprefs":{"recentviewmode":"3"},"filepicker":{"defaultlicense":"allrightsreserved","licenses":{"unknown":{"id":"1","shortname":"unknown","fullname":"Licence not specified","source":"","enabled":"1","version":"2010033100","custom":"0","sortorder":"1"},"allrightsreserved":{"id":"2","shortname":"allrightsreserved","fullname":"All rights reserved","source":"https:\/\/en.wikipedia.org\/wiki\/All_rights_reserved","enabled":"1","version":"2010033100","custom":"0","sortorder":"2"},"public":{"id":"3","shortname":"public","fullname":"Public domain","source":"https:\/\/en.wikipedia.org\/wiki\/Public_domain","enabled":"1","version":"2010033100","custom":"0","sortorder":"3"},"cc":{"id":"4","shortname":"cc","fullname":"Creative Commons","source":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"4"},"cc-nd":{"id":"5","shortname":"cc-nd","fullname":"Creative Commons - NoDerivs","source":"https:\/\/creativecommons.org\/licenses\/by-nd\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"5"},"cc-nc-nd":{"id":"6","shortname":"cc-nc-nd","fullname":"Creative Commons - No Commercial NoDerivs","source":"https:\/\/creativecommons.org\/licenses\/by-nc-nd\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"6"},"cc-nc":{"id":"7","shortname":"cc-nc","fullname":"Creative Commons - No Commercial","source":"https:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"7"},"cc-nc-sa":{"id":"8","shortname":"cc-nc-sa","fullname":"Creative Commons - No Commercial ShareAlike","source":"https:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"8"},"cc-sa":{"id":"9","shortname":"cc-sa","fullname":"Creative Commons - ShareAlike","source":"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/","enabled":"1","version":"2010033100","custom":"0","sortorder":"9"}},"author":"Barbara Gardner","repositories":{"3":{"id":"3","name":"Recent files","type":"recent","icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/repository_recent\/1636988471\/icon","supported_types":[],"return_types":2,"defaultreturntype":2,"sortorder":3},"4":{"id":"4","name":"Upload a file","type":"upload","icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/repository_upload\/1636988471\/icon","supported_types":[],"return_types":2,"defaultreturntype":2,"sortorder":4},"6":{"id":"6","name":"Private files","type":"user","icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/repository_user\/1636988471\/icon","supported_types":[],"return_types":6,"defaultreturntype":2,"sortorder":5},"7":{"id":"7","name":"Wikimedia","type":"wikimedia","icon":"https:\/\/school.moodledemo.net\/theme\/image.php\/boost\/repository_wikimedia\/1636988471\/icon","supported_types":[],"return_types":3,"defaultreturntype":2,"sortorder":6}},"externallink":true,"rememberuserlicensepref":true,"userprefs":{"recentrepository":"7","recentlicense":"cc","recentviewmode":""},"accepted_types":[],"return_types":14}});  M.util.js_complete('random61928cd91b28824'); });  M.util.js_complete('random61928cd91b28824'); });
+ M.util.js_pending('random61928cd91b28825'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random61928cd91b28825'); });
 })();
 //]]>
 </script>
+
 
 </div>
 

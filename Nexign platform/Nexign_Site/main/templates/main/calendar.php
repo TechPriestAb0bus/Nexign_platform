@@ -21,6 +21,14 @@ M.yui.loader = {modules: {}};
 </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+        background: #c7b39b url(static/img/fon.jpg); /* Цвет фона и путь к файлу */
+        background-size: 100% 100%;
+    }
+    </style>
+
 </head>
 <body  id="page-calendar-view" class="format-site  path-calendar chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam school-moodledemo-net pagelayout-standard course-1 context-1 drawer-open-left">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
@@ -43,15 +51,16 @@ document.body.className += ' jsenabled';
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
     
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="https://school.moodledemo.net" class="navbar-brand aabtn 
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
             </a>
     
+
             <ul class="navbar-nav d-none d-md-flex">
                 <!-- custom_menu -->
                 <!-- page_heading_menu -->
@@ -86,7 +95,7 @@ document.body.className += ' jsenabled';
                     </a>
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-submit" data-action="submit">
-                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                        <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
                         <span class="sr-only">Search</span>
                     </button>
                 </div>
@@ -102,7 +111,7 @@ document.body.className += ' jsenabled';
         aria-expanded="false"
         aria-controls="searchform-navbar"
     >
-        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+        <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
         <span class="sr-only">Toggle search input</span>
     </a>
 </div>
@@ -120,7 +129,7 @@ document.body.className += ' jsenabled';
         aria-haspopup="true"
         aria-label="Show notification window with no new notifications"
         tabindex="0">
-                <i class="icon fa fa-bell fa-fw "  title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+                <img src="https://img.icons8.com/material/24/000000/appointment-reminders.png"/>
         <div class="count-container hidden" data-region="count-container"
         aria-label="There are 0 unread notifications">0</div>
 
@@ -164,17 +173,11 @@ document.body.className += ' jsenabled';
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </div>
-                <a class="see-all-link"
-                    href="https://school.moodledemo.net/message/output/popup/notifications.php">
-                    <div class="popover-region-footer-container">
-                        <div class="popover-region-seeall-text">Посмотреть все</div>
-                    </div>
-                </a>
     </div>
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-619123c98cf40619123c97f9b49" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
             role="button">
-        <i class="icon fa fa-comment fa-fw "  title="Toggle messaging drawer" aria-label="Toggle messaging drawer"></i>
+        <img src="https://img.icons8.com/material/24/000000/duplicate-contacts.png"/>
         <div class="count-container " data-region="count-container"
         aria-label="There are 1 unread conversations">1</div>
     </a>
@@ -193,34 +196,34 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://school.moodledemo.net/pluginfile.php/411/user/icon/boost/f2?rev=2472" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
                         </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://school.moodledemo.net/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="index.html" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/user/profile.php?id=56" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
                                 <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-2">Профиль</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
                                 <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-3">Прогресс</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
-                                <i class="icon fa fa-comment fa-fw " aria-hidden="true"  ></i>
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                <img src="https://img.icons8.com/material/24/000000/duplicate-contacts.png"/>
                                 <span class="menu-action-text" id="actionmenuaction-4">Сообщения</span>
                         </a>
-                                                                <a href="https://school.moodledemo.net/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                                <a class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
                                 <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="https://school.moodledemo.net/login/logout.php?sesskey=GJfBUcrDAI" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -239,52 +242,39 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Site">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/home--v5.png"/>
                                         </span>
-                                    <span class="media-body ">Главная</span>
+                                    <span class="media-body "><big>Главная</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/calendar--v1.png"/>
                                         </span>
-                                    <span class="media-body ">Site home</span>
+                                    <span class="media-body font-weight-bold"><big>Календарь</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="http://nexign.ultimatefreehost.in/calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="feedback.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/>
                                         </span>
-                                    <span class="media-body font-weight-bold">Календарь</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="https://school.moodledemo.net/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
-                            <div class="ml-0">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Обратная связь</span>
+                                    <span class="media-body "><big>Обратная связь</big></span>
                                 </div>
                             </div>
                         </a>
@@ -295,78 +285,53 @@ document.body.className += ' jsenabled';
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/learning.png"/>
                                         </span>
-                                    <span class="media-body">Обучение</span>
+                                    <span class="media-body"><big>Обучение</big></span>
                                 </div>
                             </div>
                         </div>
                     </li>
 
 <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="provided_material.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/books-1.png"/>
                                         </span>
-                                    <span class="media-body ">Предоставляемые материалы</span>
+                                    <span class="media-body "><big>Предоставляемые материалы</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="video.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/video.png"/>
                                         </span>
-                                    <span class="media-body ">Видеолекции</span>
+                                    <span class="media-body "><big>Видеолекции</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                        <a class="list-group-item list-group-item-action  " href="exercises.php" data-key="59" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
                             <div class="ml-1">
                                 <div class="media">
                                         <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                            <img src="https://img.icons8.com/material/24/000000/tasks.png"/>
                                         </span>
-                                    <span class="media-body ">Практические занятия</span>
+                                    <span class="media-body "><big>Практические занятия</big></span>
                                 </div>
                             </div>
                         </a>
                     </li>
 
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/meet_up.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Meet up</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="list-group-item list-group-item-action  " href="http://nexign.ultimatefreehost.in/hackathon.php" data-key="6" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
-                            <div class="ml-1">
-                                <div class="media">
-                                        <span class="media-left">
-                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
-                                        </span>
-                                    <span class="media-body ">Конференции и хакатоны</span>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
 
             </ul>
         </nav>
@@ -392,13 +357,11 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/my/">Главная</a>
+                    <a href="index.html">Главная</a>
                 </li>
         
-                <li class="breadcrumb-item">Site pages</li>
-        
                 <li class="breadcrumb-item">
-                    <a href="https://school.moodledemo.net/calendar/view.php?view=month">Календарь</a>
+                    <a href="calendar.php">Календарь</a>
                 </li>
         
                 <li class="breadcrumb-item">Декабрь 2021</li>
@@ -445,16 +408,16 @@ document.body.className += ' jsenabled';
                 </li>
             </ul>
         </div>
-            <label class="sr-only" for="course">List of courses</label><select class="select custom-select cal_courses_flt ml-1 mr-auto" id="course" name="course"><option selected="selected" value="1">All courses</option><option value="66">Digital Literacy</option><option value="62">Psych Cine</option><option value="6">Cinema: Class &amp; Conflict</option><option value="63">Impressionists</option><option value="68">Votes for Women!</option><option value="59">Celebrating Cultures</option><option value="56">History: Russia Rev</option><option value="35">World of Water</option><option value="45">Where's Matt?</option><option value="67">English with H5P</option><option value="54">SSE1: Lake Poets</option><option value="61">Mystère à Hyères </option><option value="51">Moodle Mountain</option><option value="37">Types of Sport</option><option value="39">S-Chem</option><option value="46">Swiss Rolls and Sunflowers</option></select>
+            <label class="sr-only" for="course">List of courses</label><select class="select custom-select cal_courses_flt ml-1 mr-auto" id="course" name="course"><option selected="selected" value="1">Все курсы</option></select>
         <button class="btn btn-secondary float-sm-right float-right" data-context-id="2" data-action="new-event-button">
-            New event
+            Новое событие
         </button>
     </div>    <div class="calendarwrapper" data-courseid="1" data-context-id="2" data-month="12" data-year="2021" data-view="month" id="yui_3_17_2_1_1636902152241_1874">
 
 
     <div id="month-navigation-12" class="controls">
         <div class="calendar-controls">
-            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1635721200" class="arrow_link previous" title="Previous month" data-year="2021" data-month="11" data-drop-zone="nav-link">
+            <a class="arrow_link previous" title="Previous month" data-year="2021" data-month="11" data-drop-zone="nav-link">
                 <span class="arrow">◄</span>
                 &nbsp;
                 <span class="arrow_text">Ноябрь 2021</span>
@@ -462,7 +425,7 @@ document.body.className += ' jsenabled';
             <span class="hide"> | </span>
             <h2 class="current">Декабрь 2021</h2>
             <span class="hide"> | </span>
-            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1640991600" class="arrow_link next" title="Next month" data-year="2022" data-month="1" data-drop-zone="nav-link">
+            <a class="arrow_link next" title="Next month" data-year="2022" data-month="1" data-drop-zone="nav-link">
                 <span class="arrow_text">Январь 2022</span>
                 &nbsp;
                 <span class="arrow">►</span>
@@ -479,14 +442,6 @@ document.body.className += ' jsenabled';
     <table id="month-detailed-12" class="calendarmonth calendartable mb-0">
         <thead>
             <tr>
-                <th class="header text-xs-center">
-                    <span class="sr-only">Понедельник</span>
-                    <span aria-hidden="true">Mon</span>
-                </th>
-                <th class="header text-xs-center">
-                    <span class="sr-only">Вторник</span>
-                    <span aria-hidden="true">Tue</span>
-                </th>
                 <th class="header text-xs-center">
                     <span class="sr-only">Среда</span>
                     <span aria-hidden="true">Wed</span>
@@ -507,156 +462,64 @@ document.body.className += ' jsenabled';
                     <span class="sr-only">Воскресенье</span>
                     <span aria-hidden="true">Sun</span>
                 </th>
+                <th class="header text-xs-center">
+                    <span class="sr-only">Понедельник</span>
+                    <span aria-hidden="true">Mon</span>
+                </th>
+                <th class="header text-xs-center">
+                    <span class="sr-only">Вторник</span>
+                    <span aria-hidden="true">Tue</span>
             </tr>
         </thead>
 
 <tbody id="yui_3_17_2_1_1636912452493_456">
-                <tr data-region="month-view-week" id="yui_3_17_2_1_1636912452493_455">
-                        <td class="dayblank" id="yui_3_17_2_1_1636912452493_454">&nbsp;</td>
-                        <td class="dayblank">&nbsp;</td>
-                        <td class="dayblank">&nbsp;</td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638313200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638381203">
+                
+<tr data-region="month-view-week" id="yui_3_17_2_1_1637151786092_33">
+
+
+<td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640214000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640282003">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">1 event, Wednesday, 1 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Wednesday, 1 December events" data-year="2021" data-month="12" data-day="1" data-courseid="1" data-categoryid="0" data-timestamp="1638313200">1</a>
+                                <span class="sr-only">2 events, Thursday, 23 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">1</a>
                                     <div data-region="day-content">
                                         <ul>
-                                                <li data-region="event-item" data-event-component="" data-event-eventtype="user" data-eventtype-user="1" draggable="true" data-drag-type="move">
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="483" href="https://school.moodledemo.net/?redirect=0" title="Data">
-                                                        <span class="calendar-circle calendar_event_user">
-                                                            &nbsp;
-                                                        </span>
-                                                            <i class="icon fa fa-user fa-fw " title="User event" aria-label="User event"></i>
-                                                        <span class="eventname">Data</span>
+                                                    <a data-action="view-event" data-event-id="347" href="http://www.hrm.ua/data/image/hrmagazine/2007/12/24_1000.gif" title="Assignment: Languages of Love is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636905673/icon">
+                                                        <span class="eventname">Листы реагирования</span>
+                                                    </a>
+                                                </li>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="449" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="(Mobile assignment) View from your window is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Распределение наставников</span>
                                                     </a>
                                                 </li>
                                         </ul>
                                     </div>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">1 event, Wednesday, 1 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Wednesday, 1 December events" data-year="2021" data-month="12" data-day="1" data-courseid="1" data-categoryid="0" data-timestamp="1638313200">1</a>
+                                <span class="sr-only">2 events, Thursday, 23 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">1</a>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638399600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638467603" id="yui_3_17_2_1_1636912452493_466">
-                            <div class="d-none d-md-block hidden-phone text-xs-center" id="yui_3_17_2_1_1636912452493_465">
-                                <span class="sr-only">No events, Thursday, 2 December</span>
-                                    <span aria-hidden="true">2</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Thursday, 2 December</span>
-                                    <span aria-hidden="true">2</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638486000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638554003">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Friday, 3 December</span>
-                                    <span aria-hidden="true">3</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Friday, 3 December</span>
-                                    <span aria-hidden="true">3</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1638572400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638640403">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Saturday, 4 December</span>
-                                    <span aria-hidden="true">4</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Saturday, 4 December</span>
-                                    <span aria-hidden="true">4</span>
-                            </div>
-                        </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1638658800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638726803">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Sunday, 5 December</span>
-                                    <span aria-hidden="true">5</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Sunday, 5 December</span>
-                                    <span aria-hidden="true">5</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638745200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638813203">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Monday, 6 December</span>
-                                    <span aria-hidden="true">6</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Monday, 6 December</span>
-                                    <span aria-hidden="true">6</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638831600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638899603">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Tuesday, 7 December</span>
-                                    <span aria-hidden="true">7</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Tuesday, 7 December</span>
-                                    <span aria-hidden="true">7</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638918000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638986003">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Wednesday, 8 December</span>
-                                    <span aria-hidden="true">8</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Wednesday, 8 December</span>
-                                    <span aria-hidden="true">8</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639004400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639072403">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Thursday, 9 December</span>
-                                    <span aria-hidden="true">9</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Thursday, 9 December</span>
-                                    <span aria-hidden="true">9</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639090800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639158803">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Friday, 10 December</span>
-                                    <span aria-hidden="true">10</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Friday, 10 December</span>
-                                    <span aria-hidden="true">10</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639177200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639245203">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Saturday, 11 December</span>
-                                    <span aria-hidden="true">11</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Saturday, 11 December</span>
-                                    <span aria-hidden="true">11</span>
-                            </div>
-                        </td>
-                </tr>
-                <tr data-region="month-view-week" id="yui_3_17_2_1_1636912452493_1179">
+
+
                         <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">1 event, Sunday, 12 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">12</a>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">2</a>
                                     <div data-region="day-content">
                                         <ul>
                                                 <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="98" href="https://school.moodledemo.net/mod/assign/view.php?id=573" title="Assignment: Causes of the October 1917 Revolution is due">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
-                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
-                                                        <span class="eventname">Assignment: Causes of the October 1917 Revolution is due</span>
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
                                                     </a>
                                                 </li>
                                         </ul>
@@ -664,67 +527,131 @@ document.body.className += ' jsenabled';
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">1 event, Sunday, 12 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">12</a>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">2</a>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639350000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639418003">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Monday, 13 December</span>
-                                    <span aria-hidden="true">13</span>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1638831600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1638899603" id="yui_3_17_2_1_1637151786092_32">
+                            <div class="d-none d-md-block hidden-phone text-xs-center" id="yui_3_17_2_1_1637151786092_31">
+                                <span class="sr-only">No events, Tuesday, 4 December</span>
+                                    <span aria-hidden="true">3</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Monday, 13 December</span>
-                                    <span aria-hidden="true">13</span>
+                                <span class="sr-only">No events, Tuesday, 4 December</span>
+                                    <span aria-hidden="true">3</span>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639436400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639504403">
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">1 event, Tuesday, 14 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Tuesday, 14 December events" data-year="2021" data-month="12" data-day="14" data-courseid="1" data-categoryid="0" data-timestamp="1639436400">14</a>
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">4</a>
                                     <div data-region="day-content">
                                         <ul>
                                                 <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="459" href="https://school.moodledemo.net/mod/assign/view.php?id=715" title="Group Project is due">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
-                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
-                                                        <span class="eventname">Group Project is due</span>
+                                                    <a data-action="view-event" data-event-id="98" href="https://codenrock.com/blog/bcs-coding-days/" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Хакатон по разработке ПО</span>
                                                     </a>
                                                 </li>
                                         </ul>
                                     </div>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">1 event, Tuesday, 14 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Tuesday, 14 December events" data-year="2021" data-month="12" data-day="14" data-courseid="1" data-categoryid="0" data-timestamp="1639436400">14</a>
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">4</a>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639522800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639590803" id="yui_3_17_2_1_1636912452493_1178">
-                            <div class="d-none d-md-block hidden-phone text-xs-center" id="yui_3_17_2_1_1636912452493_1177">
-                                <span class="sr-only">No events, Wednesday, 15 December</span>
-                                    <span aria-hidden="true">15</span>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">5</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://codenrock.com/blog/bcs-coding-days/" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Хакатон по разработке ПО</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Wednesday, 15 December</span>
-                                    <span aria-hidden="true">15</span>
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">5</a>
                             </div>
                         </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">6</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">6</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">7</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
+                                                        <span class="eventname">Контроль знаний</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">7</a>
+                            </div>
+                        </td>
+
+
+                </tr>
+
+                <tr data-region="month-view-week">
+
+
                         <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639609200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639677203">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">1 event, Thursday, 16 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">16</a>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">8</a>
                                     <div data-region="day-content">
                                         <ul>
                                                 <li data-region="event-item" data-event-component="mod_quiz" data-event-eventtype="close" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="344" href="https://school.moodledemo.net/mod/quiz/view.php?id=574" title="Mid-Module Assessment closes">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
+                                                    <a data-action="view-event" data-event-id="344" href="https://i1.wp.com/www.hrm.ua/data/image/hrmagazine/2007/12/23_630.gif" title="Mid-Module Assessment closes">
                                                             <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636905673/icon">
-                                                        <span class="eventname">Mid-Module Assessment closes</span>
+                                                        <span class="eventname">Листы реагирования</span>
                                                     </a>
                                                 </li>
                                         </ul>
@@ -732,95 +659,162 @@ document.body.className += ' jsenabled';
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">1 event, Thursday, 16 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">16</a>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">8</a>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639695600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639763603">
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Friday, 17 December</span>
-                                    <span aria-hidden="true">17</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Friday, 17 December</span>
-                                    <span aria-hidden="true">17</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639782000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639850003">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Saturday, 18 December</span>
-                                    <span aria-hidden="true">18</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Saturday, 18 December</span>
-                                    <span aria-hidden="true">18</span>
-                            </div>
-                        </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639868400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639936403">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Sunday, 19 December</span>
-                                    <span aria-hidden="true">19</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Sunday, 19 December</span>
-                                    <span aria-hidden="true">19</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639954800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640022803">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Monday, 20 December</span>
-                                    <span aria-hidden="true">20</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Monday, 20 December</span>
-                                    <span aria-hidden="true">20</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640041200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640109203">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Tuesday, 21 December</span>
-                                    <span aria-hidden="true">21</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Tuesday, 21 December</span>
-                                    <span aria-hidden="true">21</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640127600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640195603">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Wednesday, 22 December</span>
-                                    <span aria-hidden="true">22</span>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Wednesday, 22 December</span>
-                                    <span aria-hidden="true">22</span>
-                            </div>
-                        </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640214000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640282003">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">2 events, Thursday, 23 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">23</a>
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">9</a>
                                     <div data-region="day-content">
                                         <ul>
                                                 <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="347" href="https://school.moodledemo.net/mod/assign/view.php?id=775" title="Assignment: Languages of Love is due">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">9</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">10</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://devternity.com" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Международная конференция по разработке ПО</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">10</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">11</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://devternity.com" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Международная конференция по разработке ПО</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">11</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639004400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639072403">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">No events, Thursday, 9 December</span>
+                                    <span aria-hidden="true">12</span>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">No events, Thursday, 9 December</span>
+                                    <span aria-hidden="true">12</span>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">13</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">13</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">14</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
                                                             <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
-                                                        <span class="eventname">Assignment: Languages of Love is due</span>
+                                                        <span class="eventname">Контроль знаний</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">14</a>
+                            </div>
+                        </td>
+
+
+                </tr>
+                <tr data-region="month-view-week" id="yui_3_17_2_1_1636912452493_1179">
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640214000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640282003">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">2 events, Thursday, 23 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">15</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="347" href="http://www.hrm.ua/data/image/hrmagazine/2007/12/24_1000.gif" title="Assignment: Languages of Love is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636905673/icon">
+                                                        <span class="eventname">Листы реагирования</span>
                                                     </a>
                                                 </li>
                                                 <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
     
-                                                    <a data-action="view-event" data-event-id="449" href="https://school.moodledemo.net/mod/assign/view.php?id=807" title="(Mobile assignment) View from your window is due">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
-                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
-                                                        <span class="eventname">(Mobile assignment) View from your window is due</span>
+                                                    <a data-action="view-event" data-event-id="449" href="https://smartgopro.com/godigital_2021/" title="(Mobile assignment) View from your window is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Онлайн-конференция по цифровой трансформации</span>
                                                     </a>
                                                 </li>
                                         </ul>
@@ -828,103 +822,346 @@ document.body.className += ' jsenabled';
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">2 events, Thursday, 23 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">23</a>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">15</a>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640300400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640368403">
+
+
+
+
+
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640214000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640282003">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Friday, 24 December</span>
+                                <span class="sr-only">2 events, Thursday, 23 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">16</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="347" href="https://smartgopro.com/godigital_2021/" title="Assignment: Languages of Love is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Онлайн-конференция по цифровой трансформации</span>
+                                                    </a>
+                                                </li>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="449" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="(Mobile assignment) View from your window is due">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">2 events, Thursday, 23 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 23 December events" data-year="2021" data-month="12" data-day="23" data-courseid="1" data-categoryid="0" data-timestamp="1640214000">16</a>
+                            </div>
+                        </td>
+
+
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">17</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://smartgopro.com/godigital_2021/" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/conf.png">
+                                                        <span class="eventname">Онлайн-конференция по цифровой трансформации</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">17</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639522800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639590803" id="yui_3_17_2_1_1636912452493_1178">
+                            <div class="d-none d-md-block hidden-phone text-xs-center" id="yui_3_17_2_1_1636912452493_1177">
+                                <span class="sr-only">No events, Wednesday, 15 December</span>
+                                    <span aria-hidden="true">18</span>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">No events, Wednesday, 15 December</span>
+                                    <span aria-hidden="true">18</span>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639954800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640022803">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">No events, Monday, 20 December</span>
+                                    <span aria-hidden="true">19</span>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">No events, Monday, 20 December</span>
+                                    <span aria-hidden="true">19</span>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">20</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">20</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">21</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
+                                                        <span class="eventname">Контроль знаний</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">21</a>
+                            </div>
+                        </td>
+
+
+                </tr>
+                <tr data-region="month-view-week">
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639609200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639677203">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Thursday, 16 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">22</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_quiz" data-event-eventtype="close" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="344" href="http://www.hrm.ua/data/image/hrmagazine/2007/12/24_1000.gif" title="Mid-Module Assessment closes">
+
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636905673/icon">
+                                                        <span class="eventname">Листы реагирования</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Thursday, 16 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Thursday, 16 December events" data-year="2021" data-month="12" data-day="16" data-courseid="1" data-categoryid="0" data-timestamp="1639609200">22</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">23</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">23</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640041200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640109203">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">No events, Tuesday, 21 December</span>
                                     <span aria-hidden="true">24</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Friday, 24 December</span>
+                                <span class="sr-only">No events, Tuesday, 21 December</span>
                                     <span aria-hidden="true">24</span>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1640386800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640454803">
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640127600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640195603">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">No events, Saturday, 25 December</span>
+                                <span class="sr-only">No events, Wednesday, 22 December</span>
                                     <span aria-hidden="true">25</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">No events, Saturday, 25 December</span>
+                                <span class="sr-only">No events, Wednesday, 22 December</span>
                                     <span aria-hidden="true">25</span>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1639954800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640022803">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">No events, Monday, 20 December</span>
+                                    <span aria-hidden="true">26</span>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">No events, Monday, 20 December</span>
+                                    <span aria-hidden="true">26</span>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">27</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="static/img/meet_up.png">
+                                                        <span class="eventname">Meet up</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">27</a>
+                            </div>
+                        </td>
+
+
+                        <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1639263600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1639331603">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">28</a>
+                                    <div data-region="day-content">
+                                        <ul>
+                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
+    
+                                                    <a data-action="view-event" data-event-id="98" href="https://timeweb.com/ru/community/article/67/67d62d1e0bc27de113cc0e25239705e2.png" title="Assignment: Causes of the October 1917 Revolution is due">
+                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
+                                                        <span class="eventname">Control project</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">1 event, Sunday, 12 December</span>
+                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Sunday, 12 December events" data-year="2021" data-month="12" data-day="12" data-courseid="1" data-categoryid="0" data-timestamp="1639263600">28</a>
                             </div>
                         </td>
                 </tr>
+
+
                 <tr data-region="month-view-week">
                         <td class="day text-sm-center text-md-left weekend clickable" data-day-timestamp="1640473200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640541203">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">No events, Sunday, 26 December</span>
-                                    <span aria-hidden="true">26</span>
+                                    <span aria-hidden="true">29</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">No events, Sunday, 26 December</span>
-                                    <span aria-hidden="true">26</span>
+                                    <span aria-hidden="true">29</span>
                             </div>
                         </td>
+
+
                         <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640559600" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640627603">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">No events, Monday, 27 December</span>
-                                    <span aria-hidden="true">27</span>
+                                    <span aria-hidden="true">30</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">No events, Monday, 27 December</span>
-                                    <span aria-hidden="true">27</span>
+                                    <span aria-hidden="true">30</span>
                             </div>
                         </td>
+
+
                         <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640646000" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640714003">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">No events, Tuesday, 28 December</span>
-                                    <span aria-hidden="true">28</span>
+                                    <span aria-hidden="true">31</span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">No events, Tuesday, 28 December</span>
-                                    <span aria-hidden="true">28</span>
+                                    <span aria-hidden="true">31</span>
                             </div>
                         </td>
-                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640732400" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640800403">
-                            <div class="d-none d-md-block hidden-phone text-xs-center">
-                                <span class="sr-only">1 event, Wednesday, 29 December</span>
-                                    <a data-action="view-day-link" href="#" class="aalink day" aria-label="Wednesday, 29 December events" data-year="2021" data-month="12" data-day="29" data-courseid="1" data-categoryid="0" data-timestamp="1640732400">29</a>
-                                    <div data-region="day-content">
-                                        <ul>
-                                                <li data-region="event-item" data-event-component="mod_assign" data-event-eventtype="due" data-eventtype-course="1">
-    
-                                                    <a data-action="view-event" data-event-id="89" href="https://school.moodledemo.net/mod/assign/view.php?id=652" title="Assignment: My dream destination is due">
-                                                        <span class="calendar-circle calendar_event_course">
-                                                            &nbsp;
-                                                        </span>
-                                                            <img class="icon " alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/assign/1636905673/icon">
-                                                        <span class="eventname">Assignment: My dream destination is due</span>
-                                                    </a>
-                                                </li>
-                                        </ul>
-                                    </div>
-                            </div>
-                            <div class="d-md-none hidden-desktop hidden-tablet">
-                                <span class="sr-only">1 event, Wednesday, 29 December</span>
-                                    <a data-action="view-day-link" href="#" class="day aalink" aria-label="Wednesday, 29 December events" data-year="2021" data-month="12" data-day="29" data-courseid="1" data-categoryid="0" data-timestamp="1640732400">29</a>
-                            </div>
-                        </td>
+
+
                         <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640818800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640886803">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">No events, Thursday, 30 December</span>
-                                    <span aria-hidden="true">30</span>
+                                    <span aria-hidden="true"></span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">No events, Thursday, 30 December</span>
-                                    <span aria-hidden="true">30</span>
+                                    <span aria-hidden="true"></span>
                             </div>
                         </td>
+
+
+
+                        <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640818800" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640886803">
+                            <div class="d-none d-md-block hidden-phone text-xs-center">
+                                <span class="sr-only">No events, Thursday, 30 December</span>
+                                    <span aria-hidden="true"></span>
+                            </div>
+                            <div class="d-md-none hidden-desktop hidden-tablet">
+                                <span class="sr-only">No events, Thursday, 30 December</span>
+                                    <span aria-hidden="true"></span>
+                            </div>
+                        </td>
+
                         <td class="day text-sm-center text-md-left clickable" data-day-timestamp="1640905200" data-drop-zone="month-view-day" data-region="day" data-new-event-timestamp="1640973203">
                             <div class="d-none d-md-block hidden-phone text-xs-center">
                                 <span class="sr-only">No events, Friday, 31 December</span>
-                                    <span aria-hidden="true">31</span>
+                                    <span aria-hidden="true"></span>
                             </div>
                             <div class="d-md-none hidden-desktop hidden-tablet">
                                 <span class="sr-only">No events, Friday, 31 December</span>
-                                    <span aria-hidden="true">31</span>
+                                    <span aria-hidden="true"></span>
                             </div>
                         </td>
                         <td class="dayblank">&nbsp;</td>
@@ -937,13 +1174,8 @@ document.body.className += ' jsenabled';
 </div>
 </div></div><div class="bottom">
         <div class="singlebutton">
-            <form method="get" action="https://school.moodledemo.net/calendar/export.php">
-                <button type="submit" class="btn btn-secondary" id="single_button619124d71560522" title="">Export calendar</button>
-            </form>
-        </div>
-        <div class="singlebutton">
-            <form method="get" action="https://school.moodledemo.net/calendar/managesubscriptions.php">
-                <button type="submit" class="btn btn-secondary" id="single_button619124d71560523" title="">Manage subscriptions</button>
+            <form method="get">
+                <button type="submit" class="btn btn-secondary" id="single_button619124d71560522" title="">Экспортировать календарь</button>
             </form>
         </div>
 </div></div></div>
@@ -954,93 +1186,14 @@ document.body.className += ' jsenabled';
                 <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
                     <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Events key</a>
 
-<section id="block-619124d721e1e" class=" block block_fake  card mb-3" role="complementary" data-block="_fake" aria-labelledby="instance-fakeid-619124d721e21-header">
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-fakeid-619124d721e21-header" class="card-title d-inline">Events key</h5>
 
 
-        <div class="card-text content mt-3">
-            <div id="event-filter-619124d715603619124d7156051" class="calendar_filters mt-2">
-    <ul>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="site" data-eventtype-hidden="">
-                        <span class="calendar_event_site">
-                            <i class="icon fa fa-eye fa-fw " title="Hide site events" aria-label="Hide site events"></i>
-                        </span>
-                            <i class="icon fa fa-globe fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide site events</span>
-                
-                </a>
-            </li>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="category" data-eventtype-hidden="">
-                        <span class="calendar_event_category">
-                            <i class="icon fa fa-eye fa-fw " title="Hide category events" aria-label="Hide category events"></i>
-                        </span>
-                            <i class="icon fa fa-cubes fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide category events</span>
-                
-                </a>
-            </li>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="course" data-eventtype-hidden="">
-                        <span class="calendar_event_course">
-                            <i class="icon fa fa-eye fa-fw " title="Hide course events" aria-label="Hide course events"></i>
-                        </span>
-                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide course events</span>
-                
-                </a>
-            </li>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="group" data-eventtype-hidden="">
-                        <span class="calendar_event_group">
-                            <i class="icon fa fa-eye fa-fw " title="Hide group events" aria-label="Hide group events"></i>
-                        </span>
-                            <i class="icon fa fa-group fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide group events</span>
-                
-                </a>
-            </li>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="user" data-eventtype-hidden="">
-                        <span class="calendar_event_user">
-                            <i class="icon fa fa-eye fa-fw " title="Hide user events" aria-label="Hide user events"></i>
-                        </span>
-                            <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide user events</span>
-                
-                </a>
-            </li>
-            <li>
-                <a href="#" data-action="filter-event-type" data-eventtype="other" data-eventtype-hidden="">
-                        <span class="calendar_event_other">
-                            <i class="icon fa fa-eye fa-fw " title="Hide other events" aria-label="Hide other events"></i>
-                        </span>
-                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"></i>
-                        <span class="eventname">Hide other events</span>
-                
-                </a>
-            </li>
-    </ul>
-</div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span><a href="#sb-2" class="sr-only sr-only-focusable">Skip Monthly view</a>
 
 <section id="block-619124d721fd9" class=" block block_fake  card mb-3" role="complementary" data-block="_fake" aria-labelledby="instance-fakeid-619124d721fda-header">
 
     <div class="card-body p-3">
 
-            <h5 id="instance-fakeid-619124d721fda-header" class="card-title d-inline">Monthly view</h5>
+            <h5 id="instance-fakeid-619124d721fda-header" class="card-title d-inline">Просмотр</h5>
 
 
         <div class="card-text content mt-3">
@@ -1062,7 +1215,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1635721200" title="This month">November 2021</a>
+                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1635721200" title="This month">Ноябрь 2021</a>
                         </h3>
                 </caption>
                 <thead>
@@ -1097,12 +1250,16 @@ document.body.className += ' jsenabled';
                         </th>
                     </tr>
                 </thead>
+
+
                 <tbody>
                     <tr data-region="month-view-week">
                             <td class="dayblank">&nbsp;</td>
+
                             <td class="day text-center" data-day-timestamp="1635721200"><span class="sr-only">No events, Monday, 1 November</span>
                                     <span aria-hidden="true">1</span>
                                 </td>
+                                
                             <td class="day text-center" data-day-timestamp="1635807600"><span class="sr-only">No events, Tuesday, 2 November</span>
                                     <span aria-hidden="true">2</span>
                                 </td>
@@ -1147,6 +1304,7 @@ document.body.className += ' jsenabled';
 
 
 <a id="calendar-day-popover-link-1-2021-317-9" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1636844400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="11" data-courseid="1" data-categoryid="0" data-title="Today Sunday, 14 November" data-alternate="No events" aria-label="Today Sunday, 14 November" data-original-title="" title="">14</a>
+
 <div class="hidden">
 
                                         </div>
@@ -1229,7 +1387,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1638313200" title="This month">December 2021</a>
+                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1638313200" title="This month">Декабрь 2021</a>
                         </h3>
                 </caption>
                 <thead>
@@ -1265,16 +1423,34 @@ document.body.className += ' jsenabled';
                     </tr>
                 </thead>
                 <tbody>
+
                     <tr data-region="month-view-week">
+
+
                             <td class="dayblank">&nbsp;</td>
                             <td class="dayblank">&nbsp;</td>
                             <td class="dayblank">&nbsp;</td>
-                            <td class="day text-center" data-day-timestamp="1638313200"><span class="sr-only">No events, Wednesday, 1 December</span>
-                                    <span aria-hidden="true">1</span>
-                                </td>
+                            
+<td class="day text-center weekend hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639263600"><span class="sr-only">1 event, Sunday, 12 December</span>
+
+
+<a id="calendar-day-popover-link-1-2021-345-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Sunday, 12 December events" data-alternate="No events" aria-label="Sunday, 12 December events" data-original-title="" title="">1</a>
+<div class="hidden">
+
+                                                <div data-popover-eventtype-course="1">
+
+
+                                                        <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
+                                                    History: Russia Rev: Assignment: Causes of the October 1917 Revolution is due
+                                                </div>
+                                        </div>
+</td>
+
+
                             <td class="day text-center" data-day-timestamp="1638399600"><span class="sr-only">No events, Thursday, 2 December</span>
                                     <span aria-hidden="true">2</span>
                                 </td>
+
                             <td class="day text-center" data-day-timestamp="1638486000"><span class="sr-only">No events, Friday, 3 December</span>
                                     <span aria-hidden="true">3</span>
                                 </td>
@@ -1289,27 +1465,12 @@ document.body.className += ' jsenabled';
                             <td class="day text-center" data-day-timestamp="1638745200"><span class="sr-only">No events, Monday, 6 December</span>
                                     <span aria-hidden="true">6</span>
                                 </td>
-                            <td class="day text-center" data-day-timestamp="1638831600"><span class="sr-only">No events, Tuesday, 7 December</span>
-                                    <span aria-hidden="true">7</span>
-                                </td>
-                            <td class="day text-center" data-day-timestamp="1638918000"><span class="sr-only">No events, Wednesday, 8 December</span>
-                                    <span aria-hidden="true">8</span>
-                                </td>
-                            <td class="day text-center" data-day-timestamp="1639004400"><span class="sr-only">No events, Thursday, 9 December</span>
-                                    <span aria-hidden="true">9</span>
-                                </td>
-                            <td class="day text-center" data-day-timestamp="1639090800"><span class="sr-only">No events, Friday, 10 December</span>
-                                    <span aria-hidden="true">10</span>
-                                </td>
-                            <td class="day text-center weekend" data-day-timestamp="1639177200"><span class="sr-only">No events, Saturday, 11 December</span>
-                                    <span aria-hidden="true">11</span>
-                                </td>
-                    </tr>
-                    <tr data-region="month-view-week">
-                            <td class="day text-center weekend hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639263600"><span class="sr-only">1 event, Sunday, 12 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-345-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639263600" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Sunday, 12 December events" data-alternate="No events" aria-label="Sunday, 12 December events" data-original-title="" title="">12</a>
+<td class="day text-center weekend hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639263600"><span class="sr-only">1 event, Sunday, 12 December</span>
+
+
+<a id="calendar-day-popover-link-1-2021-345-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Sunday, 12 December events" data-alternate="No events" aria-label="Sunday, 12 December events" data-original-title="" title="">7</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
@@ -1320,9 +1481,43 @@ document.body.className += ' jsenabled';
                                                 </div>
                                         </div>
 </td>
+
+
+<td class="day text-center weekend hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639263600"><span class="sr-only">1 event, Sunday, 12 December</span>
+
+
+<a id="calendar-day-popover-link-1-2021-345-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Sunday, 12 December events" data-alternate="No events" aria-label="Sunday, 12 December events" data-original-title="" title="">8</a>
+<div class="hidden">
+
+                                                <div data-popover-eventtype-course="1">
+
+
+                                                        <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
+                                                    History: Russia Rev: Assignment: Causes of the October 1917 Revolution is due
+                                                </div>
+                                        </div>
+</td>
+
+
+                            <td class="day text-center" data-day-timestamp="1639004400"><span class="sr-only">No events, Thursday, 9 December</span>
+                                    <span aria-hidden="true">9</span>
+                                </td>
+                            <td class="day text-center" data-day-timestamp="1639090800"><span class="sr-only">No events, Friday, 10 December</span>
+                                    <span aria-hidden="true">10</span>
+                                </td>
+                            <td class="day text-center weekend" data-day-timestamp="1639177200"><span class="sr-only">No events, Saturday, 11 December</span>
+                                    <span aria-hidden="true">11</span>
+                                </td>
+                    </tr>
+
+                    <tr data-region="month-view-week">
+                            <td class="day text-center weekend" data-day-timestamp="1639177200"><span class="sr-only">No events, Saturday, 11 December</span>
+                                    <span aria-hidden="true">12</span>
+                                </td>
                             <td class="day text-center" data-day-timestamp="1639350000"><span class="sr-only">No events, Monday, 13 December</span>
                                     <span aria-hidden="true">13</span>
                                 </td>
+
                             <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
@@ -1337,23 +1532,24 @@ document.body.className += ' jsenabled';
                                                 </div>
                                         </div>
 </td>
-                            <td class="day text-center" data-day-timestamp="1639522800"><span class="sr-only">No events, Wednesday, 15 December</span>
-                                    <span aria-hidden="true">15</span>
-                                </td>
-                            <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639609200"><span class="sr-only">1 event, Thursday, 16 December</span>
+                            <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-349-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639609200" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Thursday, 16 December events" data-alternate="No events" aria-label="Thursday, 16 December events" data-original-title="" title="">16</a>
+<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">15</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
 
 
-                                                        <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/quiz/1636898474/icon" alt="" title="">
-                                                    History: Russia Rev: Mid-Module Assessment closes
+                                                        <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
+                                                    Psych Cine: Group Project is due
                                                 </div>
                                         </div>
 </td>
+
+                            <td class="day text-center weekend" data-day-timestamp="1639177200"><span class="sr-only">No events, Saturday, 11 December</span>
+                                    <span aria-hidden="true">16</span>
+                                </td>
                             <td class="day text-center" data-day-timestamp="1639695600"><span class="sr-only">No events, Friday, 17 December</span>
                                     <span aria-hidden="true">17</span>
                                 </td>
@@ -1371,29 +1567,28 @@ document.body.className += ' jsenabled';
                             <td class="day text-center" data-day-timestamp="1640041200"><span class="sr-only">No events, Tuesday, 21 December</span>
                                     <span aria-hidden="true">21</span>
                                 </td>
-                            <td class="day text-center" data-day-timestamp="1640127600"><span class="sr-only">No events, Wednesday, 22 December</span>
-                                    <span aria-hidden="true">22</span>
-                                </td>
-                            <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1640214000"><span class="sr-only">2 events, Thursday, 23 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-356-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1640214000" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Thursday, 23 December events" data-alternate="No events" aria-label="Thursday, 23 December events" data-original-title="" title="">23</a>
+<td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
+
+
+<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">22</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
 
 
                                                         <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
-                                                    Celebrating Cultures: Assignment: Languages of Love is due
-                                                </div>
-                                                <div data-popover-eventtype-course="1">
-
-
-                                                        <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
-                                                    Celebrating Cultures: (Mobile assignment) View from your window is due
+                                                    Psych Cine: Group Project is due
                                                 </div>
                                         </div>
 </td>
+
+
+                                <td class="day text-center weekend" data-day-timestamp="1640473200"><span class="sr-only">No events, Sunday, 26 December</span>
+                                    <span aria-hidden="true">23</span>
+                                </td>
+
                             <td class="day text-center" data-day-timestamp="1640300400"><span class="sr-only">No events, Friday, 24 December</span>
                                     <span aria-hidden="true">24</span>
                                 </td>
@@ -1408,23 +1603,27 @@ document.body.className += ' jsenabled';
                             <td class="day text-center" data-day-timestamp="1640559600"><span class="sr-only">No events, Monday, 27 December</span>
                                     <span aria-hidden="true">27</span>
                                 </td>
-                            <td class="day text-center" data-day-timestamp="1640646000"><span class="sr-only">No events, Tuesday, 28 December</span>
-                                    <span aria-hidden="true">28</span>
-                                </td>
-                            <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1640732400"><span class="sr-only">1 event, Wednesday, 29 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-362-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1640732400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Wednesday, 29 December events" data-alternate="No events" aria-label="Wednesday, 29 December events" data-original-title="" title="">29</a>
+<td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
+
+
+<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">28</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
 
 
                                                         <img class="icon " src="https://school.moodledemo.net/theme/image.php/boost/assign/1636898474/icon" alt="" title="">
-                                                    Celebrating Cultures: Assignment: My dream destination is due
+                                                    Psych Cine: Group Project is due
                                                 </div>
                                         </div>
 </td>
+
+
+                                <td class="day text-center weekend" data-day-timestamp="1640473200"><span class="sr-only">No events, Sunday, 26 December</span>
+                                    <span aria-hidden="true">29</span>
+                                </td>
                             <td class="day text-center" data-day-timestamp="1640818800"><span class="sr-only">No events, Thursday, 30 December</span>
                                     <span aria-hidden="true">30</span>
                                 </td>
@@ -1454,7 +1653,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1640991600" title="This month">January 2022</a>
+                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1640991600" title="This month">Январь 2022</a>
                         </h3>
                 </caption>
                 <thead>
@@ -1664,7 +1863,7 @@ document.body.className += ' jsenabled';
                         </div>
                         <div class="ml-auto">
                             <a href="#" data-route="view-search" role="button" aria-label="Search">
-                                <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
                             </a>
                         </div>
                     </div>
@@ -1724,7 +1923,7 @@ document.body.className += ' jsenabled';
                             >
                             <div class="input-group-append">
                                 <span class="icon-no-margin btn btn-submit">
-                                    <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                    <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
                                 </span>
                             </div>
                         </div>
@@ -1785,7 +1984,7 @@ document.body.className += ' jsenabled';
                                     aria-label="Search"
                                 >
                                     <span data-region="search-icon-container">
-                                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                        <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
                                     </span>
                                     <span class="hidden" data-region="loading-icon-container">
                                         <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
@@ -2293,7 +2492,7 @@ document.body.className += ' jsenabled';
                                         <span class="expanded-icon-container">
                                             <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                        <span class="font-weight-bold">Starred</span>
+                                        <span class="font-weight-bold">Помеченные</span>
                                         <small class="hidden ml-1" data-region="section-total-count-container"
                                         aria-label=" total conversations">
                                             (<span data-region="section-total-count"></span>)
@@ -2356,7 +2555,7 @@ document.body.className += ' jsenabled';
                                         <span class="expanded-icon-container">
                                             <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                        <span class="font-weight-bold">Group</span>
+                                        <span class="font-weight-bold">Группа</span>
                                         <small class="hidden ml-1" data-region="section-total-count-container"
                                         aria-label=" total conversations">
                                             (<span data-region="section-total-count"></span>)
@@ -2419,7 +2618,7 @@ document.body.className += ' jsenabled';
                                         <span class="expanded-icon-container">
                                             <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
                                         </span>
-                                        <span class="font-weight-bold">Private</span>
+                                        <span class="font-weight-bold">Личные</span>
                                         <small class="hidden ml-1" data-region="section-total-count-container"
                                         aria-label=" total conversations">
                                             (<span data-region="section-total-count"></span>)
@@ -2480,7 +2679,7 @@ document.body.className += ' jsenabled';
                         <div class="d-flex flex-column">
                             <div class="mb-3 bg-white" data-region="all-contacts-container">
                                 <div data-region="contacts-container"  class="pt-2">
-                                    <h4 class="h6 px-2">Contacts</h4>
+                                    <h4 class="h6 px-2">Контакты</h4>
                                     <div class="list-group" data-region="list"></div>
                                 </div>
                                 <div data-region="non-contacts-container" class="pt-2 border-top">
@@ -2496,7 +2695,7 @@ document.body.className += ' jsenabled';
                                 </div>
                             </div>
                             <div class="bg-white" data-region="messages-container">
-                                <h4 class="h6 px-2 pt-2">Messages</h4>
+                                <h4 class="h6 px-2 pt-2">Сообщения</h4>
                                 <div class="list-group" data-region="list"></div>
                                 <div class="text-right">
                                     <button class="btn btn-link text-primary" data-action="load-more-messages">
@@ -2735,7 +2934,7 @@ document.body.className += ' jsenabled';
                                                 <div class="input-group mb-1 flex-shrink-0">
                                                     <div class="input-group-prepend">
                                                         <span class="input-group-text pr-0 bg-white text-muted">
-                                                            <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                                            <img src="https://img.icons8.com/material/24/000000/search-more--v1.png"/>
                                                         </span>
                                                     </div>
                                                     <input
@@ -2845,17 +3044,8 @@ document.body.className += ' jsenabled';
         </div>
 
 </div>
-    <div id="goto-top-link">
-        <a class="btn btn-light" role="button" href="#" aria-label="Go to top">
-            <i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"  ></i>
-        </a>
-    </div>
-    <footer id="page-footer" class="py-3 bg-dark text-light">
-        <div class="container">
-            <div id="course-footer"></div>
+
     
-    
-            <div class="logininfo">Вы вошли как <a href="https://school.moodledemo.net/user/profile.php?id=56" title="View profile">Ляхнов Макар</a></div>
 
 <script>
 Y.use('node', function (Y) {
@@ -3230,8 +3420,6 @@ M.util.help_popups.setup(Y);
 //]]>
 </script>
 
-        </div>
-    </footer>
 </div>
 
 </body>
