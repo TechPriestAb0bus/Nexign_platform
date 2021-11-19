@@ -76,10 +76,16 @@
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
 					<li class="menu_item menu_mm"><a href="Start">Главная</a></li>
-					<li class="menu_item menu_mm"><a href="About">О нас</a></li>
-					<li class="menu_item menu_mm"><a href="Elements">Елементы</a></li>
-					<li class="menu_item menu_mm"><a href="News">Новости</a></li>
-					<li class="menu_item menu_mm"><a href="Contact">Контакты</a></li>
+					<li class="menu_item menu_mm"><a href="https://nexign.com/ru/about">О нас</a></li>
+					<li class="menu_item menu_mm"><a href="https://nexign.com/ru/blog?categories=all">Новости</a></li>
+					<li class="menu_item menu_mm"><a href="https://nexign.com/ru/contact-us">Связь</a></li>
+					{% if not request.user.is_authenticated %}
+					<li class="menu_item menu_mm"><a href="Login">Вход</a></li>
+					<li class="menu_item menu_mm"><a href="Registration">Регистрация</a></li>
+					{% else %}
+					<li class="menu_item menu_mm"><a href="Platform">Курсы</a></li>
+					<li class="menu_item menu_mm"><a href="{% url 'logout' %}">Выход</a></li>
+					{% endif%}
 				</ul>
 
 				<!-- Menu Social -->

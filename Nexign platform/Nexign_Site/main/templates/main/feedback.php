@@ -225,7 +225,7 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="logout" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href={"url"'logout'"} class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -344,7 +344,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="page-context-header"><div class="page-header-image"><a class="d-inline-block aabtn"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="100" height="100" alt="B Gardner" title="B Gardner" /></a></div><div class="page-header-headings"><h1>Ляхнов Макар</h1></div><div class="btn-group header-button-group"><a id="message-user-button" role="button" data-conversationid="0" data-userid="56" class="btn"></a></div></div>
+                        <div class="page-context-header"><div class="page-header-image"><a class="d-inline-block aabtn"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="100" height="100" alt="B Gardner" title="B Gardner" /></a></div><div class="page-header-headings"><h1>{{request.user}}</h1></div><div class="btn-group header-button-group"><a id="message-user-button" role="button" data-conversationid="0" data-userid="56" class="btn"></a></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
