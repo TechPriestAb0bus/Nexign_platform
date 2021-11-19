@@ -55,7 +55,7 @@ document.body.className += ' jsenabled';
                 <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
     
-            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
+            <a href="Start" class="navbar-brand aabtn
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
@@ -153,7 +153,7 @@ document.body.className += ' jsenabled';
             <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true"  ></i></span>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
         </a>
-        <a href="https://school.moodledemo.net/message/notificationpreferences.php?userid=56"
+        <a
            title="Notification preferences"
            aria-label="Notification preferences">
             <i class="icon fa fa-cog fa-fw " aria-hidden="true"  ></i>
@@ -197,12 +197,12 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">{{request.user}}</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
                         </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://clck.ru/YqsJi" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="index.html" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
@@ -224,9 +224,9 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="{% url 'logout' %}" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
-                                <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
+                                <span class="menu-action-text" id="actionmenuaction-6" ">Выход</span>
                         </a>
                             </div>
                     </div>
@@ -347,7 +347,7 @@ document.body.className += ' jsenabled';
 
 
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -359,7 +359,7 @@ document.body.className += ' jsenabled';
                         </a>
                     </li>                
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -458,13 +458,13 @@ document.body.className += ' jsenabled';
                         <nav aria-label="Navigation bar">
     <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="https://clck.ru/YqsJi">Главная</a>
+                    <a href="index.html">Главная</a>
                 </li>
         
                 <li class="breadcrumb-item">Обучение</li>
 
                 <li class="breadcrumb-item">
-                    <a href="https://inlnk.ru/Qwl5V" aria-current="page" title="Celebrating Cultures">Практические занятия</a>
+                    <a href="exercises.php" aria-current="page" title="Celebrating Cultures">Практические занятия</a>
                 </li>
         </ol>
 </nav>
@@ -499,7 +499,7 @@ document.body.className += ' jsenabled';
 
 <ul class="section img-text"><li class="activity forum modtype_forum  hasinfo" id="module-906"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
 
-<div class="activityinstance"><a class="aalink" onclick="" href="https://inlnk.ru/LA3NO"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Вопрос к ментору</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Если у вас есть какие-то технические вопросы, вы всегда можете написать ментору и он ответит на ваш вопрос!</span></p></div></div></div></div></div></div></li></ul></div></li>
+<div class="activityinstance"><a class="aalink" onclick="" href="feedback.php"><img src="https://school.moodledemo.net/theme/image.php/boost/forum/1636912874/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Вопрос к ментору</span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Если у вас есть какие-то технические вопросы, вы всегда можете написать ментору и он ответит на ваш вопрос!</span></p></div></div></div></div></div></div></li></ul></div></li>
 
 
 
@@ -511,7 +511,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №1 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №1 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>ᅠᅠЗадача: установить новую версию продукта.</big></p></div></div></div></div></div></div></li>
 
@@ -531,7 +531,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №2 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №2 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: нужно развернуть решение у нового клиента</big></p></div></div></div></div></div></div></li>
 
@@ -553,7 +553,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №3 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №3 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: проверить продукт (один) или другой вместе с продуктом nexign на тестовой зоне.</big></p></div></div></div></div></div></div></li>
 
@@ -571,7 +571,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №4 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №4 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: установить все приложения в ЦОД и запустить их в соседнем ЦОДе.</big></p></div></div></div></div></div></div></li>
 
@@ -588,7 +588,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №5 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №5 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: установить новую версию продукта, минимизируя окно простоя (в том случае, если продукт не может быть обновлён без простоя).</big></p></div></div></div></div></div></div></li>
 
@@ -606,7 +606,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Кейс использования продукта Installer №6 </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Кейс использования продукта Installer №6 </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Задача: обернуть имеющийся продукт клиента или продукт nexign, переданный на поддержку.</big></p></div></div></div></div></div></div></li>
 
@@ -623,7 +623,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Контрольный проект </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Контрольный проект </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Description: Для финальной оценки полученных знаний разработчику (из компании Nexign или разработчику со стороны компании) даётся тестовый продукт. Разработчику нужно выполнить все шаги по работе с автоинсталлятором. А именно: подготовить инсталляцию продукта Installer (соответственно инсталлировать продукт, параллельно проверяя процесс установки), запуск и последующее обновление продукта, внесение данных в репозиторий (наполнение инсталлятора конкретными шагами), остановка продукта и проверка результатов, откат до прежнего состояния и подготовка к следующей работе.</big></p></div></div></div></div></div></div></li>
 
@@ -636,6 +636,9 @@ document.body.className += ' jsenabled';
 
 
 </section>
+
+
+
 
 >
 

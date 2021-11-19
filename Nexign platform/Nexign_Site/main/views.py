@@ -7,6 +7,10 @@ from .forms import LoginForm, RegistrationForm
 from .models import Developer
 
 
+def teachers(request):
+    return render(request, 'main/teachers.html')
+
+
 def start(request):
     return render(request, 'main/start.html')
 
@@ -22,6 +26,7 @@ def courses(request):
 def elements(request):
     return render(request, 'main/elements.html')
 
+
 def news(request):
     return render(request, 'main/news.html')
 
@@ -29,13 +34,68 @@ def news(request):
 def contact(request):
     return render(request, 'main/contact.html')
 
+def calendar(request):
+    return render(request, 'main/calendar.php')
 
-def teachers(request):
-    return render(request, 'main/teachers.html')
+
+def exercises(request):
+    return render(request, 'main/exercises.php')
+
+
+def feedback(request):
+    return render(request, 'main/feedback.php')
+
+
+def hackathon(request):
+    return render(request, 'main/hackathon.php')
 
 
 def index(request):
     return render(request, 'main/index.html')
+
+
+def Lessons_Ansible(request):
+    return render(request, 'main/Lessons-Ansible.php')
+
+
+def Lessons_Atlassian(request):
+    return render(request, 'main/Lessons-Atlassian-Bamboo.php')
+
+
+def Lessons_Common(request):
+    return render(request, 'main/Lessons-Common-Installer.php')
+
+
+def Lessons_Confluence(request):
+    return render(request, 'main/Lessons-Confluence.php')
+
+
+def Lessons_Docker(request):
+    return render(request, 'main/Lessons-Docker.php')
+
+
+def Lessons_GitlabCI(request):
+    return render(request, 'main/Lessons-Gitlab-CI.php')
+
+
+def Lessons_Jira(request):
+    return render(request, 'main/Lessons-Jira.php')
+
+
+def Lessons_Kubernetes(request):
+    return render(request, 'main/Lessons-Kubernetes.php')
+
+
+def meet_up(request):
+    return render(request, 'main/meet_ip.php')
+
+
+def provided_material(request):
+    return render(request, 'main/provided_material.php')
+
+
+def video(request):
+    return render(request, 'main/video.php')
 
 
 class LoginView(views.View):

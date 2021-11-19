@@ -196,14 +196,14 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">{{request.user}}</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
 
 
                       </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
-                                                                <a href="https://clck.ru/YqsJi" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                                <a href="index.html" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
                                 <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-1">Главная</span>
                         </a>
@@ -225,7 +225,7 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="{% url 'logout' %}" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -374,7 +374,7 @@ document.body.className += ' jsenabled';
                         </a>
                     </li>                
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -514,7 +514,7 @@ document.body.className += ' jsenabled';
 
 
 
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Common Installer </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Common Installer </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Common Installer - набор стандартизированных шагов по доставке продуктов на стенд клиента, состоящий из опциональных настраиваемых компонентов под разные стеки, который позволяет доставлять решение и его части стандартизированным способом.</big></p></div></div></div></div></div></div></li>
 
@@ -563,7 +563,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Ansible </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Ansible </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Ansible - система управления конфигурациями, написанная на языке программирования Python, с использованием декларативного языка разметки для описания конфигураций. Используется для автоматизации настройки и развертывания программного обеспечения. Главная особенность Ansible - использование существующей инфраструктуры SSH, без установки специальных PKI-окружений.</big></p></div></div></div></div></div></div></li>
 
@@ -616,7 +616,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Atlassian Bamboo </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Atlassian Bamboo </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Atlassian Bamboo - инструмент непрерывной интеграции и непрерывного развертывания, который объединяет автоматизированные сборки, тесты и релизы в единый жизненный цикл. Проекты развертывания автоматизируют монотонный процесс релизов в каждую из сред, позволяя при этом контролировать происходящее с помощью различных прав доступа для каждой среды.</big></p></div></div></div></div></div></div></li>
 
@@ -668,7 +668,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Kubernetes </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Kubernetes </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Kubernetes - портативная расширяемая платформа с открытым исходным кодом для управления контейнеризованными рабочими нагрузками и сервисами, которая облегчает как декларативную настройку, так и автоматизацию. У платформы есть большая, быстро растущая экосистема. Сервисы, поддержка и инструменты Kubernetes широко доступны.</big></p></div></div></div></div></div></div></li>
 
@@ -720,7 +720,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Gitlab CI </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Gitlab CI </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Gitlab CI - система, которая способна работать не только с кодом, размещённым в репозиториях GitLab. Например, код можно хранить в GitHub-репозитории, а CI/CD-конвейер можно организовать на базе GitLab с использованием GitLab CI/CD.</big></p></div></div></div></div></div></div></li>
 
@@ -773,7 +773,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Jira </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Jira </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Jira — это набор agile-решений для управления работой, который обеспечивает совместную работу между всеми командами, начиная с разработки идеи продукта и заканчивая его поставкой клиенту, а также позволяет вам вместе добиваться наилучших результатов. Jira предлагает ряд продуктов и вариантов развертывания, специально разработанных для команд разработчиков ПО, ИТ-команд, бизнес-команд, операционных команд и т. д. </big></p></div></div></div></div></div></div></li>
 
@@ -813,7 +813,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Confluence </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Confluence </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Confluence - портативная расширяемая платформа с открытым исходным кодом для управления контейнеризованными рабочими нагрузками и сервисами, которая облегчает как декларативную настройку, так и автоматизацию. У платформы есть большая, быстро растущая экосистема.</big></p></div></div></div></div></div></div></li>
 
@@ -856,7 +856,7 @@ document.body.className += ' jsenabled';
 
 
 <li class="activity url modtype_url  hasinfo" id="module-909"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div>
-<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a href="https://school.moodledemo.net/course/view.php?id=6#section-1">Docker </a></span></h3>
+<div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://school.moodledemo.net/theme/image.php/boost/core/1636912874/spacer" /></div><div class="content"><h3 id="sectionid-540-title" class="sectionname"><span><a>Docker </a></span></h3>
 
 <li class="activity label modtype_label  " id="module-648"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p><big>Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в средах с поддержкой контейнеризации, контейнеризатор приложений.</big></p></div></div></div></div></div></div></li>
 

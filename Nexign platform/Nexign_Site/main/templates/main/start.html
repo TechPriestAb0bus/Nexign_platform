@@ -36,9 +36,9 @@
 				<div class="main_nav">
 					<ul class="main_nav_list">
 						<li class="main_nav_item"><a href="Start">Главная</a></li>
-						<li class="main_nav_item"><a href="">О нас</a></li>
-						<li class="main_nav_item"><a href="News">Новости</a></li>
-						<li class="main_nav_item"><a href="Contact">Связь</a></li>
+						<li class="main_nav_item"><a href="https://nexign.com/ru/about">О нас</a></li>
+						<li class="main_nav_item"><a href="https://nexign.com/ru/blog?categories=all">Новости</a></li>
+						<li class="main_nav_item"><a href="https://nexign.com/ru/contact-us">Связь</a></li>
 						{% if not request.user.is_authenticated %}
 						<li class="main_nav_item"><a href="Login">Вход</a></li>
 						<li class="main_nav_item"><a href="Registration">Регистрация</a></li>
@@ -124,7 +124,7 @@
 					<div class="hero_slide_background" style="background-image:url(static/images/slider_background.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Получите <span>Уникальный</span> опыт обучения!</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Получите <span>Уникальный</span> опыт!</h1>
 						</div>
 					</div>
 				</div>
@@ -157,7 +157,7 @@
 							<img src="static/images/earth-globe.svg" class="svg" alt="">
 							<div class="hero_box_content">
 								<h2 class="hero_box_title">Онлайн курсы</h2>
-								<a href="Courses" class="hero_box_link">Показать больше</a>
+								<a href="Login" class="hero_box_link">Показать больше</a>
 							</div>
 						</div>
 					</div>
@@ -167,7 +167,7 @@
 							<img src="static/images/books.svg" class="svg" alt="">
 							<div class="hero_box_content">
 								<h2 class="hero_box_title">Наша библиотека</h2>
-								<a href="Courses" class="hero_box_link">Показать больше</a>
+								<a href="Login" class="hero_box_link">Показать больше</a>
 							</div>
 						</div>
 					</div>
@@ -176,8 +176,8 @@
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
 							<img src="static/images/professor.svg" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Наши учителя</h2>
-								<a href="Teachers" class="hero_box_link">Показать больше</a>
+								<h2 class="hero_box_title">Наши менторы</h2>
+								<a href="Login" class="hero_box_link">Показать больше</a>
 							</div>
 						</div>
 					</div>
@@ -206,7 +206,7 @@
 					<div class="card">
 						<img class="card-img-top" src="static/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="Courses">Common Installer</a></div>
+							<div class="card-title"><a href="LoginGj">Common Installer</a></div>
 							<div class="card-text">Продукт для подключения BSS решений</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
@@ -224,7 +224,7 @@
 					<div class="card">
 						<img class="card-img-top" src="static/images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="Courses">Gitlab CI</a></div>
+							<div class="card-title"><a href="Login">Gitlab CI</a></div>
 							<div class="card-text">Система контроля версий</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
@@ -242,7 +242,7 @@
 					<div class="card">
 						<img class="card-img-top" src="static/images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="Courses">Ansible</a></div>
+							<div class="card-title"><a href="Login">Ansible</a></div>
 							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
@@ -272,7 +272,7 @@
 					<div class="register_section d-flex flex-column align-items-center justify-content-center">
 						<div class="register_content text-center">
 							<h1 class="register_title">Зарегистрируйся сейчас и начни работу с одной из крупнейших IT корпораций!</h1>
-							<div class="button button_1 register_button mx-auto trans_200"><a href="#">Зарегистрироваться</a></div>
+							<div class="button button_1 register_button mx-auto trans_200"><a href="Registration">Зарегистрироваться</a></div>
 						</div>
 					</div>
 
@@ -396,22 +396,7 @@
 							<div class="owl-item">
 								<div class="testimonials_item text-center">
 									<div class="quote">“</div>
-									<p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-									<div class="testimonial_user">
-										<div class="testimonial_image mx-auto">
-											<img src="images/testimonials_user.jpg" alt="">
-										</div>
-										<div class="testimonial_name">james cooper</div>
-										<div class="testimonial_title">Graduate Student</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Testimonials Item -->
-							<div class="owl-item">
-								<div class="testimonials_item text-center">
-									<div class="quote">“</div>
-									<p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+									<p class="testimonials_text">Мне нравится эта платформа. Удобный интерфейс, классные менторы, готовые помочь в любую минуту, в общем - рай для обучения!</p>
 									<div class="testimonial_user">
 										<div class="testimonial_image mx-auto">
 											<img src="static/images/testimonials_user.jpg" alt="">
@@ -422,20 +407,6 @@
 								</div>
 							</div>
 
-							<!-- Testimonials Item -->
-							<div class="owl-item">
-								<div class="testimonials_item text-center">
-									<div class="quote">“</div>
-									<p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-									<div class="testimonial_user">
-										<div class="testimonial_image mx-auto">
-											<img src="static/images/testimonials_user.jpg" alt="">
-										</div>
-										<div class="testimonial_name">james cooper</div>
-										<div class="testimonial_title">Graduate Student</div>
-									</div>
-								</div>
-							</div>
 
 						</div>
 
@@ -618,11 +589,12 @@
 								<li class="footer_list_item"><a href="https://nexign.com/ru/blog?categories=all">Новости</a></li>
 								<li class="footer_list_item"><a href="https://nexign.com/ru/contact-us">Связь</a></li>
 								{% if not request.user.is_authenticated %}
-								<li class="footer_list_item"><a href="Courses">Вход</a></li>
-								{% else %}
-								<li class="footer_list_item"><a href="Courses">Курсы</a></li>
-								{% endif%}
+								<li class="footer_list_item"><a href="Login">Вход</a></li>
 								<li class="footer_list_item"><a href="Registration">Регистрация</a></li>
+								{% else %}
+								<li class="footer_list_item"><a href="Platform">Курсы</a></li>
+								<li class="footer_list_item"><a href="{% url 'logout' %}">Выход</a></li>
+								{% endif%}
 							</ul>
 						</div>
 					</div>

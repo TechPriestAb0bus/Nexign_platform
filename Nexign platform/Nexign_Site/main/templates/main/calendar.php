@@ -196,7 +196,7 @@ document.body.className += ' jsenabled';
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
                             
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+                            <span class="userbutton"><span class="usertext mr-1">{{request.user}}</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
                                 
                             <b class="caret"></b>
                         </a>
@@ -223,9 +223,9 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="{% url 'logout' %}" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
-                                <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
+                                <span class="menu-action-text" id="actionmenuaction-6" >Выход</span>
                         </a>
                             </div>
                     </div>
@@ -409,26 +409,20 @@ document.body.className += ' jsenabled';
             </ul>
         </div>
             <label class="sr-only" for="course">List of courses</label><select class="select custom-select cal_courses_flt ml-1 mr-auto" id="course" name="course"><option selected="selected" value="1">Все курсы</option></select>
-        <button class="btn btn-secondary float-sm-right float-right" data-context-id="2" data-action="new-event-button">
-            Новое событие
-        </button>
+
     </div>    <div class="calendarwrapper" data-courseid="1" data-context-id="2" data-month="12" data-year="2021" data-view="month" id="yui_3_17_2_1_1636902152241_1874">
 
 
     <div id="month-navigation-12" class="controls">
         <div class="calendar-controls">
             <a class="arrow_link previous" title="Previous month" data-year="2021" data-month="11" data-drop-zone="nav-link">
-                <span class="arrow">◄</span>
                 &nbsp;
-                <span class="arrow_text">Ноябрь 2021</span>
             </a>
             <span class="hide"> | </span>
             <h2 class="current">Декабрь 2021</h2>
             <span class="hide"> | </span>
             <a class="arrow_link next" title="Next month" data-year="2022" data-month="1" data-drop-zone="nav-link">
-                <span class="arrow_text">Январь 2022</span>
                 &nbsp;
-                <span class="arrow">►</span>
             </a>
         </div>
     </div>
@@ -1175,7 +1169,6 @@ document.body.className += ' jsenabled';
 </div></div><div class="bottom">
         <div class="singlebutton">
             <form method="get">
-                <button type="submit" class="btn btn-secondary" id="single_button619124d71560522" title="">Экспортировать календарь</button>
             </form>
         </div>
 </div></div></div>
@@ -1215,7 +1208,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1635721200" title="This month">Ноябрь 2021</a>
+                            <a title="This month">Ноябрь 2021</a>
                         </h3>
                 </caption>
                 <thead>
@@ -1303,7 +1296,7 @@ document.body.className += ' jsenabled';
                             <td class="day text-center today weekend" data-day-timestamp="1636844400"><span class="sr-only">No events, Sunday, 14 November</span>
 
 
-<a id="calendar-day-popover-link-1-2021-317-9" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1636844400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="11" data-courseid="1" data-categoryid="0" data-title="Today Sunday, 14 November" data-alternate="No events" aria-label="Today Sunday, 14 November" data-original-title="" title="">14</a>
+<a id="calendar-day-popover-link-1-2021-317-9" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="11" data-courseid="1" data-categoryid="0" data-title="Today Sunday, 14 November" data-alternate="No events" aria-label="Today Sunday, 14 November" data-original-title="" title="">14</a>
 
 <div class="hidden">
 
@@ -1387,7 +1380,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1638313200" title="This month">Декабрь 2021</a>
+                            <a title="This month">Декабрь 2021</a>
                         </h3>
                 </caption>
                 <thead>
@@ -1521,7 +1514,7 @@ document.body.className += ' jsenabled';
                             <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">14</a>
+<a id="calendar-day-popover-link-1-2021-347-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">14</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
@@ -1535,7 +1528,7 @@ document.body.className += ' jsenabled';
                             <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">15</a>
+<a id="calendar-day-popover-link-1-2021-347-11"  data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">15</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
@@ -1572,7 +1565,7 @@ document.body.className += ' jsenabled';
 <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">22</a>
+<a id="calendar-day-popover-link-1-2021-347-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">22</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
@@ -1608,7 +1601,7 @@ document.body.className += ' jsenabled';
 <td class="day text-center hasevent calendar_event_course duration_finish" data-eventtype-course="1" data-day-timestamp="1639436400"><span class="sr-only">1 event, Tuesday, 14 December</span>
 
 
-<a id="calendar-day-popover-link-1-2021-347-11" href="https://school.moodledemo.net/calendar/view.php?view=day&amp;time=1639436400" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">28</a>
+<a id="calendar-day-popover-link-1-2021-347-11" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2021" data-month="12" data-courseid="1" data-categoryid="0" data-title="Tuesday, 14 December events" data-alternate="No events" aria-label="Tuesday, 14 December events" data-original-title="" title="">28</a>
 <div class="hidden">
 
                                                 <div data-popover-eventtype-course="1">
@@ -1653,7 +1646,7 @@ document.body.className += ' jsenabled';
             <table class="minicalendar calendartable">
                 <caption class="calendar-controls">
                         <h3>
-                            <a href="https://school.moodledemo.net/calendar/view.php?view=month&amp;time=1640991600" title="This month">Январь 2022</a>
+                            <a title="This month">Январь 2022</a>
                         </h3>
                 </caption>
                 <thead>

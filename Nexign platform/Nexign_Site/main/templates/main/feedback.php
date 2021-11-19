@@ -51,21 +51,21 @@ document.body.className += ' jsenabled';
 
 
     <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
-    
+
             <div data-region="drawer-toggle" class="d-inline-block mr-3">
                 <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><span class="sr-only">Side panel</span><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="32" height="32"></span></button>
             </div>
-    
-            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn 
+
+            <a href="http://nexign.pythonanywhere.com/" class="navbar-brand aabtn
                     d-none d-sm-inline
                     ">
                 <span class="site-name d-none d-md-inline">Nexign platform</span>
             </a>
-    
+
             <ul class="navbar-nav d-none d-md-flex">
                 <!-- custom_menu -->
                 <!-- page_heading_menu -->
-                
+
             </ul>
             <div class="ml-auto">
                 <div id="searchinput-navbar-61928cd91cb1461928cd91b2885" class="simplesearchform">
@@ -135,7 +135,7 @@ document.body.className += ' jsenabled';
         aria-label="There are 0 unread notifications">0</div>
 
     </div>
-    <div 
+    <div
         id="popover-region-container-61928cd91d19e61928cd91b2886"
         class="popover-region-container"
         data-region="popover-region-container"
@@ -191,15 +191,15 @@ document.body.className += ' jsenabled';
 
         <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
 
-            
+
 
 
                 <div class="action-menu-trigger">
                     <div class="dropdown">
                         <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
-                            
-                            <span class="userbutton"><span class="usertext mr-1">Ляхнов Макар</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
-                                
+
+                            <span class="userbutton"><span class="usertext mr-1">{{request.user}}</span><span class="avatars"><span class="avatar current"><img src="https://job.nexign.com/sites/new_job/files/favicon-32x32.png" class="userpicture" width="35" height="35" alt="" /></span></span></span>
+
                             <b class="caret"></b>
                         </a>
                             <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
@@ -225,7 +225,7 @@ document.body.className += ' jsenabled';
                                 <span class="menu-action-text" id="actionmenuaction-5">Настройки</span>
                         </a>
                     <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
-                                                                <a href="http://nexign.pythonanywhere.com/Login" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                                <a href="logout" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
                                 <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
                                 <span class="menu-action-text" id="actionmenuaction-6">Выход</span>
                         </a>
@@ -244,7 +244,7 @@ document.body.className += ' jsenabled';
         <nav class="list-group" aria-label="Site">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://clck.ru/YqsJi" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action  " href="index.html" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -254,9 +254,9 @@ document.body.className += ' jsenabled';
                                 </div>
                             </div>
                         </a>
-                    </li>                
+                    </li>
                     <li>
-                        <a class="list-group-item list-group-item-action  " href="https://inlnk.ru/kX7m7" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                        <a class="list-group-item list-group-item-action  " href="calendar.php" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -364,10 +364,10 @@ document.body.className += ' jsenabled';
 </nav>
                     </div>
                     <div class="ml-auto d-flex">
-                        
+
                     </div>
                     <div id="course-header">
-                        
+
                     </div>
                 </div>
             </div>
@@ -388,9 +388,9 @@ document.body.className += ' jsenabled';
 
 <div id="fitem_id_areabytes_qZMlYCUe6rt0BT4" class="form-group row  fitem femptylabel  " >
     <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
-        
+
         <div class="form-label-addon d-flex align-items-center align-self-start">
-            
+
         </div>
     </div>
     <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="static">
@@ -401,7 +401,7 @@ document.body.className += ' jsenabled';
 </div>
         </div>
         <div class="form-control-feedback invalid-feedback" id="id_error_areabytes_qZMlYCUe6rt0BT4" >
-            
+
         </div>
     </div>
 </div><div id="fitem_id_files_filemanager_OTChtjl0lLWsIIZ" class="form-group row  fitem   " >
@@ -410,7 +410,7 @@ document.body.className += ' jsenabled';
             </p>
 
         <div class="form-label-addon d-flex align-items-center align-self-start">
-            
+
         </div>
     </div>
     <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="filemanager">
@@ -446,7 +446,7 @@ document.body.className += ' jsenabled';
                     <a role="button" title="Download" class="btn btn-secondary btn-sm" href="#">
                         <i class="icon fa fa-download fa-fw " aria-hidden="true"  ></i>
                     </a>
-                    
+
                 </div>
                 <div class="fp-btn-delete">
                 </div>
@@ -488,36 +488,36 @@ document.body.className += ' jsenabled';
 </div><noscript><div><object type='text/html' data='https://school.moodledemo.net/repository/draftfiles_manager.php?env=filemanager&amp;action=browse&amp;itemid=86649711&amp;subdirs=1&amp;maxbytes=104857600&amp;areamaxbytes=104857600&amp;maxfiles=-1&amp;ctx_id=411&amp;course=1&amp;sesskey=yXgzmm5nme' height='160' width='600' style='border:1px solid #000'></object></div></noscript><input value="86649711" name="files_filemanager" type="hidden" id="id_files_filemanager_OTChtjl0lLWsIIZ" />
         </fieldset>
         <div class="form-control-feedback invalid-feedback" id="id_error_files_filemanager_OTChtjl0lLWsIIZ" >
-            
+
         </div>
     </div>
 </div><div id="fitem_id_submitbutton_BGppKKv861DEKn0" class="form-group row  fitem femptylabel  " >
     <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
-        
+
         <div class="form-label-addon d-flex align-items-center align-self-start">
-            
+
         </div>
     </div>
     <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="submit">
             <input type="submit"
                 class="btn
                         btn-primary
-                        
-                    
-                    
+
+
+
                     "
                 name="submitbutton"
                 id="id_submitbutton_BGppKKv861DEKn0"
                 value="Save changes"
                  >
         <div class="form-control-feedback invalid-feedback" id="id_error_submitbutton_BGppKKv861DEKn0" >
-            
+
         </div>
     </div>
 </div>
 </form></div></div></div>
-                    
-                    
+
+
 
                 </section>
             </div>
@@ -562,7 +562,7 @@ document.body.className += ' jsenabled';
                             </a>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <div
                     class="hidden bg-white position-relative border-bottom p-1 px-sm-2"
                     aria-hidden="true"
@@ -570,7 +570,7 @@ document.body.className += ' jsenabled';
                 >
                     <div class="hidden" data-region="header-content"></div>
                     <div class="hidden" data-region="header-edit-mode">
-                        
+
                         <div class="d-flex p-2 align-items-center">
                             Messages selected:
                             <span class="ml-1" data-region="message-selected-court">1</span>
@@ -646,7 +646,7 @@ document.body.className += ' jsenabled';
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="hidden border-bottom p-1 px-sm-2 view-search"  aria-hidden="true" data-region="view-search">
                     <div class="d-flex align-items-center">
                         <a
@@ -688,7 +688,7 @@ document.body.className += ' jsenabled';
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <div class="hidden border-bottom p-1 px-sm-2 pb-sm-3" aria-hidden="true" data-region="view-settings">
                     <div class="d-flex align-items-center">
                         <div class="align-self-stretch" >
@@ -708,7 +708,7 @@ document.body.className += ' jsenabled';
                 </div>
             </div>
             <div class="body-container position-relative" data-region="body-container">
-                
+
                 <div
                     class="hidden"
                     data-region="view-contact"
@@ -766,12 +766,12 @@ document.body.className += ' jsenabled';
                     aria-labelledby="contacts-tab-61928cd91ec9361928cd91b28816"
 
                 >
-                    
+
                     <div class="hidden text-center p-2" data-region="empty-message-container">
                         No contacts
                     </div>
                     <div class="hidden list-group" data-region="content-container">
-                        
+
                     </div>
                     <div class="list-group" data-region="placeholder-container">
                                             <div class="p-2 d-flex list-group-item border-0" data-region="placeholder">
@@ -802,7 +802,7 @@ document.body.className += ' jsenabled';
                         <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
                     </div>
                 </div>
-                
+
                                             <div
                     class="tab-pane fade h-100 lazy-load-list"
                     aria-live="polite"
@@ -814,15 +814,15 @@ document.body.className += ' jsenabled';
                     aria-labelledby="requests-tab-61928cd91ec9361928cd91b28816"
 
                 >
-                    
+
                     <div class="hidden text-center p-2" data-region="empty-message-container">
                         No contact requests
                     </div>
                     <div class="hidden list-group" data-region="content-container">
-                        
+
                     </div>
                     <div class="list-group" data-region="placeholder-container">
-                        
+
                     </div>
                     <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
                         <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
@@ -830,7 +830,7 @@ document.body.className += ' jsenabled';
                 </div>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <div
                     class="view-conversation hidden h-100"
                     aria-hidden="true"
@@ -856,7 +856,7 @@ document.body.className += ' jsenabled';
 </div>
                         </div>
                         <div class="p-4 w-100 h-100 hidden position-absolute z-index-1" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
-                            
+
                             <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
                                 <p class="text-muted" data-region="dialogue-text"></p>
                                 <div class="mb-2 custom-control custom-checkbox hidden" data-region="delete-messages-for-all-users-toggle-container">
@@ -1154,7 +1154,7 @@ document.body.className += ' jsenabled';
                             </div>                        </div>
                     </div>
                 </div>
-                
+
                 <div
                     class="hidden"
                     aria-hidden="true"
@@ -1167,8 +1167,8 @@ document.body.className += ' jsenabled';
                     ></div>
                 </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview"  data-user-id="56">
                     <div id="message-drawer-view-overview-container-61928cd91ec9361928cd91b28816" class="d-flex flex-column h-100" style="overflow-y: auto">
-                            
-                            
+
+
                             <div
                                 class="section border-0 card"
                                 data-region="view-overview-favourites"
@@ -1198,7 +1198,7 @@ document.body.className += ' jsenabled';
                                         <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
                                         data-region="section-unread-count"
                                         >
-                                            
+
                                         </span>
                                     </button>
                                 </div>
@@ -1212,13 +1212,13 @@ document.body.className += ' jsenabled';
             data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
-                                
+
                                 <div class="hidden text-center p-2" data-region="empty-message-container">
                                             <p class="text-muted mt-2">No starred conversations</p>
 
                                 </div>
                                 <div class="hidden list-group" data-region="content-container">
-                                    
+
                                 </div>
                                 <div class="list-group" data-region="placeholder-container">
                                             <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
@@ -1230,8 +1230,8 @@ document.body.className += ' jsenabled';
                                 </div>
                             </div>
                             </div>
-                            
-                            
+
+
                             <div
                                 class="section border-0 card"
                                 data-region="view-overview-group-messages"
@@ -1261,7 +1261,7 @@ document.body.className += ' jsenabled';
                                         <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
                                         data-region="section-unread-count"
                                         >
-                                            
+
                                         </span>
                                     </button>
                                 </div>
@@ -1275,13 +1275,13 @@ document.body.className += ' jsenabled';
             data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
-                                
+
                                 <div class="hidden text-center p-2" data-region="empty-message-container">
                                             <p class="text-muted mt-2">No group conversations</p>
 
                                 </div>
                                 <div class="hidden list-group" data-region="content-container">
-                                    
+
                                 </div>
                                 <div class="list-group" data-region="placeholder-container">
                                             <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
@@ -1293,8 +1293,8 @@ document.body.className += ' jsenabled';
                                 </div>
                             </div>
                             </div>
-                            
-                            
+
+
                             <div
                                 class="section border-0 card"
                                 data-region="view-overview-messages"
@@ -1324,7 +1324,7 @@ document.body.className += ' jsenabled';
                                         <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
                                         data-region="section-unread-count"
                                         >
-                                            
+
                                         </span>
                                     </button>
                                 </div>
@@ -1338,13 +1338,13 @@ document.body.className += ' jsenabled';
             data-parent="#message-drawer-view-overview-container-61928cd91ec9361928cd91b28816"
 
                             >
-                                
+
                                 <div class="hidden text-center p-2" data-region="empty-message-container">
                                             <p class="text-muted mt-2">No private conversations</p>
 
                                 </div>
                                 <div class="hidden list-group" data-region="content-container">
-                                    
+
                                 </div>
                                 <div class="list-group" data-region="placeholder-container">
                                             <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
@@ -1358,7 +1358,7 @@ document.body.className += ' jsenabled';
                             </div>
                     </div>
                 </div>
-                
+
                 <div
                     data-region="view-search"
                     aria-hidden="true"
@@ -1367,10 +1367,10 @@ document.body.className += ' jsenabled';
                     data-users-offset="0"
                     data-messages-offset="0"
                     style="overflow-y: auto"
-                    
+
                 >
                     <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
-                        
+
                         <div class="d-flex flex-column">
                             <div class="mb-3 bg-white" data-region="all-contacts-container">
                                 <div data-region="contacts-container"  class="pt-2">
@@ -1409,10 +1409,10 @@ document.body.className += ' jsenabled';
                     <div class="p-3 text-center" data-region="empty-message-container">
                         <p>Search people and messages</p>
                     </div>
-                </div>                
+                </div>
                 <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
                     <div class="hidden" data-region="content-container">
-                        
+
                         <div data-region="settings" class="p-3">
                             <h3 class="h6 font-weight-bold">Privacy</h3>
                             <p>You can restrict who can message you</p>
@@ -1445,11 +1445,11 @@ document.body.className += ' jsenabled';
                                         </div>
                                 </fieldset>
                             </div>
-                        
+
                             <div class="hidden" data-region="notification-preference-container">
                                 <h3 class="mb-2 mt-4 h6 font-weight-bold">Notification preferences</h3>
                             </div>
-                        
+
                             <h3 class="mb-2 mt-4 h6 font-weight-bold">General</h3>
                             <div data-preference="entertosend">
                                 <div class="custom-control custom-switch">
@@ -1462,7 +1462,7 @@ document.body.className += ' jsenabled';
                         </div>
                     </div>
                     <div data-region="placeholder-container">
-                        
+
                         <div class="d-flex flex-column p-3">
                             <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
                             <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
@@ -1501,7 +1501,7 @@ document.body.className += ' jsenabled';
                         </div>                    </div>
                 </div>            </div>
             <div class="footer-container position-relative" data-region="footer-container">
-                
+
                 <div
                     class="hidden border-top bg-white position-relative"
                     aria-hidden="true"
@@ -1509,7 +1509,7 @@ document.body.className += ' jsenabled';
                     data-enter-to-send="0"
                 >
                     <div class="hidden p-sm-2" data-region="content-messages-footer-container">
-                        
+
                             <div
                                 class="emoji-auto-complete-container w-100 hidden"
                                 data-region="emoji-auto-complete-container"
@@ -1531,14 +1531,14 @@ document.body.className += ' jsenabled';
                                 style="resize: none"
                                 maxlength="4096"
                             ></textarea>
-                        
+
                             <div class="position-relative d-flex flex-column">
                                     <div
                                         data-region="emoji-picker-container"
                                         class="emoji-picker-container hidden"
                                         aria-hidden="true"
                                     >
-                                        
+
                                         <div
                                             data-region="emoji-picker"
                                             class="card shadow emoji-picker"
@@ -1676,7 +1676,7 @@ document.body.className += ' jsenabled';
                         </div>
                     </div>
                     <div class="hidden p-sm-2" data-region="content-messages-footer-edit-mode-container">
-                        
+
                         <div class="d-flex p-3 justify-content-end">
                             <button
                                 class="btn btn-link btn-icon my-1 icon-size-4"
@@ -1692,7 +1692,7 @@ document.body.className += ' jsenabled';
                             </button>
                         </div>                    </div>
                     <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-contact-container">
-                        
+
                         <div class="p-3 bg-white">
                             <p data-region="title"></p>
                             <p class="text-muted" data-region="text"></p>
@@ -1704,7 +1704,7 @@ document.body.className += ' jsenabled';
                         </div>
                     </div>
                     <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-unblock-container">
-                        
+
                         <div class="p-3 bg-white">
                             <p class="text-muted" data-region="text">You have blocked this user.</p>
                             <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
@@ -1715,7 +1715,7 @@ document.body.className += ' jsenabled';
                         </div>
                     </div>
                     <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-unable-to-message">
-                        
+
                         <div class="p-3 bg-white">
                             <p class="text-muted" data-region="text">You are unable to message this user</p>
                         </div>
@@ -1741,9 +1741,9 @@ document.body.className += ' jsenabled';
 </div>
 
 
-    
-    
-            
+
+
+
 <script>
 Y.use('node', function (Y) {
 
